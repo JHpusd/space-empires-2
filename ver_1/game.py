@@ -6,12 +6,13 @@ from colony import *
 from ships import *
 
 class Game:
-    def __init__(self, players, board_size=[7,7]):
-        self.logs = Logger('/home/runner/space-empires/logs/game-0.3-logs.txt')
+    def __init__(self, players, board_size=[7,7], log_name='logs.txt'):
+        self.logs = Logger('/home/runner/space-empires-2/logs/'+log_name)
         self.logs.clear_log()
         self.players = players
         self.set_player_numbers()
 
+        global board_x, board_y, mid_x, mid_y
         board_x, board_y = board_size
         mid_x = (board_x + 1) // 2
         mid_y = (board_y + 1) // 2
@@ -19,6 +20,8 @@ class Game:
 
         self.turn = 1
         self.winner = None
+
+        self.set_up_game()
     
     def set_player_numbers(self):
         for i,player in enumerate(self.players):
@@ -47,9 +50,21 @@ class Game:
                 in_bounds_translations.append(translation)
         return in_bounds_translations
     
-    def add_to_board(self, obj, coords):
-        self.board[coords[1]][coords[0]].append(obj)
+    def add_to_coord(self, objs, coord):
+        for obj in objs:
+            self.board[coord[1]][coord[0]].append(obj)
     
     def set_up_game(self):
         starts = [(0, mid_x-1), (board_y-1, mid_x-1), (mid_y-1, 0), (mid_y-1, board_x-1)]
-        # add player home colonies and ships at the same time
+        for i in range(len(self.players)):
+            player = self.players[i]
+            player_num = self.players[i].player_number
+            coord = starts[i]
+
+            player.set_home_col(coord)
+            self.add_to_coord([player.home_col], coord)
+            for _ in range(3): # need to change if number of initial ships changes
+                scout = Scout(player_num, coord)
+                bc = BattleCruiser(player_num, coord)
+                self.add_to_coord([scout, bc], coord)
+                player.add_ships([scout, bc])

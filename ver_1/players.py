@@ -1,4 +1,7 @@
-import math
+import math, sys
+sys.path.append('ver_1')
+from colony import *
+from ships import *
 
 def calc_distance(start, end):
     dx = end[0] - start[0]
@@ -12,13 +15,19 @@ class CustomPlayer():
         self.home_col = None
         self.colonies = []
     
-    def add_ship(self, ship_class):
+    def add_ships(self, ship_list):
         assert self.player_number != None, "player number needs to be set"
-        self.ships.append(ship_class(self.player_number, self.home_col.coords))
+        for ship in ship_list:
+            self.ships.append(ship)
     
     def set_home_col(self, col_coords):
         assert self.player_number != None, "player number needs to be set"
-        self.home_col = 
+        self.home_col = Colony(self.player_number, col_coords)
+    
+    def add_colonies(self, col_list):
+        assert self.player_number != None, "player number needs to be set"
+        for col in col_list:
+            self.colonies.append(col)
 
     def set_player_number(self, n):
         self.player_number = n
