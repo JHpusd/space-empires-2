@@ -31,33 +31,36 @@ class CustomPlayer():
 
     def set_player_number(self, n):
         self.player_number = n
+    
+    def distance(coord_1, coord_2):
+        return math.sqrt(sum([coord_1[i]-coord_2[i] for i in range(len(coord_1))))
+    
+    def min_distance_choice(choices, coord):
+        if target_coord == None:
+            best_choice = choices[0]
+            min_distance = distance(best_choice, coord)
 
-    def get_opponent_player_number(self):
-        if self.player_number == None:
-            return None
-        return 3 - self.player_number
-'''
-    def choose_translation(self, game_state, choices, scout_num):
-        myself = game_state['players'][self.player_number]
-        opponent_player_number = self.get_opponent_player_number()
-        opponent = game_state['players'][opponent_player_number]
+            for choice in choices:
+                if distance(choice, coord) < min_distnace:
+                    best_choice = choice
+                    min_distance = distance(choice,coord)
+            return best_choice
 
-        my_scout_coords = myself['scout_coords'][scout_num]
-        opponent_home_coords = opponent['home_colony_coords']
+    def min_distance_translation(choices, coord, target_coord):
+        best_choice = choices[0]
+        new_coord = list_add(best_choice, coord)
+        dist = distance(new_coord, target_coord)
+        for choice in choices:
+            new_coord_2 = list_add(choice, coord)
+            if distance(new_coord_2, target_coord) < dist:
+                best_choice = choice
+                new_coord = new_coord_2
+                dist = distance(new_coord_2, target_coord)
+        return best_choice
+    
+    def list_add(x, y):
+        return [x[i]+y[i] for i in range(len(x))]
 
-        smallest_translation = choices[0]
-        small_x = my_scout_coords[0] + smallest_translation[0]
-        small_y = my_scout_coords[1] + smallest_translation[1]
-        smallest_distance_coord = (small_x, small_y)
-        smallest_distance = calc_distance(smallest_distance_coord, opponent_home_coords)
-
-        for translation in choices:
-            new_x = my_scout_coords[0] + translation[0]
-            new_y = my_scout_coords[1] + translation[1]
-            new_coords = (new_x, new_y)
-            if calc_distance(new_coords, opponent_home_coords) < smallest_distance:
-                smallest_translation = translation
-                smallest_distance = calc_distance(new_coords, opponent_home_coords)
-        
-        return smallest_translation
-'''
+    def choose_translation(self, opp_home_cols, ship_coords, choices):
+        closest_col = min_distance_choice(opp_home_cols, ship_coords)
+        return min_distance_translation(choices, ship_coords, closest_col)
