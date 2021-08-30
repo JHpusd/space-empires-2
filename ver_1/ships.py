@@ -1,9 +1,10 @@
 class Ship():
-    def update_coord(self, new_coords):
+    def update_coords(self, new_coords):
         self.coords = new_coords
 
 class Scout(Ship):
     def __init__(self, player_num, init_coords):
+        self.name = "Scout"
         self.player_num = player_num
         self.max_hp = 1
         self.hp = 1
@@ -14,6 +15,7 @@ class Scout(Ship):
 
 class BattleCruiser(Ship):
     def __init__(self, player_num, init_coords):
+        self.name = "Battle Cruiser"
         self.player_num = player_num
         self.max_hp = 2
         self.hp = 2

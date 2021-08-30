@@ -55,14 +55,14 @@ class Game:
             for obj in objs:
                 self.board[coord[1]][coord[0]].append(obj)
         else:
-            self.board[coord[1]][coord[0]].append(obj)
+            self.board[coord[1]][coord[0]].append(objs)
         
-    def del(self, objs, coord):
+    def delete(self, objs, coord):
         if type(objs) is list:
             for obj in objs:
                 self.board[coord[1]][coord[0]].remove(obj)
         else:
-            self.board[coord[1]][coord[0]].remove(obj)
+            self.board[coord[1]][coord[0]].remove(objs)
     
     def set_up_game(self):
         starts = [(0, mid_x-1), (board_y-1, mid_x-1), (mid_y-1, 0), (mid_y-1, board_x-1)]
@@ -83,6 +83,21 @@ class Game:
         coord_1 = obj_1.coords
         coord_2 = obj_2.coords
         return math.sqrt(sum([(coord_1[i]-coord_2[i])**2 for i in range(len(coord_1))]))
+
+    def list_add(self, x,y):
+        return [x[i]+y[i] for i in range(len(x))]
     
-    
+    def complete_move_phase(self):
+        for player in self.players:
+            opp_home_cols = [p.home_col.coords for p in self.players if p.player_number != player.player_number]
+            for ship in player.ships:
+                coords = ship.coords
+                choices = self.get_in_bounds_translations(coords)
+                move = player.choose_translation(coords, choices, opp_home_cols)
+                assert move in choices, "invalid move"
+                new_coords = self.list_add(coords, move)
+                self.add(ship, new_coords)
+                ship.update_coords(new_coords)
+                self.delete(ship, coords)
+        # may still need to add combat order stuff
 
