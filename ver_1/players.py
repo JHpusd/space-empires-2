@@ -10,7 +10,7 @@ def calc_distance(start, end):
 
 class CustomPlayer():
     def __init__(self):
-        self.player_number = None
+        self.player_num = None
         self.ships = []
         self.home_col = None
         self.colonies = []

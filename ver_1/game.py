@@ -64,11 +64,14 @@ class Game:
         else:
             self.board[coord[1]][coord[0]].remove(objs)
     
+    def all_objects(self, coord):
+        return self.board[coord[1]][coord[0]]
+    
     def set_up_game(self):
         starts = [(0, mid_x-1), (board_y-1, mid_x-1), (mid_y-1, 0), (mid_y-1, board_x-1)]
         for i in range(len(self.players)):
             player = self.players[i]
-            player_num = self.players[i].player_number
+            player_num = self.players[i].player_num
             coord = starts[i]
 
             player.set_home_col(coord)
@@ -87,11 +90,20 @@ class Game:
     def list_add(self, x,y):
         return [x[i]+y[i] for i in range(len(x))]
     
+    def enemy_in_coord(self, ship):
+        coord = ship.coords
+        for obj in all_objects(coord):
+            if obj.player_num != ship.player_num:
+                return True
+        return False
+    
     def complete_move_phase(self):
         for player in self.players:
-            opp_home_cols = [p.home_col.coords for p in self.players if p.player_number != player.player_number]
+            opp_home_cols = [p.home_col.coords for p in self.players if p.player_num != player.player_num]
             for ship in player.ships:
-                coords = ship.coords
+                if self.enemy_in_coord(ship):
+                    continue
+                coords = ship.coords   
                 choices = self.get_in_bounds_translations(coords)
                 move = player.choose_translation(coords, choices, opp_home_cols)
                 assert move in choices, "invalid move"
