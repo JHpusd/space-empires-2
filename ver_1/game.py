@@ -92,7 +92,7 @@ class Game:
     
     def enemy_in_coord(self, ship):
         coord = ship.coords
-        for obj in all_objects(coord):
+        for obj in self.all_objects(coord):
             if obj.player_num != ship.player_num:
                 return True
         return False
