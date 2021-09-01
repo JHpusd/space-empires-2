@@ -120,6 +120,8 @@ class Game:
                 move = player.choose_translation(coords, choices, opp_home_cols)
                 assert move in choices, "invalid move"
                 self.move(ship, move)
+                if self.enemy_in_coord(ship):
+                    continue
     
     def roll(self):
         return random.randint(1,10)
