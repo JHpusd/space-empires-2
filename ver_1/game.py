@@ -167,7 +167,7 @@ class Game:
             if self.all_same_team(by_cls):
                 to_delete_coords.append(coord)
         for coord in to_delete_coords:
-            eslf.combat_coords.remove(coord)
+            self.combat_coords.remove(coord)
                     
 
 
