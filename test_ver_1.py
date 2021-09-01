@@ -8,7 +8,7 @@ game = Game(players)
 
 def print_state():
     for player in game.players:
-        print("Player {}\'s pieces:".format(player.player_number))
+        print("Player {}\'s pieces:".format(player.player_num))
         print("Home colony coords:", player.home_col.coords)
         for ship in player.ships:
             print(ship.name+":", ship.coords)

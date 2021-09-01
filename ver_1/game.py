@@ -1,4 +1,4 @@
-import math, random, sys
+import math, random, sys, inspect
 sys.path.append('logs')
 from logger import *
 sys.path.append('ver_1')
@@ -21,6 +21,7 @@ class Game:
 
         self.turn = 1
         self.winner = None
+        self.combat_coords = []
 
         self.set_up_game()
     
@@ -50,22 +51,25 @@ class Game:
                 in_bounds_translations.append(translation)
         return in_bounds_translations
     
-    def add(self, objs, coord):
-        if type(objs) is list:
-            for obj in objs:
-                self.board[coord[1]][coord[0]].append(obj)
-        else:
-            self.board[coord[1]][coord[0]].append(objs)
+    def add(self, objs):
+        if type(objs) is not list:
+            objs = [objs]
+        for obj in objs:
+            coord = obj.coords
+            self.board[coord[1]][coord[0]].append(obj)
         
-    def delete(self, objs, coord):
-        if type(objs) is list:
-            for obj in objs:
-                self.board[coord[1]][coord[0]].remove(obj)
-        else:
-            self.board[coord[1]][coord[0]].remove(objs)
+    def delete(self, objs):
+        if type(objs) is not list:
+            objs = [objs]
+        for obj in objs:
+            coord = obj.coords
+            self.board[coord[1]][coord[0]].remove(obj)
     
     def all_objects(self, coord):
         return self.board[coord[1]][coord[0]]
+    
+    def all_ships(self, coord):
+        return [obj for obj in self.all_objects(coord) if isinstance(obj, Ship)]
     
     def set_up_game(self):
         starts = [(0, mid_x-1), (board_y-1, mid_x-1), (mid_y-1, 0), (mid_y-1, board_x-1)]
@@ -75,11 +79,11 @@ class Game:
             coord = starts[i]
 
             player.set_home_col(coord)
-            self.add([player.home_col], coord)
+            self.add(player.home_col)
             for _ in range(3): # need to change if number of initial ships changes
                 scout = Scout(player_num, coord)
                 bc = BattleCruiser(player_num, coord)
-                self.add([scout, bc], coord)
+                self.add([scout, bc])
                 player.add_ships([scout, bc])
     
     def distance(self, obj_1, obj_2):
@@ -94,8 +98,16 @@ class Game:
         coord = ship.coords
         for obj in self.all_objects(coord):
             if obj.player_num != ship.player_num:
+                if coord not in self.combat_coords:
+                    self.combat_coords.append(coord)
                 return True
         return False
+    
+    def move(self, ship, translation):
+        new_coords = self.list_add(ship.coords, translation)
+        self.delete(ship)
+        ship.update_coords(new_coords)
+        self.add(ship)
     
     def complete_move_phase(self):
         for player in self.players:
@@ -107,9 +119,55 @@ class Game:
                 choices = self.get_in_bounds_translations(coords)
                 move = player.choose_translation(coords, choices, opp_home_cols)
                 assert move in choices, "invalid move"
-                new_coords = self.list_add(coords, move)
-                self.add(ship, new_coords)
-                ship.update_coords(new_coords)
-                self.delete(ship, coords)
-        # may still need to add combat order stuff
+                self.move(ship, move)
+    
+    def roll(self):
+        return random.randint(1,10)
+    
+    def hit(self, attacker, defender):
+        assert attacker.hp > 0 and defender.hp > 0, "dead ship in combat"
+        assert attacker.player_num != defender.player_num, "friendly fire not enabled"
+        roll = self.roll()
+        new_atk = attacker.atk - defender.df
+        if roll <= new_atk:
+            return True
+        return False
+    
+    def remove_ship(self, ship):
+        player = self.players[ship.player_num - 1]
+        player.ships.remove(ship)
+        self.delete(ship)
+        
+    def get_enemies(self, ship, combat_list):
+        return [obj for obj in combat_list if obj.player_num != ship.player_num]
+    
+    def all_same_team(self, ship_list):
+        return len(set([ship.player_num for ship in ship_list])) == 1
+
+    def complete_combat_phase(self): # prioritization: class, tactics, first in square
+        to_delete_coords = []
+        for coord in self.combat_coords:
+            by_cls = sorted(self.all_ships(coord), key=lambda x: x.cls)
+            # by tactics (not yet available)
+            # by chronological order is already built-in via appending
+            dead_list = []
+            for ship in by_cls:
+                if ship in dead_list:
+                    continue
+                player = self.players[ship.player_num - 1]
+                enemies = self.get_enemies(ship, by_cls)
+                target = player.choose_target(enemies)
+                if self.hit(ship, target):
+                    target.hp -= 1
+                    if target.hp == 0:
+                        dead_list.append(target)
+                        self.remove_ship(target)
+            for ship in dead_list:
+                by_cls.remove(ship)
+            if self.all_same_team(by_cls):
+                to_delete_coords.append(coord)
+        for coord in to_delete_coords:
+            eslf.combat_coords.remove(coord)
+                    
+
 

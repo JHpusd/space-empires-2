@@ -1,4 +1,4 @@
-import math, sys
+import math, sys, random
 sys.path.append('ver_1')
 from colony import *
 from ships import *
@@ -16,21 +16,21 @@ class CustomPlayer():
         self.colonies = []
     
     def add_ships(self, ship_list):
-        assert self.player_number != None, "player number needs to be set"
+        assert self.player_num != None, "player number needs to be set"
         for ship in ship_list:
             self.ships.append(ship)
     
     def set_home_col(self, col_coords):
-        assert self.player_number != None, "player number needs to be set"
-        self.home_col = Colony(self.player_number, col_coords)
+        assert self.player_num != None, "player number needs to be set"
+        self.home_col = Colony(self.player_num, col_coords)
     
     def add_colonies(self, col_list):
-        assert self.player_number != None, "player number needs to be set"
+        assert self.player_num != None, "player number needs to be set"
         for col in col_list:
             self.colonies.append(col)
 
     def set_player_number(self, n):
-        self.player_number = n
+        self.player_num = n
     
     def distance(self, coord_1, coord_2):
         return math.sqrt(sum([(coord_1[i]-coord_2[i])**2 for i in range(len(coord_1))]))
@@ -63,3 +63,6 @@ class CustomPlayer():
     def choose_translation(self, ship_coords, choices, opp_home_cols):
         closest_col = self.min_distance_choice(opp_home_cols, ship_coords)
         return self.min_distance_translation(choices, ship_coords, closest_col)
+    
+    def choose_target(self, enemies):
+        return enemies[random.randint(0, len(enemies)-1)]
