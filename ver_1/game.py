@@ -94,11 +94,11 @@ class Game:
     def list_add(self, x,y):
         return [x[i]+y[i] for i in range(len(x))]
     
-    def enemy_in_coord(self, ship):
-        coord = ship.coords
-        for obj in self.all_objects(coord):
-            if obj.player_num != ship.player_num:
-                if coord not in self.combat_coords:
+    def enemy_in_coord(self, obj):
+        coord = obj.coords
+        for item in self.all_objects(coord):
+            if item.player_num != obj.player_num:
+                if coord not in self.combat_coords and isinstance(obj, Ship) and isinstance(item, Ship):
                     self.combat_coords.append(coord)
                 return True
         return False
@@ -110,9 +110,13 @@ class Game:
         self.add(ship)
     
     def complete_move_phase(self):
+        if self.winner != None:
+            return
         for player in self.players:
+            print("Player {} moving".format(player.player_num))
             opp_home_cols = [p.home_col.coords for p in self.players if p.player_num != player.player_num]
             for ship in player.ships:
+                print(ship.coords)
                 if self.enemy_in_coord(ship):
                     continue
                 coords = ship.coords   
@@ -120,8 +124,8 @@ class Game:
                 move = player.choose_translation(coords, choices, opp_home_cols)
                 assert move in choices, "invalid move"
                 self.move(ship, move)
-                if self.enemy_in_coord(ship):
-                    continue
+                print("chosen translation:",move)
+                self.enemy_in_coord(ship)
     
     def roll(self):
         return random.randint(1,10)
@@ -141,12 +145,14 @@ class Game:
         self.delete(ship)
         
     def get_enemies(self, ship, combat_list):
-        return [obj for obj in combat_list if obj.player_num != ship.player_num]
+        return [obj for obj in combat_list if obj.player_num != ship.player_num and obj.hp > 0]
     
     def all_same_team(self, ship_list):
         return len(set([ship.player_num for ship in ship_list])) == 1
 
     def complete_combat_phase(self): # prioritization: class, tactics, first in square
+        if self.winner != None:
+            return
         to_delete_coords = []
         for coord in self.combat_coords:
             by_cls = sorted(self.all_ships(coord), key=lambda x: x.cls)
@@ -157,6 +163,8 @@ class Game:
                     continue
                 player = self.players[ship.player_num - 1]
                 enemies = self.get_enemies(ship, by_cls)
+                if len(enemies)==0:
+                    continue
                 target = player.choose_target(enemies)
                 assert target in enemies, "target not in target list"
                 if self.hit(ship, target):
@@ -170,6 +178,37 @@ class Game:
                 to_delete_coords.append(coord)
         for coord in to_delete_coords:
             self.combat_coords.remove(coord)
-                    
-
-
+    
+    def remove_player(self, player):
+        for ship in player.ships:
+            self.remove_ship(ship)
+        for col in player.colonies:
+            self.delete(col.coords)
+        self.players.remove(player)
+        self.delete(player.home_col)
+    
+    def check_for_winner(self):
+        for player in self.players:
+            if self.enemy_in_coord(player.home_col):
+                self.remove_player(player)
+        if len(self.players) == 1:
+            self.winner = self.players[0].player_num
+        if len(self.players) == 0:
+            self.winner = "Tie"
+    
+    def run_to_completion(self):
+        while self.winner == None:
+            self.complete_move_phase()
+            self.complete_combat_phase()
+            self.check_for_winner()
+            self.print_state()
+    
+    def print_state(self):
+        if self.winner != None:
+            print("Winner:",self.winner)
+        for player in self.players:
+            print("Player {}\'s pieces:".format(player.player_num))
+            print("Home colony coords:", player.home_col.coords)
+            for ship in player.ships:
+                print(ship.name+":", ship.coords)
+            print("\n")
