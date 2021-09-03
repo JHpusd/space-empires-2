@@ -61,8 +61,6 @@ class CustomPlayer():
         return [x[i]+y[i] for i in range(len(x))]
 
     def choose_translation(self, ship_coords, choices, opp_home_cols):
-        print(choices)
-        print(opp_home_cols)
         closest_col = self.min_distance_choice(opp_home_cols, ship_coords)
         return self.min_distance_translation(choices, ship_coords, closest_col)
     

@@ -31,8 +31,8 @@ class Game:
 
     def check_if_coords_are_in_bounds(self, coords):
         x, y = coords
-        if 1 <= x and x <= board_x:
-            if 1 <= y and y <= board_y:
+        if 0 <= x and x <= board_x-1:
+            if 0 <= y and y <= board_y-1:
                 return True
         return False
 
@@ -113,10 +113,8 @@ class Game:
         if self.winner != None:
             return
         for player in self.players:
-            print("Player {} moving".format(player.player_num))
             opp_home_cols = [p.home_col.coords for p in self.players if p.player_num != player.player_num]
             for ship in player.ships:
-                print(ship.coords)
                 if self.enemy_in_coord(ship):
                     continue
                 coords = ship.coords   
@@ -124,7 +122,6 @@ class Game:
                 move = player.choose_translation(coords, choices, opp_home_cols)
                 assert move in choices, "invalid move"
                 self.move(ship, move)
-                print("chosen translation:",move)
                 self.enemy_in_coord(ship)
     
     def roll(self):
