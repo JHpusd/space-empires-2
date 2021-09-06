@@ -156,7 +156,7 @@ class Game:
             # by tactics (not yet available)
             # by chronological order is already built-in via appending
             for ship in by_cls:
-                if ship.hp == 0:
+                if ship.hp <= 0:
                     continue
                 player = self.players[ship.player_num - 1]
                 enemies = self.get_enemies(ship, by_cls)
@@ -166,10 +166,10 @@ class Game:
                 assert target in enemies, "target not in target list"
                 if self.hit(ship, target):
                     target.hp -= 1
-                    if target.hp == 0:
+                    if target.hp <= 0:
                         self.remove_ship(target)
             for ship in by_cls:
-                if ship.hp == 0:
+                if ship.hp <= 0:
                     by_cls.remove(ship)
             if self.all_same_team(by_cls):
                 to_delete_coords.append(coord)
