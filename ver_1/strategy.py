@@ -1,37 +1,7 @@
-import math, sys, random
-sys.path.append('ver_1')
-from colony import *
-from ships import *
+import math, random
 
-def calc_distance(start, end):
-    dx = end[0] - start[0]
-    dy = end[1] - start[1]
-    return math.sqrt(dx**2 + dy**2)
+class MoveToClosestCol():
 
-class CustomPlayer():
-    def __init__(self):
-        self.player_num = None
-        self.ships = []
-        self.home_col = None
-        self.colonies = []
-    
-    def add_ships(self, ship_list):
-        assert self.player_num != None, "player number needs to be set"
-        for ship in ship_list:
-            self.ships.append(ship)
-    
-    def set_home_col(self, col_coords):
-        assert self.player_num != None, "player number needs to be set"
-        self.home_col = Colony(self.player_num, col_coords)
-    
-    def add_colonies(self, col_list):
-        assert self.player_num != None, "player number needs to be set"
-        for col in col_list:
-            self.colonies.append(col)
-
-    def set_player_number(self, n):
-        self.player_num = n
-    
     def distance(self, coord_1, coord_2):
         return math.sqrt(sum([(coord_1[i]-coord_2[i])**2 for i in range(len(coord_1))]))
     
