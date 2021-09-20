@@ -72,14 +72,18 @@ class Game:
         return [obj for obj in self.all_objects(coord) if isinstance(obj, Ship)]
     
     def set_up_game(self):
+        if len(self.players) > 4:
+            print("cannot have more than 4 players")
+            self.logs.write('SETUP STOPPED')
+            return
         starts = [[0, mid_x-1], [board_y-1, mid_x-1], [mid_y-1, 0], [mid_y-1, board_x-1]]
         self.logs.write(str(len(self.players))+' PLAYERS PLAYING\n')
-        self.logs.write('SETTING UP GAME...\n\n')
+        self.logs.write('SETTING UP GAME...\n')
         for i in range(len(self.players)):
             player = self.players[i]
             player_num = self.players[i].player_num
             coord = starts[i]
-
+            self.logs.write('PLAYER '+str(player_num)+' STARTING AT '+str(coord)+'\n')
             player.set_home_col(coord)
             self.add(player.home_col)
             for i in range(3): # need to change if number of initial ships changes
@@ -87,11 +91,7 @@ class Game:
                 bc = BattleCruiser(player_num, coord, i+1)
                 self.add([scout, bc])
                 player.add_ships([scout, bc])
-    
-    def distance(self, obj_1, obj_2):
-        coord_1 = obj_1.coords
-        coord_2 = obj_2.coords
-        return math.sqrt(sum([(coord_1[i]-coord_2[i])**2 for i in range(len(coord_1))]))
+        self.logs.write('\n')
 
     def list_add(self, x,y):
         return [x[i]+y[i] for i in range(len(x))]
@@ -128,7 +128,10 @@ class Game:
                 coords = ship.coords   
                 choices = self.get_in_bounds_translations(coords)
                 move = player.choose_translation(coords, choices, opp_home_cols)
-                assert move in choices, "invalid move"
+                if move not in choices:
+                    self.logs.write('INVALID CHOICE\n')
+                    print('invalid move')
+                    continue
                 self.move(ship, move)
                 self.enemy_in_coord(ship)
             self.logs.write('\n')
@@ -138,8 +141,14 @@ class Game:
         return random.randint(1,10)
     
     def hit(self, attacker, defender):
-        assert attacker.hp > 0 and defender.hp > 0, "dead ship in combat"
-        assert attacker.player_num != defender.player_num, "friendly fire not enabled"
+        if attacker.hp <= 0 or defender.hp <= 0:
+            self.logs.write('ATTEMPTED COMBAT WITH DEAD SHIP - ATTEMPT STOPPED\n')
+            print('ATTEMPTED COMBAT WITH DEAD SHIP')
+            return None
+        if attacker.player_num == defender.player_num:
+            self.logs.write('ATTEMPT TO ATTACK OWN SHIP - ATTEMPT STOPPED\n')
+            print('ATTEMPTED TO ATTACK OWN SHIP')
+            return None
         roll = self.roll()
         new_atk = attacker.atk - defender.df
         self.logs.write('\tPLAYER '+str(attacker.player_num)+' '+str(attacker.name)+' '+str(attacker.num)+' ATTACKING PLAYER '+str(defender.player_num)+' '+str(defender.name)+' '+str(defender.num)+'...')
@@ -182,7 +191,10 @@ class Game:
                 if len(enemies)==0:
                     continue
                 target = player.choose_target(enemies)
-                assert target in enemies, "target not in target list"
+                if target not in enemies:
+                    self.logs.write('TARGET NOT VALID - COMBAT ATTEMPT STOPPED\n')
+                    print('invalid target')
+                    continue
                 if self.hit(ship, target):
                     target.hp -= 1
                     if target.hp <= 0:
@@ -191,7 +203,7 @@ class Game:
             for ship in by_cls:
                 if ship.hp <= 0:
                     by_cls.remove(ship)
-            if self.all_same_team(by_cls):
+            if self.all_same_team(by_cls) or len(by_cls)==0:
                 to_delete_coords.append(coord)
             self.logs.write('\n')
         for coord in to_delete_coords:
@@ -224,13 +236,3 @@ class Game:
             self.complete_move_phase()
             self.complete_combat_phase()
             self.check_for_winner()
-    
-    def print_state(self):
-        if self.winner != None:
-            print("Winner:",self.winner)
-        for player in self.players:
-            print("Player {}\'s pieces:".format(player.player_num))
-            print("Home colony coords:", player.home_col.coords)
-            for ship in player.ships:
-                print(ship.name+":", ship.coords)
-            print("\n")
