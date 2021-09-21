@@ -1,9 +1,8 @@
 import math, random, sys, inspect
-sys.path.append('logs')
-from logger import *
-sys.path.append('ver_1')
 from colony import *
 from ships import *
+sys.path.append('logs')
+from logger import *
 
 class Game:
     def __init__(self, players, board_size=[7,7], log_name='logs.txt'):

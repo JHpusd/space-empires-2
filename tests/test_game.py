@@ -1,8 +1,10 @@
 import sys
-sys.path.append('ver_1')
+sys.path[0] = '/home/runner/space-empires-2'
 from game import *
 from player import *
-from strategy import *
+sys.path.append('strategies')
+from move_strat import *
+from pause_strat import *
 
 players = [Player(MoveToClosestCol()) for _ in range(2)]
 game = Game(players, log_name='ver_1_logs.txt')

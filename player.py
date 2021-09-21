@@ -1,5 +1,4 @@
 import math, sys, random
-sys.path.append('ver_1')
 from colony import *
 from ships import *
 
