@@ -235,3 +235,9 @@ class Game:
             self.complete_move_phase()
             self.complete_combat_phase()
             self.check_for_winner()
+    
+    def play_n_turns(self, n):
+        for _ in range(n):
+            self.complete_move_phase()
+            self.complete_combat_phase()
+            self.check_for_winner()
