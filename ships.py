@@ -3,25 +3,29 @@ class Ship():
         self.coords = new_coords
 
 class Scout(Ship):
-    def __init__(self, player_num, init_coords, num=None):
-        self.name = "SCOUT"
+    def __init__(self, player_num, init_coords, p_num, id_num):
+        self.name = "Scout"
         self.player_num = player_num
         self.max_hp = 1
         self.hp = 1
         self.atk = 3
         self.df = 0
-        self.cls = "E"
+        self.ship_class = "E"
         self.coords = init_coords
-        self.num = num
+        self.p_num = p_num
+        self.id_num = id_num
+        self.obj_type = "Ship"
 
 class BattleCruiser(Ship):
-    def __init__(self, player_num, init_coords, num=None):
-        self.name = "BATTLE CRUISER"
+    def __init__(self, player_num, init_coords, p_num, id_num):
+        self.name = "BattleCruiser"
         self.player_num = player_num
         self.max_hp = 2
         self.hp = 2
         self.atk = 5
         self.df = 1
-        self.cls = "B"
+        self.ship_class = "B"
         self.coords = init_coords
-        self.num = num
+        self.p_num = p_num
+        self.id_num = id_num
+        self.obj_type = "Ship"

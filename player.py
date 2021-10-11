@@ -20,9 +20,10 @@ class Player():
         for ship in ship_list:
             self.ships.append(ship)
     
-    def set_home_col(self, col_coords):
+    def set_home_col(self, col_coords, id_num):
         assert self.player_num != None, "player number needs to be set"
-        self.home_col = Colony(self.player_num, col_coords)
+        self.home_col = Colony(self.player_num, col_coords, id_num)
+        self.home_col.obj_type = 'HomeColony'
     
     def add_colonies(self, col_list):
         assert self.player_num != None, "player number needs to be set"
@@ -32,8 +33,8 @@ class Player():
     def set_player_number(self, n):
         self.player_num = n
 
-    def choose_translation(self, ship_coords, choices, opp_home_cols):
-        return self.strategy.choose_translation(ship_coords,choices,opp_home_cols)
+    def choose_translation(self, ship_info, choices):
+        return self.strategy.choose_translation(ship_info,choices)
     
-    def choose_target(self, enemies):
-        return self.strategy.choose_target(enemies)
+    def choose_target(self, ship_info, enemies_info):
+        return self.strategy.choose_target(ship_info, enemies_info)
