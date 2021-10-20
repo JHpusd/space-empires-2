@@ -1,4 +1,4 @@
-import math, random, sys, inspect
+import math, random, sys
 from colony import *
 from ships import *
 sys.path.append('logs')

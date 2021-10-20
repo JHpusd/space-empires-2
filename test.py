@@ -13,3 +13,4 @@ for item in test:
     if item[0] == 1:
         test.remove(item)
         print(test)
+print([item for item in test if item[0] != 1])

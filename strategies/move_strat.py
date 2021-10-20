@@ -44,8 +44,6 @@ class MoveToClosestCol:
         return self.min_distance_translation(choices, ship_coords, closest_col)
     
     def choose_target(self, ship_info, enemies_info):
-        if len(enemies_info)==1:
-            return enemies_info[0]
         target_info = enemies_info[random.randint(0, len(enemies_info)-1)]
         return target_info
 
