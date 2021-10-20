@@ -38,16 +38,16 @@ class MoveToClosestCol:
         opp_home_cols = []
         for key in self.simple_board:
             for item in self.simple_board[key]:
-                if item['obj_type'] == 'HomeColony' and item['player_num'] != p_num:
+                if item['obj_type']=='Colony' and item['is_home_colony'] and item['player_num']!=p_num:
                     opp_home_cols.append(key)
         closest_col = self.min_distance_choice(opp_home_cols, ship_coords)
         return self.min_distance_translation(choices, ship_coords, closest_col)
     
     def choose_target(self, ship_info, enemies_info):
         if len(enemies_info)==1:
-            return enemies_info[0]['id_num']
-        target = enemies_info[random.randint(0, len(enemies_info)-1)]
-        return target['id_num']
+            return enemies_info[0]
+        target_info = enemies_info[random.randint(0, len(enemies_info)-1)]
+        return target_info
 
     def update_simple_board(self, updated_board):
         self.simple_board = updated_board

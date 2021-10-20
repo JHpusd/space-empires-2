@@ -84,18 +84,16 @@ class Game:
         starts = [(0, mid_x-1), (board_y-1, mid_x-1), (mid_y-1, 0), (mid_y-1, board_x-1)]
         self.logs.write(str(len(self.players))+' PLAYERS PLAYING\n')
         self.logs.write('SETTING UP GAME...\n')
-        obj_id = 0
         for i in range(len(self.players)):
             player = self.players[i]
             player_num = self.players[i].player_num
             coord = starts[i]
             self.logs.write('PLAYER '+str(player_num)+' STARTING AT '+str(coord)+'\n')
-            player.set_home_col(coord, obj_id)
+            player.set_home_col(coord)
             self.add(player.home_col)
             for i in range(3): # need to change if number of initial ships changes
-                scout = Scout(player_num, coord, i+1, obj_id+1)
-                bc = BattleCruiser(player_num, coord, i+1, obj_id+2)
-                obj_id += 3
+                scout = Scout(player_num, coord, i+1)
+                bc = BattleCruiser(player_num, coord, i+1)
                 self.add([scout, bc])
                 player.add_ships([scout, bc])
         self.logs.write('\n')
@@ -124,7 +122,7 @@ class Game:
     
     def move(self, ship, translation):
         new_coords = self.translate(ship.coords, translation)
-        self.logs.write('\tMOVING PLAYER '+str(ship.player_num)+' '+str(ship.name)+' '+str(ship.p_num)+': '+str(ship.coords)+' -> '+str(new_coords)+'\n')
+        self.logs.write('\tMOVING PLAYER '+str(ship.player_num)+' '+str(ship.name)+' '+str(ship.ship_num)+': '+str(ship.coords)+' -> '+str(new_coords)+'\n')
         self.delete(ship)
         ship.update_coords(new_coords)
         self.add(ship)
@@ -168,7 +166,7 @@ class Game:
             return None
         roll = self.roll()
         new_atk = attacker.atk - defender.df
-        self.logs.write('\tPLAYER '+str(attacker.player_num)+' '+str(attacker.name)+' '+str(attacker.p_num)+' ATTACKING PLAYER '+str(defender.player_num)+' '+str(defender.name)+' '+str(defender.p_num)+'...')
+        self.logs.write('\tPLAYER '+str(attacker.player_num)+' '+str(attacker.name)+' '+str(attacker.ship_num)+' ATTACKING PLAYER '+str(defender.player_num)+' '+str(defender.name)+' '+str(defender.ship_num)+'...')
         if roll <= new_atk:
             self.logs.write('HIT!\n')
             return True
@@ -188,26 +186,25 @@ class Game:
     
     def check_if_on_board(self, obj): # for debugging
         for key in self.board:
-            for item in self.board[key]:
-                if item == obj:
-                    return True
+            if obj in self.board[key]:
+                return True
         return False
     
-    def convert_to_info(self, obj_list):
+    def objs_to_info(self, obj_list):
+        if type(obj_list) != list:
+            obj_list = [obj_list]
         return [self.get_info(obj) for obj in obj_list]
     
-    def obj_from_id(self, id_num):
-        for key in self.board:
-            for item in self.board[key]:
-                if item.id_num == id_num:
-                    return item
-        print('failed id search')
+    def obj_from_info(self, info):
+        for item in self.board[info['coords']]:
+            if item.__dict__ == info:
+                return item
 
     def complete_combat_phase(self): # prioritization: class, tactics, first in coord
         if self.winner != None:
             return
         self.logs.write('START TURN '+str(self.turn)+' COMBAT PHASE\n\n')
-        to_delete_coords = []
+        ended_combat = []
         for coord in self.combat_coords:
             self.logs.write('COMBAT AT '+str(coord)+':\n\n')
             by_cls = sorted(self.all_ships(coord), key=lambda x: x.ship_class)
@@ -215,18 +212,18 @@ class Game:
             # by chronological order is already built-in via appending
             self.logs.write('\tCOMBAT ORDER:\n')
             for ship in by_cls:
-                self.logs.write('\t\tPLAYER '+str(ship.player_num)+' '+str(ship.name)+' '+str(ship.p_num)+'\n')
+                self.logs.write('\t\tPLAYER '+str(ship.player_num)+' '+str(ship.name)+' '+str(ship.ship_num)+'\n')
             self.logs.write('\n\tBEGINNING COMBAT...\n\n')
             for ship in by_cls:
                 if ship.hp <= 0:
                     continue
                 player = self.players[ship.player_num - 1]
                 enemies = self.get_enemies(ship, by_cls)
-                enemies_info = self.convert_to_info(enemies)
+                enemies_info = self.objs_to_info(enemies)
                 if len(enemies)==0:
                     continue
-                target_id = player.choose_target(self.get_info(ship), enemies_info)
-                target = self.obj_from_id(target_id)
+                target_info = player.choose_target(self.get_info(ship), enemies_info)
+                target = self.obj_from_info(target_info)
                 if target not in enemies:
                     self.logs.write('TARGET NOT VALID - COMBAT ATTEMPT STOPPED\n')
                     print('invalid target')
@@ -234,17 +231,14 @@ class Game:
                 if self.hit(ship, target):
                     target.hp -= 1
                     if target.hp <= 0:
-                        self.logs.write('\tPLAYER '+str(target.player_num)+' '+str(target.name)+' '+str(target.p_num)+' WAS DESTROYED IN COMBAT\n')
+                        self.logs.write('\tPLAYER '+str(target.player_num)+' '+str(target.name)+' '+str(target.ship_num)+' WAS DESTROYED IN COMBAT\n')
                         self.remove_ship(target)
                 self.update_simple_boards()
-            for ship in by_cls:
-                if ship.hp <= 0:
-                    by_cls.remove(ship)
+            by_cls = [ship for ship in by_cls if ship.hp > 0]
             if self.all_same_team(by_cls) or len(by_cls)==0:
-                to_delete_coords.append(coord)
+                ended_combat.append(coord)
             self.logs.write('\n')
-        for coord in to_delete_coords:
-            self.combat_coords.remove(coord)
+        self.combat_coords = [coord for coord in self.combat_coords if coord not in ended_combat]
         self.logs.write('END TURN '+str(self.turn)+' COMBAT PHASE\n\n')
         self.turn += 1
     

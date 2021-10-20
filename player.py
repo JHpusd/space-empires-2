@@ -20,10 +20,10 @@ class Player():
         for ship in ship_list:
             self.ships.append(ship)
     
-    def set_home_col(self, col_coords, id_num):
+    def set_home_col(self, col_coords):
         assert self.player_num != None, "player number needs to be set"
-        self.home_col = Colony(self.player_num, col_coords, id_num)
-        self.home_col.obj_type = 'HomeColony'
+        self.home_col = Colony(self.player_num, col_coords)
+        self.home_col.is_home_colony = True
     
     def add_colonies(self, col_list):
         assert self.player_num != None, "player number needs to be set"
