@@ -218,11 +218,10 @@ class Game:
                 if ship.hp <= 0:
                     continue
                 player = self.players[ship.player_num - 1]
-                enemies = self.get_enemies(ship, by_cls)
-                enemies_info = self.objs_to_info(enemies)
+                combat_order = [self.get_info(obj) for obj in by_cls]
                 if len(enemies)==0:
                     continue
-                target_info = player.choose_target(self.get_info(ship), enemies_info)
+                target_info = player.choose_target(self.get_info(ship), combat_order)
                 target = self.obj_from_info(target_info)
                 if target not in enemies:
                     self.logs.write('TARGET NOT VALID - COMBAT ATTEMPT STOPPED\n')

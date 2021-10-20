@@ -43,7 +43,16 @@ class MoveToClosestCol:
         closest_col = self.min_distance_choice(opp_home_cols, ship_coords)
         return self.min_distance_translation(choices, ship_coords, closest_col)
     
-    def choose_target(self, ship_info, enemies_info):
+    def get_enemies(self, own_ship, combat_order):
+        player_num = own_ship['player_num']
+        enemies = []
+        for ship_info in combat_order:
+            if ship_info['player_num'] != player_num and ship_info['hp'] > 0:
+                enemies.append(ship_info)
+        return enemies
+    
+    def choose_target(self, ship_info, combat_order):
+        enemies_info = self.get_enemies(ship_info, combat_order)
         target_info = enemies_info[random.randint(0, len(enemies_info)-1)]
         return target_info
 
