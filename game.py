@@ -218,7 +218,8 @@ class Game:
                 if ship.hp <= 0:
                     continue
                 player = self.players[ship.player_num - 1]
-                combat_order = [self.get_info(obj) for obj in by_cls]
+                combat_order = [self.get_info(obj) for obj in by_cls if obj.hp > 0]
+                enemies = self.get_enemies(ship, by_cls)
                 if len(enemies)==0:
                     continue
                 target_info = player.choose_target(self.get_info(ship), combat_order)
