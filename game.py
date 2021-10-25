@@ -206,39 +206,39 @@ class Game:
         self.logs.write('START TURN '+str(self.turn)+' COMBAT PHASE\n\n')
         ended_combat = []
         for coord in self.combat_coords:
-            self.logs.write('COMBAT AT '+str(coord)+':\n\n')
             by_cls = sorted(self.all_ships(coord), key=lambda x: x.ship_class)
-            # by tactics (not yet available)
-            # by chronological order is already built-in via appending
-            self.logs.write('\tCOMBAT ORDER:\n')
-            for ship in by_cls:
-                self.logs.write('\t\tPLAYER '+str(ship.player_num)+' '+str(ship.name)+' '+str(ship.ship_num)+'\n')
-            self.logs.write('\n\tBEGINNING COMBAT...\n\n')
-            for ship in by_cls:
-                if ship.hp <= 0:
-                    continue
-                player = self.players[ship.player_num - 1]
-                combat_order = [self.get_info(obj) for obj in by_cls if obj.hp > 0]
-                enemies = self.get_enemies(ship, by_cls)
-                if len(enemies)==0:
-                    continue
-                target_info = player.choose_target(self.get_info(ship), combat_order)
-                target = self.obj_from_info(target_info)
-                if target not in enemies:
-                    self.logs.write('TARGET NOT VALID - COMBAT ATTEMPT STOPPED\n')
-                    print('invalid target')
-                    continue
-                if self.hit(ship, target):
-                    target.hp -= 1
-                    if target.hp <= 0:
-                        self.logs.write('\tPLAYER '+str(target.player_num)+' '+str(target.name)+' '+str(target.ship_num)+' WAS DESTROYED IN COMBAT\n')
-                        self.remove_ship(target)
-                self.update_simple_boards()
-            by_cls = [ship for ship in by_cls if ship.hp > 0]
-            if self.all_same_team(by_cls) or len(by_cls)==0:
-                ended_combat.append(coord)
+            while not self.all_same_team(by_cls) and len(by_cls) > 0:
+                self.logs.write('COMBAT AT '+str(coord)+':\n\n')
+                # by tactics (not yet available)
+                # by chronological order is already built-in via appending
+                self.logs.write('\tCOMBAT ORDER:\n')
+                for ship in by_cls:
+                    self.logs.write('\t\tPLAYER '+str(ship.player_num)+' '+str(ship.name)+' '+str(ship.ship_num)+'\n')
+                self.logs.write('\n\tBEGINNING COMBAT...\n\n')
+                for ship in by_cls:
+                    if ship.hp <= 0:
+                        continue
+                    player = self.players[ship.player_num - 1]
+                    combat_order = [self.get_info(obj) for obj in by_cls if obj.hp > 0]
+                    enemies = self.get_enemies(ship, by_cls)
+                    if len(enemies)==0:
+                        continue
+                    target_info = player.choose_target(self.get_info(ship), combat_order)
+                    target = self.obj_from_info(target_info)
+                    if target not in enemies:
+                        self.logs.write('TARGET NOT VALID - COMBAT ATTEMPT STOPPED\n')
+                        print('invalid target')
+                        continue
+                    if self.hit(ship, target):
+                        target.hp -= 1
+                        if target.hp <= 0:
+                            self.logs.write('\tPLAYER '+str(target.player_num)+' '+str(target.name)+' '+str(target.ship_num)+' WAS DESTROYED IN COMBAT\n')
+                            self.remove_ship(target)
+                    self.update_simple_boards()
+                self.logs.write('\n')
+                by_cls = [ship for ship in by_cls if ship.hp > 0]
             self.logs.write('\n')
-        self.combat_coords = [coord for coord in self.combat_coords if coord not in ended_combat]
+        self.combat_coords = []
         self.logs.write('END TURN '+str(self.turn)+' COMBAT PHASE\n\n')
         self.turn += 1
     
