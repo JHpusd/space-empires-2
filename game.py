@@ -7,7 +7,7 @@ from logger import *
 
 class Game:
     def __init__(self, players, board_size=[7,7], log_name='logs.txt'):
-        self.logs = Logger('/home/runner/space-empires-2/logs/'+log_name)
+        self.logs = Logger('/workspace/space-empires-2/logs/'+log_name)
         self.logs.clear_log()
         self.players = players
         self.set_player_numbers()
