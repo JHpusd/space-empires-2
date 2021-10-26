@@ -51,10 +51,7 @@ class CaydenStrat():
         enemies = []
 
         for ship in combat_order:
-            if ship_info['player_num'] != ship['player_num']:
+            if ship_info['player_num'] != ship['player_num'] and ship['hp'] > 0:
                 enemies.append(ship)
-
-        if len(enemies) == 1:
-            return enemies[0]
 
         return enemies[random.randint(0, len(enemies) - 1)]

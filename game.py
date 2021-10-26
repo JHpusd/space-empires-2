@@ -3,6 +3,7 @@ from colony import *
 from ships import *
 sys.path.append('logs')
 from logger import *
+#random.seed(3)
 
 class Game:
     def __init__(self, players, board_size=[7,7], log_name='logs.txt'):

@@ -7,9 +7,10 @@ from move_strat import *
 from pause_strat import *
 from cayden import *
 from maia import *
+from anton import *
 
 #players = [Player(MoveToClosestCol()) for _ in range(2)]
-players = [Player(MoveToClosestCol()), Player(MaiaStrat())]
+players = [Player(MoveToClosestCol()), Player(CaydenStrat())]
 game = Game(players, log_name='ver_1_logs.txt')
 
 game.run_to_completion()
