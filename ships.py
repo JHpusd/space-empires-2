@@ -6,7 +6,6 @@ class Scout(Ship):
     def __init__(self, player_num, init_coords, ship_num):
         self.name = "Scout"
         self.player_num = player_num
-        self.max_hp = 1
         self.hp = 1
         self.atk = 3
         self.df = 0
@@ -19,7 +18,6 @@ class BattleCruiser(Ship):
     def __init__(self, player_num, init_coords, ship_num):
         self.name = "BattleCruiser"
         self.player_num = player_num
-        self.max_hp = 2
         self.hp = 2
         self.atk = 5
         self.df = 1

@@ -8,9 +8,11 @@ from pause_strat import *
 from cayden import *
 from maia import *
 from anton import *
+from william import *
+from charlie import *
 
 #players = [Player(MoveToClosestCol()) for _ in range(2)]
-players = [Player(MoveToClosestCol()), Player(CaydenStrat())]
+players = [Player(MoveToClosestCol()), Player(CharlieStrat())]
 game = Game(players, log_name='ver_1_logs.txt')
 
 game.run_to_completion()
