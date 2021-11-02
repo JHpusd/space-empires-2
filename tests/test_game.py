@@ -12,7 +12,7 @@ from william import *
 from charlie import *
 
 #players = [Player(MoveToClosestCol()) for _ in range(2)]
-players = [Player(MoveToClosestCol()), Player(CharlieStrat())]
+players = [Player(MoveToClosestCol()), Player(AntonStrat())]
 game = Game(players, log_name='ver_1_logs.txt')
 
 game.run_to_completion()
