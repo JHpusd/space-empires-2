@@ -1,6 +1,6 @@
 import random, math
 
-class CharlieStrat():
+class CharlieStrat:
     def __init__(self):
         self.simple_board = None
 
@@ -25,14 +25,15 @@ class CharlieStrat():
 
             return min_choice
 
-    def get_opponent_home_colony_coords(self):
+    def get_opponent_home_colony_coords(self, ship_info):
         for key, value in self.simple_board.items():
             for info in value:
-                if info['obj_type'] == 'Colony':
+                if info['obj_type'] == 'Colony' and info['is_home_colony'] and info['player_num'] != ship_info['player_num']:
                     return key
 
     def choose_translation(self, ship_info, choices):
-        return self.min_distance_translation(ship_info, choices, self.get_opponent_home_colony_coords())
+        opponent_home_colony_coords = self.get_opponent_home_colony_coords(ship_info)
+        return self.min_distance_translation(ship_info, choices, opponent_home_colony_coords)
         
     def choose_target(self, ship_info, simplified_combat_order):
         for info in simplified_combat_order:

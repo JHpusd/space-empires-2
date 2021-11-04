@@ -3,13 +3,14 @@ from colony import *
 from ships import *
 sys.path.append('logs')
 from logger import *
-random.seed(3)
+#random.seed(3)
 
 class Game:
     def __init__(self, players, board_size=[7,7], log_name='logs.txt'):
         self.logs = Logger('/workspace/space-empires-2/logs/'+log_name)
         self.logs.clear_log()
-        self.players = players
+        self.all_players = players
+        self.players = list(self.all_players)
         self.set_player_numbers()
 
         self.board_size = board_size
@@ -70,7 +71,8 @@ class Game:
             if coord not in list(self.board.keys()):
                 print("removing from invalid coord")
                 return
-            self.board[coord].remove(obj)
+            if obj in self.board[coord]:
+                self.board[coord].remove(obj)
             if len(self.board[coord]) == 0:
                 del self.board[coord]
     
@@ -82,7 +84,7 @@ class Game:
             print("cannot have more than 4 players")
             self.logs.write('SETUP STOPPED')
             return
-        starts = [(0, mid_x-1), (board_y-1, mid_x-1), (mid_y-1, 0), (mid_y-1, board_x-1)]
+        starts = [(mid_x-1, 0), (mid_x-1, board_y-1), (0, mid_y-1), (board_x-1, mid_y-1)]
         self.logs.write(str(len(self.players))+' PLAYERS PLAYING\n')
         self.logs.write('SETTING UP GAME...\n')
         for i in range(len(self.players)):
@@ -111,6 +113,9 @@ class Game:
         x1, x2 = x
         y1, y2 = y
         return (x1+y1, x2+y2)
+    
+    def board_info(self, board):
+        return {key:[self.get_info(obj) for obj in board[key]] for key in board}
     
     def enemy_in_coord(self, obj):
         coord = obj.coords
@@ -265,7 +270,6 @@ class Game:
     
     def run_to_completion(self):
         while self.winner == None:
-            
             self.complete_move_phase()
             self.complete_combat_phase()
             self.check_for_winner()
