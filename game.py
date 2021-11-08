@@ -6,12 +6,13 @@ from logger import *
 #random.seed(3)
 
 class Game:
-    def __init__(self, players, board_size=[7,7], log_name='logs.txt'):
+    def __init__(self, players, board_size=[7,7], log_name='logs.txt',max_turns=100):
         self.logs = Logger('/workspace/space-empires-2/logs/'+log_name)
         self.logs.clear_log()
         self.all_players = players
         self.players = list(self.all_players)
         self.set_player_numbers()
+        self.max_turns = max_turns
 
         self.board_size = board_size
         global board_x, board_y, mid_x, mid_y
@@ -269,15 +270,15 @@ class Game:
             self.winner = "Tie"
     
     def run_to_completion(self):
-        while self.winner == None:
-            self.complete_move_phase()
-            self.complete_combat_phase()
-            self.check_for_winner()
-    
-    def play_n_turns(self, n):
-        for _ in range(100):
+        for _ in range(self.max_turns):
             self.complete_move_phase()
             self.complete_combat_phase()
             self.check_for_winner()
         if self.winner == None:
             self.winner = "Tie"
+
+    def play_n_turns(self, n):
+        for _ in range(n):
+            self.complete_move_phase()
+            self.complete_combat_phase()
+            self.check_for_winner()
