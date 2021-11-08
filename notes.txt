@@ -1,0 +1,42 @@
+scout atk vs scout def
+3/10 chance of hitting
+
+scout atk vs bc def
+2/10 chance of hitting
+
+bc atk vs scout def
+5/10 chance of hitting
+
+bc atk vs bc def
+4/10 chance of hitting
+
+STRAT 1 (basic ideas): -> ended up just being "shoot bcs first"
+
+add threat level
+(hp * atk) + def
+default scout: 3
+default bc: 11
+hurt bc: 6
+
+add vulnerability level
+10/hp - 2*def
+default scout: 10
+default bc: 3
+hurt bc: 8
+
+add target weight
+threat * vulnerability * chance of hit
+scout vs default scout: 9
+scout vs default bc: 6
+scout vs hurt bc: 8
+bc vs default scout: 15
+bc vs default bc: 13.2
+bc vs hurt bc: 19.2
+
+EDIT TO ABOVE: if target weight is within 10% of another choice, use random
+
+STRAT 2 (add prioritizations towards threat or vulnerability based on ship's stats):
+ex. scout would prioritize vulnerability because low atk
+
+scout priority: scout, hurt bc, bc (vulnerability * chance of hit)
+bc priority: hurt bc, bc, scout (vulnerability * threat)

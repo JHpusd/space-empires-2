@@ -12,8 +12,8 @@ from anton import *
 from william import *
 from charlie import *
 
-#players = [Player(MoveToClosestCol()) for _ in range(2)]
-players = [Player(CompetitionStrat()), Player(MoveToClosestCol())]
+players = [Player(MoveToClosestCol()) for _ in range(2)]
+players = [Player(CompetitionStrat()), Player(CharlieStrat())]
 game = Game(players, log_name='ver_1_logs.txt')
 game.run_to_completion()
 print(game.winner)

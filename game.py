@@ -275,7 +275,9 @@ class Game:
             self.check_for_winner()
     
     def play_n_turns(self, n):
-        for _ in range(n):
+        for _ in range(100):
             self.complete_move_phase()
             self.complete_combat_phase()
             self.check_for_winner()
+        if self.winner == None:
+            self.winner = "Tie"
