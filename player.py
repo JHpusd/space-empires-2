@@ -38,3 +38,9 @@ class Player():
     
     def choose_target(self, ship_info, enemies_info):
         return self.strategy.choose_target(ship_info, enemies_info)
+    
+    def clear_all(self):
+        self.player_num = None
+        self.ships = []
+        self.home_col = None
+        self.colonies = []

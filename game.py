@@ -9,8 +9,9 @@ class Game:
     def __init__(self, players, board_size=[7,7], log_name='logs.txt',max_turns=100):
         self.logs = Logger('/workspace/space-empires-2/logs/'+log_name)
         self.logs.clear_log()
-        self.all_players = players
-        self.players = list(self.all_players)
+        for player in players:
+            player.clear_all()
+        self.players = [player for player in players]
         self.set_player_numbers()
         self.max_turns = max_turns
 
