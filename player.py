@@ -14,6 +14,7 @@ class Player():
         self.home_col = None
         self.colonies = []
         self.strategy = strategy_cls
+        self.cp = 0
     
     def add_ships(self, ship_list):
         assert self.player_num != None, "player number needs to be set"
@@ -44,3 +45,6 @@ class Player():
         self.ships = []
         self.home_col = None
         self.colonies = []
+    
+    def buy_ships(self, cp_budget):
+        return self.strategy.buy_ships(cp_budget)

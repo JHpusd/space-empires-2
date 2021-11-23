@@ -1,4 +1,5 @@
 import math, random, sys
+from ship_info import *
 from colony import *
 from ships import *
 sys.path.append('logs')
@@ -91,16 +92,20 @@ class Game:
         self.logs.write('SETTING UP GAME...\n')
         for i in range(len(self.players)):
             player = self.players[i]
+            player.cp = 200
             player_num = self.players[i].player_num
             coord = starts[i]
             self.logs.write('PLAYER '+str(player_num)+' STARTING AT '+str(coord)+'\n')
             player.set_home_col(coord)
             self.add(player.home_col)
+            '''
             for i in range(3): # need to change if number of initial ships changes
                 scout = Scout(player_num, coord, i+1)
                 bc = BattleCruiser(player_num, coord, i+1)
                 self.add([scout, bc])
                 player.add_ships([scout, bc])
+            '''
+            player.buy_ships(player.cp) # START HERE
         self.logs.write('\n')
     
     def get_info(self, obj):

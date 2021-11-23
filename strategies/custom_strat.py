@@ -1,4 +1,5 @@
-import math, random
+import math, random, sys
+from ship_info import *
 
 class CompetitionStrat:
     def __init__(self):
@@ -126,3 +127,7 @@ class CompetitionStrat:
     '''
     def update_simple_board(self, updated_board):
         self.simple_board = updated_board
+    
+    def buy_ships(self, cp_budget):
+        # cringe and not based
+        return None
