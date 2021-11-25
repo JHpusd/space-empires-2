@@ -79,6 +79,29 @@ class Game:
             if len(self.board[coord]) == 0:
                 del self.board[coord]
     
+    def ship_obj_from_name(self, name, player_num, coord, ship_num):
+        if name == 'Scout':
+            return Scout(player_num, coord, ship_num)
+        if name == 'BattleCruiser':
+            return BattleCruiser(player_num, coord, ship_num)
+        if name == 'Cruiser':
+            return Cruiser(player_num, coord, ship_num)
+        if name == 'Destroyer':
+            return Destroyer(player_num, coord, ship_num)
+        if name == 'Dreadnaught':
+            return Dreadnaught(player_num, coord, ship_num)
+        else:
+            print('invalid ship name')
+            return None
+    
+    def cost(self, ship_dict):
+        total = 0
+        for name in ship_dict:
+            for ship_info in all_ship_infos:
+                if ship_info['name'] == name:
+                    total += ship_dict[name] * ship_info['cp_cost']
+        return total
+    
     def all_ships(self, coord):
         return [obj for obj in self.board[coord] if isinstance(obj, Ship)]
 
@@ -98,14 +121,19 @@ class Game:
             self.logs.write('PLAYER '+str(player_num)+' STARTING AT '+str(coord)+'\n')
             player.set_home_col(coord)
             self.add(player.home_col)
-            '''
-            for i in range(3): # need to change if number of initial ships changes
-                scout = Scout(player_num, coord, i+1)
-                bc = BattleCruiser(player_num, coord, i+1)
-                self.add([scout, bc])
-                player.add_ships([scout, bc])
-            '''
-            player.buy_ships(player.cp) # START HERE
+
+            player_ships = player.buy_ships(player.cp)
+            if self.cost(player_ships) > player.cp:
+                print(f'Player {player_num} went over budget')
+                continue
+            player.cp -= self.cost(player_ships)
+            for name in player_ships:
+                for i in range(player_ships[name]):
+                    ship = self.ship_obj_from_name(name, player_num, coord, i+1)
+                    if ship == None:
+                        continue
+                    self.add(ship)
+                    player.add_ships(ship)
         self.logs.write('\n')
     
     def get_info(self, obj):

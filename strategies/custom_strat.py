@@ -46,8 +46,10 @@ class CompetitionStrat:
     def choose_translation(self, ship_info, choices): # move to opp colony, if enemy in adjacent coord, dont move
         if self.player_num == None:
             self.player_num = ship_info['player_num']
+        '''
         if self.adjacent_enemy_ship(ship_info['coords']):
             return (0,0)
+        '''
         ship_coords = ship_info['coords']
         p_num = ship_info['player_num']
         opp_home_cols = []
@@ -129,5 +131,4 @@ class CompetitionStrat:
         self.simple_board = updated_board
     
     def buy_ships(self, cp_budget):
-        # cringe and not based
-        return None
+        return {'Scout':3, 'BattleCruiser':3}

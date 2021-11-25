@@ -12,7 +12,7 @@ from anton import *
 from william import *
 from charlie import *
 
-
+'''
 winners = {1:0, 2:0, 'Tie':0}
 players = [Player(CompetitionStrat()), Player(MaiaComp())]
 for _ in range(50):
@@ -41,3 +41,9 @@ print(winners)
 # anton vs william: 63:37
 # anton vs charlie: 56:44
 # william vs charlie: 57:43
+'''
+
+players = [Player(CompetitionStrat()), Player(CompetitionStrat())]
+game = Game(players)
+game.run_to_completion()
+print(game.winner)

@@ -18,6 +18,8 @@ class Player():
     
     def add_ships(self, ship_list):
         assert self.player_num != None, "player number needs to be set"
+        if type(ship_list) != list:
+            ship_list = [ship_list]
         for ship in ship_list:
             self.ships.append(ship)
     
