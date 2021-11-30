@@ -6,20 +6,30 @@ PLAYER 2 STARTING AT (3, 6)
 START TURN 1 MOVEMENT PHASE
 
 PLAYER 1 MOVING:
-	MOVING PLAYER 1 Scout 1: (3, 0) -> (3, 1)
-	MOVING PLAYER 1 Scout 2: (3, 0) -> (3, 1)
-	MOVING PLAYER 1 Scout 3: (3, 0) -> (3, 1)
 	MOVING PLAYER 1 BattleCruiser 1: (3, 0) -> (3, 1)
 	MOVING PLAYER 1 BattleCruiser 2: (3, 0) -> (3, 1)
-	MOVING PLAYER 1 BattleCruiser 3: (3, 0) -> (3, 1)
+	MOVING PLAYER 1 Dreadnaught 1: (3, 0) -> (3, 1)
+	MOVING PLAYER 1 Dreadnaught 2: (3, 0) -> (3, 1)
+	MOVING PLAYER 1 Dreadnaught 3: (3, 0) -> (3, 1)
+	MOVING PLAYER 1 Dreadnaught 4: (3, 0) -> (3, 1)
+	MOVING PLAYER 1 Dreadnaught 5: (3, 0) -> (3, 1)
+	MOVING PLAYER 1 Dreadnaught 6: (3, 0) -> (3, 1)
+	MOVING PLAYER 1 Dreadnaught 7: (3, 0) -> (3, 1)
 
 PLAYER 2 MOVING:
-	MOVING PLAYER 2 Scout 1: (3, 6) -> (3, 5)
-	MOVING PLAYER 2 Scout 2: (3, 6) -> (3, 5)
-	MOVING PLAYER 2 Scout 3: (3, 6) -> (3, 5)
 	MOVING PLAYER 2 BattleCruiser 1: (3, 6) -> (3, 5)
 	MOVING PLAYER 2 BattleCruiser 2: (3, 6) -> (3, 5)
 	MOVING PLAYER 2 BattleCruiser 3: (3, 6) -> (3, 5)
+	MOVING PLAYER 2 BattleCruiser 4: (3, 6) -> (3, 5)
+	MOVING PLAYER 2 BattleCruiser 5: (3, 6) -> (3, 5)
+	MOVING PLAYER 2 BattleCruiser 6: (3, 6) -> (3, 5)
+	MOVING PLAYER 2 BattleCruiser 7: (3, 6) -> (3, 5)
+	MOVING PLAYER 2 BattleCruiser 8: (3, 6) -> (3, 5)
+	MOVING PLAYER 2 BattleCruiser 9: (3, 6) -> (3, 5)
+	MOVING PLAYER 2 BattleCruiser 10: (3, 6) -> (3, 5)
+	MOVING PLAYER 2 BattleCruiser 11: (3, 6) -> (3, 5)
+	MOVING PLAYER 2 BattleCruiser 12: (3, 6) -> (3, 5)
+	MOVING PLAYER 2 BattleCruiser 13: (3, 6) -> (3, 5)
 
 END TURN 1 MOVEMENT PHASE
 
@@ -30,20 +40,30 @@ END TURN 1 COMBAT PHASE
 START TURN 2 MOVEMENT PHASE
 
 PLAYER 1 MOVING:
-	MOVING PLAYER 1 Scout 1: (3, 1) -> (3, 2)
-	MOVING PLAYER 1 Scout 2: (3, 1) -> (3, 2)
-	MOVING PLAYER 1 Scout 3: (3, 1) -> (3, 2)
 	MOVING PLAYER 1 BattleCruiser 1: (3, 1) -> (3, 2)
 	MOVING PLAYER 1 BattleCruiser 2: (3, 1) -> (3, 2)
-	MOVING PLAYER 1 BattleCruiser 3: (3, 1) -> (3, 2)
+	MOVING PLAYER 1 Dreadnaught 1: (3, 1) -> (3, 2)
+	MOVING PLAYER 1 Dreadnaught 2: (3, 1) -> (3, 2)
+	MOVING PLAYER 1 Dreadnaught 3: (3, 1) -> (3, 2)
+	MOVING PLAYER 1 Dreadnaught 4: (3, 1) -> (3, 2)
+	MOVING PLAYER 1 Dreadnaught 5: (3, 1) -> (3, 2)
+	MOVING PLAYER 1 Dreadnaught 6: (3, 1) -> (3, 2)
+	MOVING PLAYER 1 Dreadnaught 7: (3, 1) -> (3, 2)
 
 PLAYER 2 MOVING:
-	MOVING PLAYER 2 Scout 1: (3, 5) -> (3, 4)
-	MOVING PLAYER 2 Scout 2: (3, 5) -> (3, 4)
-	MOVING PLAYER 2 Scout 3: (3, 5) -> (3, 4)
 	MOVING PLAYER 2 BattleCruiser 1: (3, 5) -> (3, 4)
 	MOVING PLAYER 2 BattleCruiser 2: (3, 5) -> (3, 4)
 	MOVING PLAYER 2 BattleCruiser 3: (3, 5) -> (3, 4)
+	MOVING PLAYER 2 BattleCruiser 4: (3, 5) -> (3, 4)
+	MOVING PLAYER 2 BattleCruiser 5: (3, 5) -> (3, 4)
+	MOVING PLAYER 2 BattleCruiser 6: (3, 5) -> (3, 4)
+	MOVING PLAYER 2 BattleCruiser 7: (3, 5) -> (3, 4)
+	MOVING PLAYER 2 BattleCruiser 8: (3, 5) -> (3, 4)
+	MOVING PLAYER 2 BattleCruiser 9: (3, 5) -> (3, 4)
+	MOVING PLAYER 2 BattleCruiser 10: (3, 5) -> (3, 4)
+	MOVING PLAYER 2 BattleCruiser 11: (3, 5) -> (3, 4)
+	MOVING PLAYER 2 BattleCruiser 12: (3, 5) -> (3, 4)
+	MOVING PLAYER 2 BattleCruiser 13: (3, 5) -> (3, 4)
 
 END TURN 2 MOVEMENT PHASE
 
@@ -54,122 +74,34 @@ END TURN 2 COMBAT PHASE
 START TURN 3 MOVEMENT PHASE
 
 PLAYER 1 MOVING:
-	MOVING PLAYER 1 Scout 1: (3, 2) -> (3, 3)
-	MOVING PLAYER 1 Scout 2: (3, 2) -> (3, 3)
-	MOVING PLAYER 1 Scout 3: (3, 2) -> (3, 3)
 	MOVING PLAYER 1 BattleCruiser 1: (3, 2) -> (3, 3)
 	MOVING PLAYER 1 BattleCruiser 2: (3, 2) -> (3, 3)
-	MOVING PLAYER 1 BattleCruiser 3: (3, 2) -> (3, 3)
+	MOVING PLAYER 1 Dreadnaught 1: (3, 2) -> (3, 3)
+	MOVING PLAYER 1 Dreadnaught 2: (3, 2) -> (3, 3)
+	MOVING PLAYER 1 Dreadnaught 3: (3, 2) -> (3, 3)
+	MOVING PLAYER 1 Dreadnaught 4: (3, 2) -> (3, 3)
+	MOVING PLAYER 1 Dreadnaught 5: (3, 2) -> (3, 3)
+	MOVING PLAYER 1 Dreadnaught 6: (3, 2) -> (3, 3)
+	MOVING PLAYER 1 Dreadnaught 7: (3, 2) -> (3, 3)
 
 PLAYER 2 MOVING:
-	MOVING PLAYER 2 Scout 1: (3, 4) -> (3, 3)
-	MOVING PLAYER 2 Scout 2: (3, 4) -> (3, 3)
-	MOVING PLAYER 2 Scout 3: (3, 4) -> (3, 3)
-	MOVING PLAYER 2 BattleCruiser 1: (3, 4) -> (3, 3)
-	MOVING PLAYER 2 BattleCruiser 2: (3, 4) -> (3, 3)
-	MOVING PLAYER 2 BattleCruiser 3: (3, 4) -> (3, 3)
+	MOVING PLAYER 2 BattleCruiser 1: (3, 4) -> (3, 4)
+	MOVING PLAYER 2 BattleCruiser 2: (3, 4) -> (3, 4)
+	MOVING PLAYER 2 BattleCruiser 3: (3, 4) -> (3, 4)
+	MOVING PLAYER 2 BattleCruiser 4: (3, 4) -> (3, 4)
+	MOVING PLAYER 2 BattleCruiser 5: (3, 4) -> (3, 4)
+	MOVING PLAYER 2 BattleCruiser 6: (3, 4) -> (3, 4)
+	MOVING PLAYER 2 BattleCruiser 7: (3, 4) -> (3, 4)
+	MOVING PLAYER 2 BattleCruiser 8: (3, 4) -> (3, 4)
+	MOVING PLAYER 2 BattleCruiser 9: (3, 4) -> (3, 4)
+	MOVING PLAYER 2 BattleCruiser 10: (3, 4) -> (3, 4)
+	MOVING PLAYER 2 BattleCruiser 11: (3, 4) -> (3, 4)
+	MOVING PLAYER 2 BattleCruiser 12: (3, 4) -> (3, 4)
+	MOVING PLAYER 2 BattleCruiser 13: (3, 4) -> (3, 4)
 
 END TURN 3 MOVEMENT PHASE
 
 START TURN 3 COMBAT PHASE
-
-COMBAT AT (3, 3):
-
-	COMBAT ORDER:
-		PLAYER 1 BattleCruiser 1
-		PLAYER 1 BattleCruiser 2
-		PLAYER 1 BattleCruiser 3
-		PLAYER 2 BattleCruiser 1
-		PLAYER 2 BattleCruiser 2
-		PLAYER 2 BattleCruiser 3
-		PLAYER 1 Scout 1
-		PLAYER 1 Scout 2
-		PLAYER 1 Scout 3
-		PLAYER 2 Scout 1
-		PLAYER 2 Scout 2
-		PLAYER 2 Scout 3
-
-	BEGINNING COMBAT...
-
-	PLAYER 1 BattleCruiser 1 ATTACKING PLAYER 2 Scout 3...HIT!
-	PLAYER 2 Scout 3 WAS DESTROYED IN COMBAT
-	PLAYER 1 BattleCruiser 2 ATTACKING PLAYER 2 Scout 2...HIT!
-	PLAYER 2 Scout 2 WAS DESTROYED IN COMBAT
-	PLAYER 1 BattleCruiser 3 ATTACKING PLAYER 2 Scout 1...HIT!
-	PLAYER 2 Scout 1 WAS DESTROYED IN COMBAT
-	PLAYER 2 BattleCruiser 1 ATTACKING PLAYER 1 Scout 3...HIT!
-	PLAYER 1 Scout 3 WAS DESTROYED IN COMBAT
-	PLAYER 2 BattleCruiser 2 ATTACKING PLAYER 1 Scout 2...HIT!
-	PLAYER 1 Scout 2 WAS DESTROYED IN COMBAT
-	PLAYER 2 BattleCruiser 3 ATTACKING PLAYER 1 Scout 1...MISS
-	PLAYER 1 Scout 1 ATTACKING PLAYER 2 BattleCruiser 3...MISS
-
-COMBAT AT (3, 3):
-
-	COMBAT ORDER:
-		PLAYER 1 BattleCruiser 1
-		PLAYER 1 BattleCruiser 2
-		PLAYER 1 BattleCruiser 3
-		PLAYER 2 BattleCruiser 1
-		PLAYER 2 BattleCruiser 2
-		PLAYER 2 BattleCruiser 3
-		PLAYER 1 Scout 1
-
-	BEGINNING COMBAT...
-
-	PLAYER 1 BattleCruiser 1 ATTACKING PLAYER 2 BattleCruiser 3...HIT!
-	PLAYER 1 BattleCruiser 2 ATTACKING PLAYER 2 BattleCruiser 3...HIT!
-	PLAYER 2 BattleCruiser 3 WAS DESTROYED IN COMBAT
-	PLAYER 1 BattleCruiser 3 ATTACKING PLAYER 2 BattleCruiser 2...HIT!
-	PLAYER 2 BattleCruiser 1 ATTACKING PLAYER 1 Scout 1...MISS
-	PLAYER 2 BattleCruiser 2 ATTACKING PLAYER 1 Scout 1...HIT!
-	PLAYER 1 Scout 1 WAS DESTROYED IN COMBAT
-
-COMBAT AT (3, 3):
-
-	COMBAT ORDER:
-		PLAYER 1 BattleCruiser 1
-		PLAYER 1 BattleCruiser 2
-		PLAYER 1 BattleCruiser 3
-		PLAYER 2 BattleCruiser 1
-		PLAYER 2 BattleCruiser 2
-
-	BEGINNING COMBAT...
-
-	PLAYER 1 BattleCruiser 1 ATTACKING PLAYER 2 BattleCruiser 2...MISS
-	PLAYER 1 BattleCruiser 2 ATTACKING PLAYER 2 BattleCruiser 2...MISS
-	PLAYER 1 BattleCruiser 3 ATTACKING PLAYER 2 BattleCruiser 2...HIT!
-	PLAYER 2 BattleCruiser 2 WAS DESTROYED IN COMBAT
-	PLAYER 2 BattleCruiser 1 ATTACKING PLAYER 1 BattleCruiser 3...MISS
-
-COMBAT AT (3, 3):
-
-	COMBAT ORDER:
-		PLAYER 1 BattleCruiser 1
-		PLAYER 1 BattleCruiser 2
-		PLAYER 1 BattleCruiser 3
-		PLAYER 2 BattleCruiser 1
-
-	BEGINNING COMBAT...
-
-	PLAYER 1 BattleCruiser 1 ATTACKING PLAYER 2 BattleCruiser 1...MISS
-	PLAYER 1 BattleCruiser 2 ATTACKING PLAYER 2 BattleCruiser 1...HIT!
-	PLAYER 1 BattleCruiser 3 ATTACKING PLAYER 2 BattleCruiser 1...MISS
-	PLAYER 2 BattleCruiser 1 ATTACKING PLAYER 1 BattleCruiser 3...HIT!
-
-COMBAT AT (3, 3):
-
-	COMBAT ORDER:
-		PLAYER 1 BattleCruiser 1
-		PLAYER 1 BattleCruiser 2
-		PLAYER 1 BattleCruiser 3
-		PLAYER 2 BattleCruiser 1
-
-	BEGINNING COMBAT...
-
-	PLAYER 1 BattleCruiser 1 ATTACKING PLAYER 2 BattleCruiser 1...HIT!
-	PLAYER 2 BattleCruiser 1 WAS DESTROYED IN COMBAT
-
 
 END TURN 3 COMBAT PHASE
 
@@ -178,22 +110,327 @@ START TURN 4 MOVEMENT PHASE
 PLAYER 1 MOVING:
 	MOVING PLAYER 1 BattleCruiser 1: (3, 3) -> (3, 4)
 	MOVING PLAYER 1 BattleCruiser 2: (3, 3) -> (3, 4)
-	MOVING PLAYER 1 BattleCruiser 3: (3, 3) -> (3, 4)
+	MOVING PLAYER 1 Dreadnaught 1: (3, 3) -> (3, 4)
+	MOVING PLAYER 1 Dreadnaught 2: (3, 3) -> (3, 4)
+	MOVING PLAYER 1 Dreadnaught 3: (3, 3) -> (3, 4)
+	MOVING PLAYER 1 Dreadnaught 4: (3, 3) -> (3, 4)
+	MOVING PLAYER 1 Dreadnaught 5: (3, 3) -> (3, 4)
+	MOVING PLAYER 1 Dreadnaught 6: (3, 3) -> (3, 4)
+	MOVING PLAYER 1 Dreadnaught 7: (3, 3) -> (3, 4)
 
-PLAYER 2 HAS NO SHIPS
+PLAYER 2 MOVING:
 
 END TURN 4 MOVEMENT PHASE
 
 START TURN 4 COMBAT PHASE
+
+COMBAT AT (3, 4):
+
+	COMBAT ORDER:
+		PLAYER 1 Dreadnaught 1
+		PLAYER 1 Dreadnaught 2
+		PLAYER 1 Dreadnaught 3
+		PLAYER 1 Dreadnaught 4
+		PLAYER 1 Dreadnaught 5
+		PLAYER 1 Dreadnaught 6
+		PLAYER 1 Dreadnaught 7
+		PLAYER 2 BattleCruiser 1
+		PLAYER 2 BattleCruiser 2
+		PLAYER 2 BattleCruiser 3
+		PLAYER 2 BattleCruiser 4
+		PLAYER 2 BattleCruiser 5
+		PLAYER 2 BattleCruiser 6
+		PLAYER 2 BattleCruiser 7
+		PLAYER 2 BattleCruiser 8
+		PLAYER 2 BattleCruiser 9
+		PLAYER 2 BattleCruiser 10
+		PLAYER 2 BattleCruiser 11
+		PLAYER 2 BattleCruiser 12
+		PLAYER 2 BattleCruiser 13
+		PLAYER 1 BattleCruiser 1
+		PLAYER 1 BattleCruiser 2
+
+	BEGINNING COMBAT...
+
+	PLAYER 1 Dreadnaught 1 ATTACKING PLAYER 2 BattleCruiser 13...MISS
+	PLAYER 1 Dreadnaught 2 ATTACKING PLAYER 2 BattleCruiser 13...HIT!
+	PLAYER 1 Dreadnaught 3 ATTACKING PLAYER 2 BattleCruiser 13...MISS
+	PLAYER 1 Dreadnaught 4 ATTACKING PLAYER 2 BattleCruiser 13...HIT!
+	PLAYER 2 BattleCruiser 13 WAS DESTROYED IN COMBAT
+	PLAYER 1 Dreadnaught 5 ATTACKING PLAYER 2 BattleCruiser 12...HIT!
+	PLAYER 1 Dreadnaught 6 ATTACKING PLAYER 2 BattleCruiser 12...HIT!
+	PLAYER 2 BattleCruiser 12 WAS DESTROYED IN COMBAT
+	PLAYER 1 Dreadnaught 7 ATTACKING PLAYER 2 BattleCruiser 11...MISS
+	PLAYER 2 BattleCruiser 1 ATTACKING PLAYER 1 BattleCruiser 2...MISS
+	PLAYER 2 BattleCruiser 2 ATTACKING PLAYER 1 BattleCruiser 2...MISS
+	PLAYER 2 BattleCruiser 3 ATTACKING PLAYER 1 BattleCruiser 2...MISS
+	PLAYER 2 BattleCruiser 4 ATTACKING PLAYER 1 BattleCruiser 2...HIT!
+	PLAYER 2 BattleCruiser 5 ATTACKING PLAYER 1 BattleCruiser 2...HIT!
+	PLAYER 1 BattleCruiser 2 WAS DESTROYED IN COMBAT
+	PLAYER 2 BattleCruiser 6 ATTACKING PLAYER 1 BattleCruiser 1...MISS
+	PLAYER 2 BattleCruiser 7 ATTACKING PLAYER 1 BattleCruiser 1...MISS
+	PLAYER 2 BattleCruiser 8 ATTACKING PLAYER 1 BattleCruiser 1...MISS
+	PLAYER 2 BattleCruiser 9 ATTACKING PLAYER 1 BattleCruiser 1...MISS
+	PLAYER 2 BattleCruiser 10 ATTACKING PLAYER 1 BattleCruiser 1...MISS
+	PLAYER 2 BattleCruiser 11 ATTACKING PLAYER 1 BattleCruiser 1...HIT!
+	PLAYER 1 BattleCruiser 1 ATTACKING PLAYER 2 BattleCruiser 11...MISS
+
+COMBAT AT (3, 4):
+
+	COMBAT ORDER:
+		PLAYER 1 Dreadnaught 1
+		PLAYER 1 Dreadnaught 2
+		PLAYER 1 Dreadnaught 3
+		PLAYER 1 Dreadnaught 4
+		PLAYER 1 Dreadnaught 5
+		PLAYER 1 Dreadnaught 6
+		PLAYER 1 Dreadnaught 7
+		PLAYER 2 BattleCruiser 1
+		PLAYER 2 BattleCruiser 2
+		PLAYER 2 BattleCruiser 3
+		PLAYER 2 BattleCruiser 4
+		PLAYER 2 BattleCruiser 5
+		PLAYER 2 BattleCruiser 6
+		PLAYER 2 BattleCruiser 7
+		PLAYER 2 BattleCruiser 8
+		PLAYER 2 BattleCruiser 9
+		PLAYER 2 BattleCruiser 10
+		PLAYER 2 BattleCruiser 11
+		PLAYER 1 BattleCruiser 1
+
+	BEGINNING COMBAT...
+
+	PLAYER 1 Dreadnaught 1 ATTACKING PLAYER 2 BattleCruiser 11...HIT!
+	PLAYER 1 Dreadnaught 2 ATTACKING PLAYER 2 BattleCruiser 11...HIT!
+	PLAYER 2 BattleCruiser 11 WAS DESTROYED IN COMBAT
+	PLAYER 1 Dreadnaught 3 ATTACKING PLAYER 2 BattleCruiser 10...HIT!
+	PLAYER 1 Dreadnaught 4 ATTACKING PLAYER 2 BattleCruiser 10...MISS
+	PLAYER 1 Dreadnaught 5 ATTACKING PLAYER 2 BattleCruiser 10...HIT!
+	PLAYER 2 BattleCruiser 10 WAS DESTROYED IN COMBAT
+	PLAYER 1 Dreadnaught 6 ATTACKING PLAYER 2 BattleCruiser 9...MISS
+	PLAYER 1 Dreadnaught 7 ATTACKING PLAYER 2 BattleCruiser 9...MISS
+	PLAYER 2 BattleCruiser 1 ATTACKING PLAYER 1 BattleCruiser 1...HIT!
+	PLAYER 1 BattleCruiser 1 WAS DESTROYED IN COMBAT
+	PLAYER 2 BattleCruiser 2 ATTACKING PLAYER 1 Dreadnaught 7...HIT!
+	PLAYER 2 BattleCruiser 3 ATTACKING PLAYER 1 Dreadnaught 7...MISS
+	PLAYER 2 BattleCruiser 4 ATTACKING PLAYER 1 Dreadnaught 7...MISS
+	PLAYER 2 BattleCruiser 5 ATTACKING PLAYER 1 Dreadnaught 7...MISS
+	PLAYER 2 BattleCruiser 6 ATTACKING PLAYER 1 Dreadnaught 7...MISS
+	PLAYER 2 BattleCruiser 7 ATTACKING PLAYER 1 Dreadnaught 7...MISS
+	PLAYER 2 BattleCruiser 8 ATTACKING PLAYER 1 Dreadnaught 7...HIT!
+	PLAYER 2 BattleCruiser 9 ATTACKING PLAYER 1 Dreadnaught 7...HIT!
+	PLAYER 1 Dreadnaught 7 WAS DESTROYED IN COMBAT
+
+COMBAT AT (3, 4):
+
+	COMBAT ORDER:
+		PLAYER 1 Dreadnaught 1
+		PLAYER 1 Dreadnaught 2
+		PLAYER 1 Dreadnaught 3
+		PLAYER 1 Dreadnaught 4
+		PLAYER 1 Dreadnaught 5
+		PLAYER 1 Dreadnaught 6
+		PLAYER 2 BattleCruiser 1
+		PLAYER 2 BattleCruiser 2
+		PLAYER 2 BattleCruiser 3
+		PLAYER 2 BattleCruiser 4
+		PLAYER 2 BattleCruiser 5
+		PLAYER 2 BattleCruiser 6
+		PLAYER 2 BattleCruiser 7
+		PLAYER 2 BattleCruiser 8
+		PLAYER 2 BattleCruiser 9
+
+	BEGINNING COMBAT...
+
+	PLAYER 1 Dreadnaught 1 ATTACKING PLAYER 2 BattleCruiser 9...HIT!
+	PLAYER 1 Dreadnaught 2 ATTACKING PLAYER 2 BattleCruiser 9...MISS
+	PLAYER 1 Dreadnaught 3 ATTACKING PLAYER 2 BattleCruiser 9...HIT!
+	PLAYER 2 BattleCruiser 9 WAS DESTROYED IN COMBAT
+	PLAYER 1 Dreadnaught 4 ATTACKING PLAYER 2 BattleCruiser 8...MISS
+	PLAYER 1 Dreadnaught 5 ATTACKING PLAYER 2 BattleCruiser 8...MISS
+	PLAYER 1 Dreadnaught 6 ATTACKING PLAYER 2 BattleCruiser 8...MISS
+	PLAYER 2 BattleCruiser 1 ATTACKING PLAYER 1 Dreadnaught 6...MISS
+	PLAYER 2 BattleCruiser 2 ATTACKING PLAYER 1 Dreadnaught 6...MISS
+	PLAYER 2 BattleCruiser 3 ATTACKING PLAYER 1 Dreadnaught 6...MISS
+	PLAYER 2 BattleCruiser 4 ATTACKING PLAYER 1 Dreadnaught 6...MISS
+	PLAYER 2 BattleCruiser 5 ATTACKING PLAYER 1 Dreadnaught 6...MISS
+	PLAYER 2 BattleCruiser 6 ATTACKING PLAYER 1 Dreadnaught 6...MISS
+	PLAYER 2 BattleCruiser 7 ATTACKING PLAYER 1 Dreadnaught 6...MISS
+	PLAYER 2 BattleCruiser 8 ATTACKING PLAYER 1 Dreadnaught 6...MISS
+
+COMBAT AT (3, 4):
+
+	COMBAT ORDER:
+		PLAYER 1 Dreadnaught 1
+		PLAYER 1 Dreadnaught 2
+		PLAYER 1 Dreadnaught 3
+		PLAYER 1 Dreadnaught 4
+		PLAYER 1 Dreadnaught 5
+		PLAYER 1 Dreadnaught 6
+		PLAYER 2 BattleCruiser 1
+		PLAYER 2 BattleCruiser 2
+		PLAYER 2 BattleCruiser 3
+		PLAYER 2 BattleCruiser 4
+		PLAYER 2 BattleCruiser 5
+		PLAYER 2 BattleCruiser 6
+		PLAYER 2 BattleCruiser 7
+		PLAYER 2 BattleCruiser 8
+
+	BEGINNING COMBAT...
+
+	PLAYER 1 Dreadnaught 1 ATTACKING PLAYER 2 BattleCruiser 8...HIT!
+	PLAYER 1 Dreadnaught 2 ATTACKING PLAYER 2 BattleCruiser 8...MISS
+	PLAYER 1 Dreadnaught 3 ATTACKING PLAYER 2 BattleCruiser 8...HIT!
+	PLAYER 2 BattleCruiser 8 WAS DESTROYED IN COMBAT
+	PLAYER 1 Dreadnaught 4 ATTACKING PLAYER 2 BattleCruiser 7...MISS
+	PLAYER 1 Dreadnaught 5 ATTACKING PLAYER 2 BattleCruiser 7...HIT!
+	PLAYER 1 Dreadnaught 6 ATTACKING PLAYER 2 BattleCruiser 7...MISS
+	PLAYER 2 BattleCruiser 1 ATTACKING PLAYER 1 Dreadnaught 6...MISS
+	PLAYER 2 BattleCruiser 2 ATTACKING PLAYER 1 Dreadnaught 6...MISS
+	PLAYER 2 BattleCruiser 3 ATTACKING PLAYER 1 Dreadnaught 6...HIT!
+	PLAYER 2 BattleCruiser 4 ATTACKING PLAYER 1 Dreadnaught 6...MISS
+	PLAYER 2 BattleCruiser 5 ATTACKING PLAYER 1 Dreadnaught 6...MISS
+	PLAYER 2 BattleCruiser 6 ATTACKING PLAYER 1 Dreadnaught 6...MISS
+	PLAYER 2 BattleCruiser 7 ATTACKING PLAYER 1 Dreadnaught 6...MISS
+
+COMBAT AT (3, 4):
+
+	COMBAT ORDER:
+		PLAYER 1 Dreadnaught 1
+		PLAYER 1 Dreadnaught 2
+		PLAYER 1 Dreadnaught 3
+		PLAYER 1 Dreadnaught 4
+		PLAYER 1 Dreadnaught 5
+		PLAYER 1 Dreadnaught 6
+		PLAYER 2 BattleCruiser 1
+		PLAYER 2 BattleCruiser 2
+		PLAYER 2 BattleCruiser 3
+		PLAYER 2 BattleCruiser 4
+		PLAYER 2 BattleCruiser 5
+		PLAYER 2 BattleCruiser 6
+		PLAYER 2 BattleCruiser 7
+
+	BEGINNING COMBAT...
+
+	PLAYER 1 Dreadnaught 1 ATTACKING PLAYER 2 BattleCruiser 7...HIT!
+	PLAYER 2 BattleCruiser 7 WAS DESTROYED IN COMBAT
+	PLAYER 1 Dreadnaught 2 ATTACKING PLAYER 2 BattleCruiser 6...MISS
+	PLAYER 1 Dreadnaught 3 ATTACKING PLAYER 2 BattleCruiser 6...HIT!
+	PLAYER 1 Dreadnaught 4 ATTACKING PLAYER 2 BattleCruiser 6...HIT!
+	PLAYER 2 BattleCruiser 6 WAS DESTROYED IN COMBAT
+	PLAYER 1 Dreadnaught 5 ATTACKING PLAYER 2 BattleCruiser 5...MISS
+	PLAYER 1 Dreadnaught 6 ATTACKING PLAYER 2 BattleCruiser 5...MISS
+	PLAYER 2 BattleCruiser 1 ATTACKING PLAYER 1 Dreadnaught 6...MISS
+	PLAYER 2 BattleCruiser 2 ATTACKING PLAYER 1 Dreadnaught 6...MISS
+	PLAYER 2 BattleCruiser 3 ATTACKING PLAYER 1 Dreadnaught 6...MISS
+	PLAYER 2 BattleCruiser 4 ATTACKING PLAYER 1 Dreadnaught 6...HIT!
+	PLAYER 2 BattleCruiser 5 ATTACKING PLAYER 1 Dreadnaught 6...HIT!
+	PLAYER 1 Dreadnaught 6 WAS DESTROYED IN COMBAT
+
+COMBAT AT (3, 4):
+
+	COMBAT ORDER:
+		PLAYER 1 Dreadnaught 1
+		PLAYER 1 Dreadnaught 2
+		PLAYER 1 Dreadnaught 3
+		PLAYER 1 Dreadnaught 4
+		PLAYER 1 Dreadnaught 5
+		PLAYER 2 BattleCruiser 1
+		PLAYER 2 BattleCruiser 2
+		PLAYER 2 BattleCruiser 3
+		PLAYER 2 BattleCruiser 4
+		PLAYER 2 BattleCruiser 5
+
+	BEGINNING COMBAT...
+
+	PLAYER 1 Dreadnaught 1 ATTACKING PLAYER 2 BattleCruiser 5...MISS
+	PLAYER 1 Dreadnaught 2 ATTACKING PLAYER 2 BattleCruiser 5...MISS
+	PLAYER 1 Dreadnaught 3 ATTACKING PLAYER 2 BattleCruiser 5...HIT!
+	PLAYER 1 Dreadnaught 4 ATTACKING PLAYER 2 BattleCruiser 5...HIT!
+	PLAYER 2 BattleCruiser 5 WAS DESTROYED IN COMBAT
+	PLAYER 1 Dreadnaught 5 ATTACKING PLAYER 2 BattleCruiser 4...MISS
+	PLAYER 2 BattleCruiser 1 ATTACKING PLAYER 1 Dreadnaught 5...MISS
+	PLAYER 2 BattleCruiser 2 ATTACKING PLAYER 1 Dreadnaught 5...MISS
+	PLAYER 2 BattleCruiser 3 ATTACKING PLAYER 1 Dreadnaught 5...MISS
+	PLAYER 2 BattleCruiser 4 ATTACKING PLAYER 1 Dreadnaught 5...MISS
+
+COMBAT AT (3, 4):
+
+	COMBAT ORDER:
+		PLAYER 1 Dreadnaught 1
+		PLAYER 1 Dreadnaught 2
+		PLAYER 1 Dreadnaught 3
+		PLAYER 1 Dreadnaught 4
+		PLAYER 1 Dreadnaught 5
+		PLAYER 2 BattleCruiser 1
+		PLAYER 2 BattleCruiser 2
+		PLAYER 2 BattleCruiser 3
+		PLAYER 2 BattleCruiser 4
+
+	BEGINNING COMBAT...
+
+	PLAYER 1 Dreadnaught 1 ATTACKING PLAYER 2 BattleCruiser 4...MISS
+	PLAYER 1 Dreadnaught 2 ATTACKING PLAYER 2 BattleCruiser 4...MISS
+	PLAYER 1 Dreadnaught 3 ATTACKING PLAYER 2 BattleCruiser 4...HIT!
+	PLAYER 1 Dreadnaught 4 ATTACKING PLAYER 2 BattleCruiser 4...MISS
+	PLAYER 1 Dreadnaught 5 ATTACKING PLAYER 2 BattleCruiser 4...HIT!
+	PLAYER 2 BattleCruiser 4 WAS DESTROYED IN COMBAT
+	PLAYER 2 BattleCruiser 1 ATTACKING PLAYER 1 Dreadnaught 5...MISS
+	PLAYER 2 BattleCruiser 2 ATTACKING PLAYER 1 Dreadnaught 5...MISS
+	PLAYER 2 BattleCruiser 3 ATTACKING PLAYER 1 Dreadnaught 5...HIT!
+
+COMBAT AT (3, 4):
+
+	COMBAT ORDER:
+		PLAYER 1 Dreadnaught 1
+		PLAYER 1 Dreadnaught 2
+		PLAYER 1 Dreadnaught 3
+		PLAYER 1 Dreadnaught 4
+		PLAYER 1 Dreadnaught 5
+		PLAYER 2 BattleCruiser 1
+		PLAYER 2 BattleCruiser 2
+		PLAYER 2 BattleCruiser 3
+
+	BEGINNING COMBAT...
+
+	PLAYER 1 Dreadnaught 1 ATTACKING PLAYER 2 BattleCruiser 3...HIT!
+	PLAYER 1 Dreadnaught 2 ATTACKING PLAYER 2 BattleCruiser 3...HIT!
+	PLAYER 2 BattleCruiser 3 WAS DESTROYED IN COMBAT
+	PLAYER 1 Dreadnaught 3 ATTACKING PLAYER 2 BattleCruiser 2...HIT!
+	PLAYER 1 Dreadnaught 4 ATTACKING PLAYER 2 BattleCruiser 2...MISS
+	PLAYER 1 Dreadnaught 5 ATTACKING PLAYER 2 BattleCruiser 2...HIT!
+	PLAYER 2 BattleCruiser 2 WAS DESTROYED IN COMBAT
+	PLAYER 2 BattleCruiser 1 ATTACKING PLAYER 1 Dreadnaught 5...MISS
+
+COMBAT AT (3, 4):
+
+	COMBAT ORDER:
+		PLAYER 1 Dreadnaught 1
+		PLAYER 1 Dreadnaught 2
+		PLAYER 1 Dreadnaught 3
+		PLAYER 1 Dreadnaught 4
+		PLAYER 1 Dreadnaught 5
+		PLAYER 2 BattleCruiser 1
+
+	BEGINNING COMBAT...
+
+	PLAYER 1 Dreadnaught 1 ATTACKING PLAYER 2 BattleCruiser 1...HIT!
+	PLAYER 1 Dreadnaught 2 ATTACKING PLAYER 2 BattleCruiser 1...MISS
+	PLAYER 1 Dreadnaught 3 ATTACKING PLAYER 2 BattleCruiser 1...MISS
+	PLAYER 1 Dreadnaught 4 ATTACKING PLAYER 2 BattleCruiser 1...HIT!
+	PLAYER 2 BattleCruiser 1 WAS DESTROYED IN COMBAT
+
 
 END TURN 4 COMBAT PHASE
 
 START TURN 5 MOVEMENT PHASE
 
 PLAYER 1 MOVING:
-	MOVING PLAYER 1 BattleCruiser 1: (3, 4) -> (3, 5)
-	MOVING PLAYER 1 BattleCruiser 2: (3, 4) -> (3, 5)
-	MOVING PLAYER 1 BattleCruiser 3: (3, 4) -> (3, 5)
+	MOVING PLAYER 1 Dreadnaught 1: (3, 4) -> (3, 5)
+	MOVING PLAYER 1 Dreadnaught 2: (3, 4) -> (3, 5)
+	MOVING PLAYER 1 Dreadnaught 3: (3, 4) -> (3, 5)
+	MOVING PLAYER 1 Dreadnaught 4: (3, 4) -> (3, 5)
+	MOVING PLAYER 1 Dreadnaught 5: (3, 4) -> (3, 5)
 
 PLAYER 2 HAS NO SHIPS
 
@@ -206,9 +443,11 @@ END TURN 5 COMBAT PHASE
 START TURN 6 MOVEMENT PHASE
 
 PLAYER 1 MOVING:
-	MOVING PLAYER 1 BattleCruiser 1: (3, 5) -> (3, 6)
-	MOVING PLAYER 1 BattleCruiser 2: (3, 5) -> (3, 6)
-	MOVING PLAYER 1 BattleCruiser 3: (3, 5) -> (3, 6)
+	MOVING PLAYER 1 Dreadnaught 1: (3, 5) -> (3, 6)
+	MOVING PLAYER 1 Dreadnaught 2: (3, 5) -> (3, 6)
+	MOVING PLAYER 1 Dreadnaught 3: (3, 5) -> (3, 6)
+	MOVING PLAYER 1 Dreadnaught 4: (3, 5) -> (3, 6)
+	MOVING PLAYER 1 Dreadnaught 5: (3, 5) -> (3, 6)
 
 PLAYER 2 HAS NO SHIPS
 

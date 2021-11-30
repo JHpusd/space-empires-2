@@ -1,0 +1,1 @@
+print(int(round(9.8, 0)))

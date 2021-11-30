@@ -1,13 +1,10 @@
 import math, random, sys
 from ship_info import *
 
-class CompetitionStrat:
+class DummyStrat:
     def __init__(self):
         self.simple_board = {}
         self.player_num = None
-        self.turn = 0
-        self.flank_moves = [(-1,0), (1,0)]
-        self.ships = None
 
     def distance(self, coord_1, coord_2):
         return math.sqrt(sum([(coord_1[i]-coord_2[i])**2 for i in range(len(coord_1))]))
@@ -43,9 +40,9 @@ class CompetitionStrat:
         for obj in self.simple_board[coord]:
             if obj['player_num']!=self.player_num and obj['obj_type']=='Ship':
                 return True
-        return False                
+        return False             
 
-    def choose_translation(self, ship_info, choices): # move to opp colony, if enemy in move coord, dont move
+    def choose_translation(self, ship_info, choices): # move to opp colony, if enemy in adjacent coord, dont move
         if self.player_num == None:
             self.player_num = ship_info['player_num']
 
@@ -58,10 +55,8 @@ class CompetitionStrat:
                     opp_home_cols.append(key)
         closest_col = self.min_distance_choice(opp_home_cols, ship_coords)
         move = self.min_distance_translation(choices, ship_coords, closest_col)
-        '''
         if self.enemy_in(self.list_add(ship_coords, move)):
             return (0,0)
-        '''
         return move
     
     def get_enemies(self, own_ship, combat_order):
@@ -101,22 +96,6 @@ class CompetitionStrat:
         vuln = self.vulnerability(target_info)
         return chance * threat * vuln
 
-    '''
-    def choose_target(self, ship_info, combat_order): # target weights
-        enemies_info = self.get_enemies(ship_info, combat_order)
-
-        best_target = enemies_info[0]
-        highest_weight = self.target_weight(ship_info, best_target)
-        for target in enemies_info:
-            if self.target_weight(ship_info, target) > highest_weight:
-                if abs(self.target_weight(ship_info, target)-highest_weight) <= 0.15*highest_weight:
-                    best_target = random.choice([best_target, target])
-                    highest_weight = self.target_weight(ship_info, best_target)
-                    continue
-                best_target = target
-                highest_weight = self.target_weight(ship_info, best_target)
-        return best_target
-    '''
     def choose_target(self,ship_info,combat_order): # prioritization based on ship stat
         enemies_info = self.get_enemies(ship_info, combat_order)
 
@@ -126,18 +105,9 @@ class CompetitionStrat:
         else:
             f = lambda target: self.vulnerability(target)*self.threat(target)
             return self.maximize(enemies_info, f)
-    '''
-    def choose_target(self, ship_info, combat_order): # target first enemy
-        enemies_info = self.get_enemies(ship_info, combat_order)
-        return enemies_info[0]
-    '''
-    def num_ships(self, ship_dict):
-        return sum([ship_dict[key] for key in ship_dict])
 
     def update_simple_board(self, updated_board):
         self.simple_board = updated_board
     
-    def buy_ships(self, cp_budget): # make an actual strategy
-        self.ships = {'BattleCruiser':2, 'Dreadnaught':7}
-        self.flankers = 'BattleCruiser'
-        return {'BattleCruiser':2, 'Dreadnaught':7}
+    def buy_ships(self, cp_budget):
+        return {'BattleCruiser':13}

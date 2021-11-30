@@ -80,19 +80,10 @@ class Game:
                 del self.board[coord]
     
     def ship_obj_from_name(self, name, player_num, coord, ship_num):
-        if name == 'Scout':
-            return Scout(player_num, coord, ship_num)
-        if name == 'BattleCruiser':
-            return BattleCruiser(player_num, coord, ship_num)
-        if name == 'Cruiser':
-            return Cruiser(player_num, coord, ship_num)
-        if name == 'Destroyer':
-            return Destroyer(player_num, coord, ship_num)
-        if name == 'Dreadnaught':
-            return Dreadnaught(player_num, coord, ship_num)
-        else:
-            print('invalid ship name')
-            return None
+        for info in all_ship_infos:
+            if info['name'] == name:
+                return info['obj'](player_num, coord, ship_num)
+        print('invalid ship name')
     
     def cost(self, ship_dict):
         total = 0
@@ -118,7 +109,7 @@ class Game:
             player.cp = 200
             player_num = self.players[i].player_num
             coord = starts[i]
-            self.logs.write('PLAYER '+str(player_num)+' STARTING AT '+str(coord)+'\n')
+            self.logs.write(f'PLAYER {player_num} STARTING AT {coord}\n')
             player.set_home_col(coord)
             self.add(player.home_col)
 
@@ -163,7 +154,7 @@ class Game:
     
     def move(self, ship, translation):
         new_coords = self.translate(ship.coords, translation)
-        self.logs.write('\tMOVING PLAYER '+str(ship.player_num)+' '+str(ship.name)+' '+str(ship.ship_num)+': '+str(ship.coords)+' -> '+str(new_coords)+'\n')
+        self.logs.write(f'\tMOVING PLAYER {ship.player_num} {ship.name} {ship.ship_num}: {ship.coords} -> {new_coords}\n')
         self.delete(ship)
         ship.update_coords(new_coords)
         self.add(ship)
@@ -171,7 +162,7 @@ class Game:
     def complete_move_phase(self):
         if self.winner != None:
             return
-        self.logs.write('START TURN '+str(self.turn)+' MOVEMENT PHASE\n\n')
+        self.logs.write(f'START TURN {self.turn} MOVEMENT PHASE\n\n')
         for player in self.players:
             if len(player.ships) == 0:
                 self.logs.write('PLAYER '+str(player.player_num)+' HAS NO SHIPS\n\n')

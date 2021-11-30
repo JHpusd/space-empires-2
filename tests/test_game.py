@@ -11,6 +11,7 @@ from maia import *
 from anton import *
 from william import *
 from charlie import *
+from dummy_strat import *
 
 '''
 winners = {1:0, 2:0, 'Tie':0}
@@ -43,7 +44,7 @@ print(winners)
 # william vs charlie: 57:43
 '''
 
-players = [Player(CompetitionStrat()), Player(CompetitionStrat())]
+players = [Player(CompetitionStrat()), Player(DummyStrat())]
 game = Game(players)
 game.run_to_completion()
 print(game.winner)
