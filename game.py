@@ -199,7 +199,7 @@ class Game:
         roll = self.roll()
         new_atk = attacker.atk - defender.df
         self.logs.write('\tPLAYER '+str(attacker.player_num)+' '+str(attacker.name)+' '+str(attacker.ship_num)+' ATTACKING PLAYER '+str(defender.player_num)+' '+str(defender.name)+' '+str(defender.ship_num)+'...')
-        if roll <= new_atk:
+        if roll <= new_atk or roll == 1:
             self.logs.write('HIT!\n')
             return True
         self.logs.write('MISS\n')
@@ -296,6 +296,8 @@ class Game:
     
     def run_to_completion(self):
         for _ in range(self.max_turns):
+            if self.winner != None:
+                return
             self.complete_move_phase()
             self.complete_combat_phase()
             self.check_for_winner()

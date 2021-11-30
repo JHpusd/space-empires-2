@@ -1,4 +1,5 @@
 import math, random, sys
+sys.path[0] = '/workspace/space-empires-2'
 from ship_info import *
 
 class DummyStrat:
@@ -110,4 +111,4 @@ class DummyStrat:
         self.simple_board = updated_board
     
     def buy_ships(self, cp_budget):
-        return {'BattleCruiser':13}
+        return {'Scout':33}

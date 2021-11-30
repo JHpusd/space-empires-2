@@ -1,4 +1,5 @@
 import math, random, sys
+sys.path[0] = '/workspace/space-empires-2'
 from ship_info import *
 
 class CompetitionStrat:
