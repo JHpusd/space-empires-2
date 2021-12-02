@@ -1,1 +1,2 @@
-print(int(round(9.8, 0)))
+test = 1 > 2
+print(test)

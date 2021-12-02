@@ -44,7 +44,10 @@ print(winners)
 # william vs charlie: 57:43
 '''
 
-players = [Player(CompetitionStrat()), Player(DummyStrat())]
-game = Game(players)
-game.run_to_completion()
-print(game.winner)
+players = [Player(DummyStrat()), Player(CompetitionStrat())]
+winners = {1: 0, 2: 0, 'Tie': 0}
+for _ in range(100):
+    game = Game(players)
+    game.run_to_completion()
+    winners[game.winner] += 1
+print(winners)

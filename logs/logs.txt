@@ -6,50 +6,50 @@ PLAYER 2 STARTING AT (3, 6)
 START TURN 1 MOVEMENT PHASE
 
 PLAYER 1 MOVING:
-	MOVING PLAYER 1 BattleCruiser 1: (3, 0) -> (3, 1)
-	MOVING PLAYER 1 BattleCruiser 2: (3, 0) -> (3, 1)
-	MOVING PLAYER 1 Dreadnaught 1: (3, 0) -> (3, 1)
-	MOVING PLAYER 1 Dreadnaught 2: (3, 0) -> (3, 1)
-	MOVING PLAYER 1 Dreadnaught 3: (3, 0) -> (3, 1)
-	MOVING PLAYER 1 Dreadnaught 4: (3, 0) -> (3, 1)
-	MOVING PLAYER 1 Dreadnaught 5: (3, 0) -> (3, 1)
-	MOVING PLAYER 1 Dreadnaught 6: (3, 0) -> (3, 1)
-	MOVING PLAYER 1 Dreadnaught 7: (3, 0) -> (3, 1)
+	MOVING PLAYER 1 Scout 1: (3, 0) -> (3, 1)
+	MOVING PLAYER 1 Scout 2: (3, 0) -> (3, 1)
+	MOVING PLAYER 1 Scout 3: (3, 0) -> (3, 1)
+	MOVING PLAYER 1 Scout 4: (3, 0) -> (3, 1)
+	MOVING PLAYER 1 Scout 5: (3, 0) -> (3, 1)
+	MOVING PLAYER 1 Scout 6: (3, 0) -> (3, 1)
+	MOVING PLAYER 1 Scout 7: (3, 0) -> (3, 1)
+	MOVING PLAYER 1 Scout 8: (3, 0) -> (3, 1)
+	MOVING PLAYER 1 Scout 9: (3, 0) -> (3, 1)
+	MOVING PLAYER 1 Scout 10: (3, 0) -> (3, 1)
+	MOVING PLAYER 1 Scout 11: (3, 0) -> (3, 1)
+	MOVING PLAYER 1 Scout 12: (3, 0) -> (3, 1)
+	MOVING PLAYER 1 Scout 13: (3, 0) -> (3, 1)
+	MOVING PLAYER 1 Scout 14: (3, 0) -> (3, 1)
+	MOVING PLAYER 1 Scout 15: (3, 0) -> (3, 1)
+	MOVING PLAYER 1 Scout 16: (3, 0) -> (3, 1)
+	MOVING PLAYER 1 Scout 17: (3, 0) -> (3, 1)
+	MOVING PLAYER 1 Scout 18: (3, 0) -> (3, 1)
+	MOVING PLAYER 1 Scout 19: (3, 0) -> (3, 1)
+	MOVING PLAYER 1 Scout 20: (3, 0) -> (3, 1)
+	MOVING PLAYER 1 Scout 21: (3, 0) -> (3, 1)
+	MOVING PLAYER 1 Scout 22: (3, 0) -> (3, 1)
+	MOVING PLAYER 1 Scout 23: (3, 0) -> (3, 1)
+	MOVING PLAYER 1 Scout 24: (3, 0) -> (3, 1)
+	MOVING PLAYER 1 Scout 25: (3, 0) -> (3, 1)
+	MOVING PLAYER 1 Scout 26: (3, 0) -> (3, 1)
+	MOVING PLAYER 1 Scout 27: (3, 0) -> (3, 1)
+	MOVING PLAYER 1 Scout 28: (3, 0) -> (3, 1)
+	MOVING PLAYER 1 Scout 29: (3, 0) -> (3, 1)
+	MOVING PLAYER 1 Scout 30: (3, 0) -> (3, 1)
+	MOVING PLAYER 1 Scout 31: (3, 0) -> (3, 1)
+	MOVING PLAYER 1 Scout 32: (3, 0) -> (3, 1)
+	MOVING PLAYER 1 Scout 33: (3, 0) -> (3, 1)
 
 PLAYER 2 MOVING:
 	MOVING PLAYER 2 Scout 1: (3, 6) -> (3, 5)
-	MOVING PLAYER 2 Scout 2: (3, 6) -> (3, 5)
-	MOVING PLAYER 2 Scout 3: (3, 6) -> (3, 5)
-	MOVING PLAYER 2 Scout 4: (3, 6) -> (3, 5)
-	MOVING PLAYER 2 Scout 5: (3, 6) -> (3, 5)
-	MOVING PLAYER 2 Scout 6: (3, 6) -> (3, 5)
-	MOVING PLAYER 2 Scout 7: (3, 6) -> (3, 5)
-	MOVING PLAYER 2 Scout 8: (3, 6) -> (3, 5)
-	MOVING PLAYER 2 Scout 9: (3, 6) -> (3, 5)
-	MOVING PLAYER 2 Scout 10: (3, 6) -> (3, 5)
-	MOVING PLAYER 2 Scout 11: (3, 6) -> (3, 5)
-	MOVING PLAYER 2 Scout 12: (3, 6) -> (3, 5)
-	MOVING PLAYER 2 Scout 13: (3, 6) -> (3, 5)
-	MOVING PLAYER 2 Scout 14: (3, 6) -> (3, 5)
-	MOVING PLAYER 2 Scout 15: (3, 6) -> (3, 5)
-	MOVING PLAYER 2 Scout 16: (3, 6) -> (3, 5)
-	MOVING PLAYER 2 Scout 17: (3, 6) -> (3, 5)
-	MOVING PLAYER 2 Scout 18: (3, 6) -> (3, 5)
-	MOVING PLAYER 2 Scout 19: (3, 6) -> (3, 5)
-	MOVING PLAYER 2 Scout 20: (3, 6) -> (3, 5)
-	MOVING PLAYER 2 Scout 21: (3, 6) -> (3, 5)
-	MOVING PLAYER 2 Scout 22: (3, 6) -> (3, 5)
-	MOVING PLAYER 2 Scout 23: (3, 6) -> (3, 5)
-	MOVING PLAYER 2 Scout 24: (3, 6) -> (3, 5)
-	MOVING PLAYER 2 Scout 25: (3, 6) -> (3, 5)
-	MOVING PLAYER 2 Scout 26: (3, 6) -> (3, 5)
-	MOVING PLAYER 2 Scout 27: (3, 6) -> (3, 5)
-	MOVING PLAYER 2 Scout 28: (3, 6) -> (3, 5)
-	MOVING PLAYER 2 Scout 29: (3, 6) -> (3, 5)
-	MOVING PLAYER 2 Scout 30: (3, 6) -> (3, 5)
-	MOVING PLAYER 2 Scout 31: (3, 6) -> (3, 5)
-	MOVING PLAYER 2 Scout 32: (3, 6) -> (3, 5)
-	MOVING PLAYER 2 Scout 33: (3, 6) -> (3, 5)
+	MOVING PLAYER 2 Dreadnaught 1: (3, 6) -> (3, 5)
+	MOVING PLAYER 2 Dreadnaught 2: (3, 6) -> (3, 5)
+	MOVING PLAYER 2 Dreadnaught 3: (3, 6) -> (3, 5)
+	MOVING PLAYER 2 Dreadnaught 4: (3, 6) -> (3, 5)
+	MOVING PLAYER 2 Dreadnaught 5: (3, 6) -> (3, 5)
+	MOVING PLAYER 2 Dreadnaught 6: (3, 6) -> (3, 5)
+	MOVING PLAYER 2 Dreadnaught 7: (3, 6) -> (3, 5)
+	MOVING PLAYER 2 Dreadnaught 8: (3, 6) -> (3, 5)
 
 END TURN 1 MOVEMENT PHASE
 
@@ -60,50 +60,50 @@ END TURN 1 COMBAT PHASE
 START TURN 2 MOVEMENT PHASE
 
 PLAYER 1 MOVING:
-	MOVING PLAYER 1 BattleCruiser 1: (3, 1) -> (3, 2)
-	MOVING PLAYER 1 BattleCruiser 2: (3, 1) -> (3, 2)
-	MOVING PLAYER 1 Dreadnaught 1: (3, 1) -> (3, 2)
-	MOVING PLAYER 1 Dreadnaught 2: (3, 1) -> (3, 2)
-	MOVING PLAYER 1 Dreadnaught 3: (3, 1) -> (3, 2)
-	MOVING PLAYER 1 Dreadnaught 4: (3, 1) -> (3, 2)
-	MOVING PLAYER 1 Dreadnaught 5: (3, 1) -> (3, 2)
-	MOVING PLAYER 1 Dreadnaught 6: (3, 1) -> (3, 2)
-	MOVING PLAYER 1 Dreadnaught 7: (3, 1) -> (3, 2)
+	MOVING PLAYER 1 Scout 1: (3, 1) -> (3, 2)
+	MOVING PLAYER 1 Scout 2: (3, 1) -> (3, 2)
+	MOVING PLAYER 1 Scout 3: (3, 1) -> (3, 2)
+	MOVING PLAYER 1 Scout 4: (3, 1) -> (3, 2)
+	MOVING PLAYER 1 Scout 5: (3, 1) -> (3, 2)
+	MOVING PLAYER 1 Scout 6: (3, 1) -> (3, 2)
+	MOVING PLAYER 1 Scout 7: (3, 1) -> (3, 2)
+	MOVING PLAYER 1 Scout 8: (3, 1) -> (3, 2)
+	MOVING PLAYER 1 Scout 9: (3, 1) -> (3, 2)
+	MOVING PLAYER 1 Scout 10: (3, 1) -> (3, 2)
+	MOVING PLAYER 1 Scout 11: (3, 1) -> (3, 2)
+	MOVING PLAYER 1 Scout 12: (3, 1) -> (3, 2)
+	MOVING PLAYER 1 Scout 13: (3, 1) -> (3, 2)
+	MOVING PLAYER 1 Scout 14: (3, 1) -> (3, 2)
+	MOVING PLAYER 1 Scout 15: (3, 1) -> (3, 2)
+	MOVING PLAYER 1 Scout 16: (3, 1) -> (3, 2)
+	MOVING PLAYER 1 Scout 17: (3, 1) -> (3, 2)
+	MOVING PLAYER 1 Scout 18: (3, 1) -> (3, 2)
+	MOVING PLAYER 1 Scout 19: (3, 1) -> (3, 2)
+	MOVING PLAYER 1 Scout 20: (3, 1) -> (3, 2)
+	MOVING PLAYER 1 Scout 21: (3, 1) -> (3, 2)
+	MOVING PLAYER 1 Scout 22: (3, 1) -> (3, 2)
+	MOVING PLAYER 1 Scout 23: (3, 1) -> (3, 2)
+	MOVING PLAYER 1 Scout 24: (3, 1) -> (3, 2)
+	MOVING PLAYER 1 Scout 25: (3, 1) -> (3, 2)
+	MOVING PLAYER 1 Scout 26: (3, 1) -> (3, 2)
+	MOVING PLAYER 1 Scout 27: (3, 1) -> (3, 2)
+	MOVING PLAYER 1 Scout 28: (3, 1) -> (3, 2)
+	MOVING PLAYER 1 Scout 29: (3, 1) -> (3, 2)
+	MOVING PLAYER 1 Scout 30: (3, 1) -> (3, 2)
+	MOVING PLAYER 1 Scout 31: (3, 1) -> (3, 2)
+	MOVING PLAYER 1 Scout 32: (3, 1) -> (3, 2)
+	MOVING PLAYER 1 Scout 33: (3, 1) -> (3, 2)
 
 PLAYER 2 MOVING:
 	MOVING PLAYER 2 Scout 1: (3, 5) -> (3, 4)
-	MOVING PLAYER 2 Scout 2: (3, 5) -> (3, 4)
-	MOVING PLAYER 2 Scout 3: (3, 5) -> (3, 4)
-	MOVING PLAYER 2 Scout 4: (3, 5) -> (3, 4)
-	MOVING PLAYER 2 Scout 5: (3, 5) -> (3, 4)
-	MOVING PLAYER 2 Scout 6: (3, 5) -> (3, 4)
-	MOVING PLAYER 2 Scout 7: (3, 5) -> (3, 4)
-	MOVING PLAYER 2 Scout 8: (3, 5) -> (3, 4)
-	MOVING PLAYER 2 Scout 9: (3, 5) -> (3, 4)
-	MOVING PLAYER 2 Scout 10: (3, 5) -> (3, 4)
-	MOVING PLAYER 2 Scout 11: (3, 5) -> (3, 4)
-	MOVING PLAYER 2 Scout 12: (3, 5) -> (3, 4)
-	MOVING PLAYER 2 Scout 13: (3, 5) -> (3, 4)
-	MOVING PLAYER 2 Scout 14: (3, 5) -> (3, 4)
-	MOVING PLAYER 2 Scout 15: (3, 5) -> (3, 4)
-	MOVING PLAYER 2 Scout 16: (3, 5) -> (3, 4)
-	MOVING PLAYER 2 Scout 17: (3, 5) -> (3, 4)
-	MOVING PLAYER 2 Scout 18: (3, 5) -> (3, 4)
-	MOVING PLAYER 2 Scout 19: (3, 5) -> (3, 4)
-	MOVING PLAYER 2 Scout 20: (3, 5) -> (3, 4)
-	MOVING PLAYER 2 Scout 21: (3, 5) -> (3, 4)
-	MOVING PLAYER 2 Scout 22: (3, 5) -> (3, 4)
-	MOVING PLAYER 2 Scout 23: (3, 5) -> (3, 4)
-	MOVING PLAYER 2 Scout 24: (3, 5) -> (3, 4)
-	MOVING PLAYER 2 Scout 25: (3, 5) -> (3, 4)
-	MOVING PLAYER 2 Scout 26: (3, 5) -> (3, 4)
-	MOVING PLAYER 2 Scout 27: (3, 5) -> (3, 4)
-	MOVING PLAYER 2 Scout 28: (3, 5) -> (3, 4)
-	MOVING PLAYER 2 Scout 29: (3, 5) -> (3, 4)
-	MOVING PLAYER 2 Scout 30: (3, 5) -> (3, 4)
-	MOVING PLAYER 2 Scout 31: (3, 5) -> (3, 4)
-	MOVING PLAYER 2 Scout 32: (3, 5) -> (3, 4)
-	MOVING PLAYER 2 Scout 33: (3, 5) -> (3, 4)
+	MOVING PLAYER 2 Dreadnaught 1: (3, 5) -> (3, 4)
+	MOVING PLAYER 2 Dreadnaught 2: (3, 5) -> (3, 4)
+	MOVING PLAYER 2 Dreadnaught 3: (3, 5) -> (3, 4)
+	MOVING PLAYER 2 Dreadnaught 4: (3, 5) -> (3, 4)
+	MOVING PLAYER 2 Dreadnaught 5: (3, 5) -> (3, 4)
+	MOVING PLAYER 2 Dreadnaught 6: (3, 5) -> (3, 4)
+	MOVING PLAYER 2 Dreadnaught 7: (3, 5) -> (3, 4)
+	MOVING PLAYER 2 Dreadnaught 8: (3, 5) -> (3, 4)
 
 END TURN 2 MOVEMENT PHASE
 
@@ -114,720 +114,711 @@ END TURN 2 COMBAT PHASE
 START TURN 3 MOVEMENT PHASE
 
 PLAYER 1 MOVING:
-	MOVING PLAYER 1 BattleCruiser 1: (3, 2) -> (3, 3)
-	MOVING PLAYER 1 BattleCruiser 2: (3, 2) -> (3, 3)
-	MOVING PLAYER 1 Dreadnaught 1: (3, 2) -> (3, 3)
-	MOVING PLAYER 1 Dreadnaught 2: (3, 2) -> (3, 3)
-	MOVING PLAYER 1 Dreadnaught 3: (3, 2) -> (3, 3)
-	MOVING PLAYER 1 Dreadnaught 4: (3, 2) -> (3, 3)
-	MOVING PLAYER 1 Dreadnaught 5: (3, 2) -> (3, 3)
-	MOVING PLAYER 1 Dreadnaught 6: (3, 2) -> (3, 3)
-	MOVING PLAYER 1 Dreadnaught 7: (3, 2) -> (3, 3)
+	MOVING PLAYER 1 Scout 1: (3, 2) -> (3, 3)
+	MOVING PLAYER 1 Scout 2: (3, 2) -> (3, 3)
+	MOVING PLAYER 1 Scout 3: (3, 2) -> (3, 3)
+	MOVING PLAYER 1 Scout 4: (3, 2) -> (3, 3)
+	MOVING PLAYER 1 Scout 5: (3, 2) -> (3, 3)
+	MOVING PLAYER 1 Scout 6: (3, 2) -> (3, 3)
+	MOVING PLAYER 1 Scout 7: (3, 2) -> (3, 3)
+	MOVING PLAYER 1 Scout 8: (3, 2) -> (3, 3)
+	MOVING PLAYER 1 Scout 9: (3, 2) -> (3, 3)
+	MOVING PLAYER 1 Scout 10: (3, 2) -> (3, 3)
+	MOVING PLAYER 1 Scout 11: (3, 2) -> (3, 3)
+	MOVING PLAYER 1 Scout 12: (3, 2) -> (3, 3)
+	MOVING PLAYER 1 Scout 13: (3, 2) -> (3, 3)
+	MOVING PLAYER 1 Scout 14: (3, 2) -> (3, 3)
+	MOVING PLAYER 1 Scout 15: (3, 2) -> (3, 3)
+	MOVING PLAYER 1 Scout 16: (3, 2) -> (3, 3)
+	MOVING PLAYER 1 Scout 17: (3, 2) -> (3, 3)
+	MOVING PLAYER 1 Scout 18: (3, 2) -> (3, 3)
+	MOVING PLAYER 1 Scout 19: (3, 2) -> (3, 3)
+	MOVING PLAYER 1 Scout 20: (3, 2) -> (3, 3)
+	MOVING PLAYER 1 Scout 21: (3, 2) -> (3, 3)
+	MOVING PLAYER 1 Scout 22: (3, 2) -> (3, 3)
+	MOVING PLAYER 1 Scout 23: (3, 2) -> (3, 3)
+	MOVING PLAYER 1 Scout 24: (3, 2) -> (3, 3)
+	MOVING PLAYER 1 Scout 25: (3, 2) -> (3, 3)
+	MOVING PLAYER 1 Scout 26: (3, 2) -> (3, 3)
+	MOVING PLAYER 1 Scout 27: (3, 2) -> (3, 3)
+	MOVING PLAYER 1 Scout 28: (3, 2) -> (3, 3)
+	MOVING PLAYER 1 Scout 29: (3, 2) -> (3, 3)
+	MOVING PLAYER 1 Scout 30: (3, 2) -> (3, 3)
+	MOVING PLAYER 1 Scout 31: (3, 2) -> (3, 3)
+	MOVING PLAYER 1 Scout 32: (3, 2) -> (3, 3)
+	MOVING PLAYER 1 Scout 33: (3, 2) -> (3, 3)
 
 PLAYER 2 MOVING:
-	MOVING PLAYER 2 Scout 1: (3, 4) -> (3, 4)
-	MOVING PLAYER 2 Scout 2: (3, 4) -> (3, 4)
-	MOVING PLAYER 2 Scout 3: (3, 4) -> (3, 4)
-	MOVING PLAYER 2 Scout 4: (3, 4) -> (3, 4)
-	MOVING PLAYER 2 Scout 5: (3, 4) -> (3, 4)
-	MOVING PLAYER 2 Scout 6: (3, 4) -> (3, 4)
-	MOVING PLAYER 2 Scout 7: (3, 4) -> (3, 4)
-	MOVING PLAYER 2 Scout 8: (3, 4) -> (3, 4)
-	MOVING PLAYER 2 Scout 9: (3, 4) -> (3, 4)
-	MOVING PLAYER 2 Scout 10: (3, 4) -> (3, 4)
-	MOVING PLAYER 2 Scout 11: (3, 4) -> (3, 4)
-	MOVING PLAYER 2 Scout 12: (3, 4) -> (3, 4)
-	MOVING PLAYER 2 Scout 13: (3, 4) -> (3, 4)
-	MOVING PLAYER 2 Scout 14: (3, 4) -> (3, 4)
-	MOVING PLAYER 2 Scout 15: (3, 4) -> (3, 4)
-	MOVING PLAYER 2 Scout 16: (3, 4) -> (3, 4)
-	MOVING PLAYER 2 Scout 17: (3, 4) -> (3, 4)
-	MOVING PLAYER 2 Scout 18: (3, 4) -> (3, 4)
-	MOVING PLAYER 2 Scout 19: (3, 4) -> (3, 4)
-	MOVING PLAYER 2 Scout 20: (3, 4) -> (3, 4)
-	MOVING PLAYER 2 Scout 21: (3, 4) -> (3, 4)
-	MOVING PLAYER 2 Scout 22: (3, 4) -> (3, 4)
-	MOVING PLAYER 2 Scout 23: (3, 4) -> (3, 4)
-	MOVING PLAYER 2 Scout 24: (3, 4) -> (3, 4)
-	MOVING PLAYER 2 Scout 25: (3, 4) -> (3, 4)
-	MOVING PLAYER 2 Scout 26: (3, 4) -> (3, 4)
-	MOVING PLAYER 2 Scout 27: (3, 4) -> (3, 4)
-	MOVING PLAYER 2 Scout 28: (3, 4) -> (3, 4)
-	MOVING PLAYER 2 Scout 29: (3, 4) -> (3, 4)
-	MOVING PLAYER 2 Scout 30: (3, 4) -> (3, 4)
-	MOVING PLAYER 2 Scout 31: (3, 4) -> (3, 4)
-	MOVING PLAYER 2 Scout 32: (3, 4) -> (3, 4)
-	MOVING PLAYER 2 Scout 33: (3, 4) -> (3, 4)
+	MOVING PLAYER 2 Scout 1: (3, 4) -> (4, 4)
+	MOVING PLAYER 2 Dreadnaught 1: (3, 4) -> (3, 3)
+	MOVING PLAYER 2 Dreadnaught 2: (3, 4) -> (3, 3)
+	MOVING PLAYER 2 Dreadnaught 3: (3, 4) -> (3, 3)
+	MOVING PLAYER 2 Dreadnaught 4: (3, 4) -> (3, 3)
+	MOVING PLAYER 2 Dreadnaught 5: (3, 4) -> (3, 3)
+	MOVING PLAYER 2 Dreadnaught 6: (3, 4) -> (3, 3)
+	MOVING PLAYER 2 Dreadnaught 7: (3, 4) -> (3, 3)
+	MOVING PLAYER 2 Dreadnaught 8: (3, 4) -> (3, 3)
 
 END TURN 3 MOVEMENT PHASE
 
 START TURN 3 COMBAT PHASE
 
+COMBAT AT (3, 3):
+
+	COMBAT ORDER:
+		PLAYER 2 Dreadnaught 1
+		PLAYER 2 Dreadnaught 2
+		PLAYER 2 Dreadnaught 3
+		PLAYER 2 Dreadnaught 4
+		PLAYER 2 Dreadnaught 5
+		PLAYER 2 Dreadnaught 6
+		PLAYER 2 Dreadnaught 7
+		PLAYER 2 Dreadnaught 8
+		PLAYER 1 Scout 1
+		PLAYER 1 Scout 2
+		PLAYER 1 Scout 3
+		PLAYER 1 Scout 4
+		PLAYER 1 Scout 5
+		PLAYER 1 Scout 6
+		PLAYER 1 Scout 7
+		PLAYER 1 Scout 8
+		PLAYER 1 Scout 9
+		PLAYER 1 Scout 10
+		PLAYER 1 Scout 11
+		PLAYER 1 Scout 12
+		PLAYER 1 Scout 13
+		PLAYER 1 Scout 14
+		PLAYER 1 Scout 15
+		PLAYER 1 Scout 16
+		PLAYER 1 Scout 17
+		PLAYER 1 Scout 18
+		PLAYER 1 Scout 19
+		PLAYER 1 Scout 20
+		PLAYER 1 Scout 21
+		PLAYER 1 Scout 22
+		PLAYER 1 Scout 23
+		PLAYER 1 Scout 24
+		PLAYER 1 Scout 25
+		PLAYER 1 Scout 26
+		PLAYER 1 Scout 27
+		PLAYER 1 Scout 28
+		PLAYER 1 Scout 29
+		PLAYER 1 Scout 30
+		PLAYER 1 Scout 31
+		PLAYER 1 Scout 32
+		PLAYER 1 Scout 33
+
+	BEGINNING COMBAT...
+
+	PLAYER 2 Dreadnaught 1 ATTACKING PLAYER 1 Scout 33...MISS
+	PLAYER 2 Dreadnaught 2 ATTACKING PLAYER 1 Scout 33...HIT!
+	PLAYER 1 Scout 33 WAS DESTROYED IN COMBAT
+	PLAYER 2 Dreadnaught 3 ATTACKING PLAYER 1 Scout 32...MISS
+	PLAYER 2 Dreadnaught 4 ATTACKING PLAYER 1 Scout 32...MISS
+	PLAYER 2 Dreadnaught 5 ATTACKING PLAYER 1 Scout 32...MISS
+	PLAYER 2 Dreadnaught 6 ATTACKING PLAYER 1 Scout 32...MISS
+	PLAYER 2 Dreadnaught 7 ATTACKING PLAYER 1 Scout 32...MISS
+	PLAYER 2 Dreadnaught 8 ATTACKING PLAYER 1 Scout 32...HIT!
+	PLAYER 1 Scout 32 WAS DESTROYED IN COMBAT
+	PLAYER 1 Scout 1 ATTACKING PLAYER 2 Dreadnaught 8...MISS
+	PLAYER 1 Scout 2 ATTACKING PLAYER 2 Dreadnaught 8...MISS
+	PLAYER 1 Scout 3 ATTACKING PLAYER 2 Dreadnaught 8...MISS
+	PLAYER 1 Scout 4 ATTACKING PLAYER 2 Dreadnaught 8...MISS
+	PLAYER 1 Scout 5 ATTACKING PLAYER 2 Dreadnaught 8...MISS
+	PLAYER 1 Scout 6 ATTACKING PLAYER 2 Dreadnaught 8...MISS
+	PLAYER 1 Scout 7 ATTACKING PLAYER 2 Dreadnaught 8...HIT!
+	PLAYER 1 Scout 8 ATTACKING PLAYER 2 Dreadnaught 8...MISS
+	PLAYER 1 Scout 9 ATTACKING PLAYER 2 Dreadnaught 8...MISS
+	PLAYER 1 Scout 10 ATTACKING PLAYER 2 Dreadnaught 8...MISS
+	PLAYER 1 Scout 11 ATTACKING PLAYER 2 Dreadnaught 8...MISS
+	PLAYER 1 Scout 12 ATTACKING PLAYER 2 Dreadnaught 8...MISS
+	PLAYER 1 Scout 13 ATTACKING PLAYER 2 Dreadnaught 8...MISS
+	PLAYER 1 Scout 14 ATTACKING PLAYER 2 Dreadnaught 8...MISS
+	PLAYER 1 Scout 15 ATTACKING PLAYER 2 Dreadnaught 8...MISS
+	PLAYER 1 Scout 16 ATTACKING PLAYER 2 Dreadnaught 8...MISS
+	PLAYER 1 Scout 17 ATTACKING PLAYER 2 Dreadnaught 8...MISS
+	PLAYER 1 Scout 18 ATTACKING PLAYER 2 Dreadnaught 8...MISS
+	PLAYER 1 Scout 19 ATTACKING PLAYER 2 Dreadnaught 8...MISS
+	PLAYER 1 Scout 20 ATTACKING PLAYER 2 Dreadnaught 8...MISS
+	PLAYER 1 Scout 21 ATTACKING PLAYER 2 Dreadnaught 8...MISS
+	PLAYER 1 Scout 22 ATTACKING PLAYER 2 Dreadnaught 8...MISS
+	PLAYER 1 Scout 23 ATTACKING PLAYER 2 Dreadnaught 8...HIT!
+	PLAYER 1 Scout 24 ATTACKING PLAYER 2 Dreadnaught 8...MISS
+	PLAYER 1 Scout 25 ATTACKING PLAYER 2 Dreadnaught 8...MISS
+	PLAYER 1 Scout 26 ATTACKING PLAYER 2 Dreadnaught 8...MISS
+	PLAYER 1 Scout 27 ATTACKING PLAYER 2 Dreadnaught 8...MISS
+	PLAYER 1 Scout 28 ATTACKING PLAYER 2 Dreadnaught 8...MISS
+	PLAYER 1 Scout 29 ATTACKING PLAYER 2 Dreadnaught 8...HIT!
+	PLAYER 2 Dreadnaught 8 WAS DESTROYED IN COMBAT
+	PLAYER 1 Scout 30 ATTACKING PLAYER 2 Dreadnaught 7...MISS
+	PLAYER 1 Scout 31 ATTACKING PLAYER 2 Dreadnaught 7...MISS
+
+COMBAT AT (3, 3):
+
+	COMBAT ORDER:
+		PLAYER 2 Dreadnaught 1
+		PLAYER 2 Dreadnaught 2
+		PLAYER 2 Dreadnaught 3
+		PLAYER 2 Dreadnaught 4
+		PLAYER 2 Dreadnaught 5
+		PLAYER 2 Dreadnaught 6
+		PLAYER 2 Dreadnaught 7
+		PLAYER 1 Scout 1
+		PLAYER 1 Scout 2
+		PLAYER 1 Scout 3
+		PLAYER 1 Scout 4
+		PLAYER 1 Scout 5
+		PLAYER 1 Scout 6
+		PLAYER 1 Scout 7
+		PLAYER 1 Scout 8
+		PLAYER 1 Scout 9
+		PLAYER 1 Scout 10
+		PLAYER 1 Scout 11
+		PLAYER 1 Scout 12
+		PLAYER 1 Scout 13
+		PLAYER 1 Scout 14
+		PLAYER 1 Scout 15
+		PLAYER 1 Scout 16
+		PLAYER 1 Scout 17
+		PLAYER 1 Scout 18
+		PLAYER 1 Scout 19
+		PLAYER 1 Scout 20
+		PLAYER 1 Scout 21
+		PLAYER 1 Scout 22
+		PLAYER 1 Scout 23
+		PLAYER 1 Scout 24
+		PLAYER 1 Scout 25
+		PLAYER 1 Scout 26
+		PLAYER 1 Scout 27
+		PLAYER 1 Scout 28
+		PLAYER 1 Scout 29
+		PLAYER 1 Scout 30
+		PLAYER 1 Scout 31
+
+	BEGINNING COMBAT...
+
+	PLAYER 2 Dreadnaught 1 ATTACKING PLAYER 1 Scout 31...MISS
+	PLAYER 2 Dreadnaught 2 ATTACKING PLAYER 1 Scout 31...HIT!
+	PLAYER 1 Scout 31 WAS DESTROYED IN COMBAT
+	PLAYER 2 Dreadnaught 3 ATTACKING PLAYER 1 Scout 30...HIT!
+	PLAYER 1 Scout 30 WAS DESTROYED IN COMBAT
+	PLAYER 2 Dreadnaught 4 ATTACKING PLAYER 1 Scout 29...HIT!
+	PLAYER 1 Scout 29 WAS DESTROYED IN COMBAT
+	PLAYER 2 Dreadnaught 5 ATTACKING PLAYER 1 Scout 28...MISS
+	PLAYER 2 Dreadnaught 6 ATTACKING PLAYER 1 Scout 28...HIT!
+	PLAYER 1 Scout 28 WAS DESTROYED IN COMBAT
+	PLAYER 2 Dreadnaught 7 ATTACKING PLAYER 1 Scout 27...HIT!
+	PLAYER 1 Scout 27 WAS DESTROYED IN COMBAT
+	PLAYER 1 Scout 1 ATTACKING PLAYER 2 Dreadnaught 7...MISS
+	PLAYER 1 Scout 2 ATTACKING PLAYER 2 Dreadnaught 7...MISS
+	PLAYER 1 Scout 3 ATTACKING PLAYER 2 Dreadnaught 7...HIT!
+	PLAYER 1 Scout 4 ATTACKING PLAYER 2 Dreadnaught 7...MISS
+	PLAYER 1 Scout 5 ATTACKING PLAYER 2 Dreadnaught 7...MISS
+	PLAYER 1 Scout 6 ATTACKING PLAYER 2 Dreadnaught 7...MISS
+	PLAYER 1 Scout 7 ATTACKING PLAYER 2 Dreadnaught 7...MISS
+	PLAYER 1 Scout 8 ATTACKING PLAYER 2 Dreadnaught 7...HIT!
+	PLAYER 1 Scout 9 ATTACKING PLAYER 2 Dreadnaught 7...MISS
+	PLAYER 1 Scout 10 ATTACKING PLAYER 2 Dreadnaught 7...MISS
+	PLAYER 1 Scout 11 ATTACKING PLAYER 2 Dreadnaught 7...MISS
+	PLAYER 1 Scout 12 ATTACKING PLAYER 2 Dreadnaught 7...MISS
+	PLAYER 1 Scout 13 ATTACKING PLAYER 2 Dreadnaught 7...MISS
+	PLAYER 1 Scout 14 ATTACKING PLAYER 2 Dreadnaught 7...MISS
+	PLAYER 1 Scout 15 ATTACKING PLAYER 2 Dreadnaught 7...MISS
+	PLAYER 1 Scout 16 ATTACKING PLAYER 2 Dreadnaught 7...MISS
+	PLAYER 1 Scout 17 ATTACKING PLAYER 2 Dreadnaught 7...MISS
+	PLAYER 1 Scout 18 ATTACKING PLAYER 2 Dreadnaught 7...MISS
+	PLAYER 1 Scout 19 ATTACKING PLAYER 2 Dreadnaught 7...MISS
+	PLAYER 1 Scout 20 ATTACKING PLAYER 2 Dreadnaught 7...MISS
+	PLAYER 1 Scout 21 ATTACKING PLAYER 2 Dreadnaught 7...MISS
+	PLAYER 1 Scout 22 ATTACKING PLAYER 2 Dreadnaught 7...MISS
+	PLAYER 1 Scout 23 ATTACKING PLAYER 2 Dreadnaught 7...MISS
+	PLAYER 1 Scout 24 ATTACKING PLAYER 2 Dreadnaught 7...MISS
+	PLAYER 1 Scout 25 ATTACKING PLAYER 2 Dreadnaught 7...HIT!
+	PLAYER 2 Dreadnaught 7 WAS DESTROYED IN COMBAT
+	PLAYER 1 Scout 26 ATTACKING PLAYER 2 Dreadnaught 6...HIT!
+
+COMBAT AT (3, 3):
+
+	COMBAT ORDER:
+		PLAYER 2 Dreadnaught 1
+		PLAYER 2 Dreadnaught 2
+		PLAYER 2 Dreadnaught 3
+		PLAYER 2 Dreadnaught 4
+		PLAYER 2 Dreadnaught 5
+		PLAYER 2 Dreadnaught 6
+		PLAYER 1 Scout 1
+		PLAYER 1 Scout 2
+		PLAYER 1 Scout 3
+		PLAYER 1 Scout 4
+		PLAYER 1 Scout 5
+		PLAYER 1 Scout 6
+		PLAYER 1 Scout 7
+		PLAYER 1 Scout 8
+		PLAYER 1 Scout 9
+		PLAYER 1 Scout 10
+		PLAYER 1 Scout 11
+		PLAYER 1 Scout 12
+		PLAYER 1 Scout 13
+		PLAYER 1 Scout 14
+		PLAYER 1 Scout 15
+		PLAYER 1 Scout 16
+		PLAYER 1 Scout 17
+		PLAYER 1 Scout 18
+		PLAYER 1 Scout 19
+		PLAYER 1 Scout 20
+		PLAYER 1 Scout 21
+		PLAYER 1 Scout 22
+		PLAYER 1 Scout 23
+		PLAYER 1 Scout 24
+		PLAYER 1 Scout 25
+		PLAYER 1 Scout 26
+
+	BEGINNING COMBAT...
+
+	PLAYER 2 Dreadnaught 1 ATTACKING PLAYER 1 Scout 26...MISS
+	PLAYER 2 Dreadnaught 2 ATTACKING PLAYER 1 Scout 26...HIT!
+	PLAYER 1 Scout 26 WAS DESTROYED IN COMBAT
+	PLAYER 2 Dreadnaught 3 ATTACKING PLAYER 1 Scout 25...MISS
+	PLAYER 2 Dreadnaught 4 ATTACKING PLAYER 1 Scout 25...HIT!
+	PLAYER 1 Scout 25 WAS DESTROYED IN COMBAT
+	PLAYER 2 Dreadnaught 5 ATTACKING PLAYER 1 Scout 24...HIT!
+	PLAYER 1 Scout 24 WAS DESTROYED IN COMBAT
+	PLAYER 2 Dreadnaught 6 ATTACKING PLAYER 1 Scout 23...MISS
+	PLAYER 1 Scout 1 ATTACKING PLAYER 2 Dreadnaught 6...MISS
+	PLAYER 1 Scout 2 ATTACKING PLAYER 2 Dreadnaught 6...MISS
+	PLAYER 1 Scout 3 ATTACKING PLAYER 2 Dreadnaught 6...MISS
+	PLAYER 1 Scout 4 ATTACKING PLAYER 2 Dreadnaught 6...MISS
+	PLAYER 1 Scout 5 ATTACKING PLAYER 2 Dreadnaught 6...MISS
+	PLAYER 1 Scout 6 ATTACKING PLAYER 2 Dreadnaught 6...MISS
+	PLAYER 1 Scout 7 ATTACKING PLAYER 2 Dreadnaught 6...MISS
+	PLAYER 1 Scout 8 ATTACKING PLAYER 2 Dreadnaught 6...MISS
+	PLAYER 1 Scout 9 ATTACKING PLAYER 2 Dreadnaught 6...HIT!
+	PLAYER 1 Scout 10 ATTACKING PLAYER 2 Dreadnaught 6...MISS
+	PLAYER 1 Scout 11 ATTACKING PLAYER 2 Dreadnaught 6...HIT!
+	PLAYER 2 Dreadnaught 6 WAS DESTROYED IN COMBAT
+	PLAYER 1 Scout 12 ATTACKING PLAYER 2 Dreadnaught 5...MISS
+	PLAYER 1 Scout 13 ATTACKING PLAYER 2 Dreadnaught 5...MISS
+	PLAYER 1 Scout 14 ATTACKING PLAYER 2 Dreadnaught 5...MISS
+	PLAYER 1 Scout 15 ATTACKING PLAYER 2 Dreadnaught 5...MISS
+	PLAYER 1 Scout 16 ATTACKING PLAYER 2 Dreadnaught 5...MISS
+	PLAYER 1 Scout 17 ATTACKING PLAYER 2 Dreadnaught 5...MISS
+	PLAYER 1 Scout 18 ATTACKING PLAYER 2 Dreadnaught 5...MISS
+	PLAYER 1 Scout 19 ATTACKING PLAYER 2 Dreadnaught 5...MISS
+	PLAYER 1 Scout 20 ATTACKING PLAYER 2 Dreadnaught 5...MISS
+	PLAYER 1 Scout 21 ATTACKING PLAYER 2 Dreadnaught 5...MISS
+	PLAYER 1 Scout 22 ATTACKING PLAYER 2 Dreadnaught 5...HIT!
+	PLAYER 1 Scout 23 ATTACKING PLAYER 2 Dreadnaught 5...MISS
+
+COMBAT AT (3, 3):
+
+	COMBAT ORDER:
+		PLAYER 2 Dreadnaught 1
+		PLAYER 2 Dreadnaught 2
+		PLAYER 2 Dreadnaught 3
+		PLAYER 2 Dreadnaught 4
+		PLAYER 2 Dreadnaught 5
+		PLAYER 1 Scout 1
+		PLAYER 1 Scout 2
+		PLAYER 1 Scout 3
+		PLAYER 1 Scout 4
+		PLAYER 1 Scout 5
+		PLAYER 1 Scout 6
+		PLAYER 1 Scout 7
+		PLAYER 1 Scout 8
+		PLAYER 1 Scout 9
+		PLAYER 1 Scout 10
+		PLAYER 1 Scout 11
+		PLAYER 1 Scout 12
+		PLAYER 1 Scout 13
+		PLAYER 1 Scout 14
+		PLAYER 1 Scout 15
+		PLAYER 1 Scout 16
+		PLAYER 1 Scout 17
+		PLAYER 1 Scout 18
+		PLAYER 1 Scout 19
+		PLAYER 1 Scout 20
+		PLAYER 1 Scout 21
+		PLAYER 1 Scout 22
+		PLAYER 1 Scout 23
+
+	BEGINNING COMBAT...
+
+	PLAYER 2 Dreadnaught 1 ATTACKING PLAYER 1 Scout 23...HIT!
+	PLAYER 1 Scout 23 WAS DESTROYED IN COMBAT
+	PLAYER 2 Dreadnaught 2 ATTACKING PLAYER 1 Scout 22...MISS
+	PLAYER 2 Dreadnaught 3 ATTACKING PLAYER 1 Scout 22...MISS
+	PLAYER 2 Dreadnaught 4 ATTACKING PLAYER 1 Scout 22...HIT!
+	PLAYER 1 Scout 22 WAS DESTROYED IN COMBAT
+	PLAYER 2 Dreadnaught 5 ATTACKING PLAYER 1 Scout 21...MISS
+	PLAYER 1 Scout 1 ATTACKING PLAYER 2 Dreadnaught 5...MISS
+	PLAYER 1 Scout 2 ATTACKING PLAYER 2 Dreadnaught 5...MISS
+	PLAYER 1 Scout 3 ATTACKING PLAYER 2 Dreadnaught 5...MISS
+	PLAYER 1 Scout 4 ATTACKING PLAYER 2 Dreadnaught 5...MISS
+	PLAYER 1 Scout 5 ATTACKING PLAYER 2 Dreadnaught 5...MISS
+	PLAYER 1 Scout 6 ATTACKING PLAYER 2 Dreadnaught 5...MISS
+	PLAYER 1 Scout 7 ATTACKING PLAYER 2 Dreadnaught 5...MISS
+	PLAYER 1 Scout 8 ATTACKING PLAYER 2 Dreadnaught 5...MISS
+	PLAYER 1 Scout 9 ATTACKING PLAYER 2 Dreadnaught 5...MISS
+	PLAYER 1 Scout 10 ATTACKING PLAYER 2 Dreadnaught 5...MISS
+	PLAYER 1 Scout 11 ATTACKING PLAYER 2 Dreadnaught 5...MISS
+	PLAYER 1 Scout 12 ATTACKING PLAYER 2 Dreadnaught 5...MISS
+	PLAYER 1 Scout 13 ATTACKING PLAYER 2 Dreadnaught 5...MISS
+	PLAYER 1 Scout 14 ATTACKING PLAYER 2 Dreadnaught 5...MISS
+	PLAYER 1 Scout 15 ATTACKING PLAYER 2 Dreadnaught 5...MISS
+	PLAYER 1 Scout 16 ATTACKING PLAYER 2 Dreadnaught 5...MISS
+	PLAYER 1 Scout 17 ATTACKING PLAYER 2 Dreadnaught 5...MISS
+	PLAYER 1 Scout 18 ATTACKING PLAYER 2 Dreadnaught 5...MISS
+	PLAYER 1 Scout 19 ATTACKING PLAYER 2 Dreadnaught 5...MISS
+	PLAYER 1 Scout 20 ATTACKING PLAYER 2 Dreadnaught 5...MISS
+	PLAYER 1 Scout 21 ATTACKING PLAYER 2 Dreadnaught 5...MISS
+
+COMBAT AT (3, 3):
+
+	COMBAT ORDER:
+		PLAYER 2 Dreadnaught 1
+		PLAYER 2 Dreadnaught 2
+		PLAYER 2 Dreadnaught 3
+		PLAYER 2 Dreadnaught 4
+		PLAYER 2 Dreadnaught 5
+		PLAYER 1 Scout 1
+		PLAYER 1 Scout 2
+		PLAYER 1 Scout 3
+		PLAYER 1 Scout 4
+		PLAYER 1 Scout 5
+		PLAYER 1 Scout 6
+		PLAYER 1 Scout 7
+		PLAYER 1 Scout 8
+		PLAYER 1 Scout 9
+		PLAYER 1 Scout 10
+		PLAYER 1 Scout 11
+		PLAYER 1 Scout 12
+		PLAYER 1 Scout 13
+		PLAYER 1 Scout 14
+		PLAYER 1 Scout 15
+		PLAYER 1 Scout 16
+		PLAYER 1 Scout 17
+		PLAYER 1 Scout 18
+		PLAYER 1 Scout 19
+		PLAYER 1 Scout 20
+		PLAYER 1 Scout 21
+
+	BEGINNING COMBAT...
+
+	PLAYER 2 Dreadnaught 1 ATTACKING PLAYER 1 Scout 21...MISS
+	PLAYER 2 Dreadnaught 2 ATTACKING PLAYER 1 Scout 21...HIT!
+	PLAYER 1 Scout 21 WAS DESTROYED IN COMBAT
+	PLAYER 2 Dreadnaught 3 ATTACKING PLAYER 1 Scout 20...MISS
+	PLAYER 2 Dreadnaught 4 ATTACKING PLAYER 1 Scout 20...HIT!
+	PLAYER 1 Scout 20 WAS DESTROYED IN COMBAT
+	PLAYER 2 Dreadnaught 5 ATTACKING PLAYER 1 Scout 19...HIT!
+	PLAYER 1 Scout 19 WAS DESTROYED IN COMBAT
+	PLAYER 1 Scout 1 ATTACKING PLAYER 2 Dreadnaught 5...MISS
+	PLAYER 1 Scout 2 ATTACKING PLAYER 2 Dreadnaught 5...MISS
+	PLAYER 1 Scout 3 ATTACKING PLAYER 2 Dreadnaught 5...MISS
+	PLAYER 1 Scout 4 ATTACKING PLAYER 2 Dreadnaught 5...MISS
+	PLAYER 1 Scout 5 ATTACKING PLAYER 2 Dreadnaught 5...MISS
+	PLAYER 1 Scout 6 ATTACKING PLAYER 2 Dreadnaught 5...MISS
+	PLAYER 1 Scout 7 ATTACKING PLAYER 2 Dreadnaught 5...MISS
+	PLAYER 1 Scout 8 ATTACKING PLAYER 2 Dreadnaught 5...HIT!
+	PLAYER 1 Scout 9 ATTACKING PLAYER 2 Dreadnaught 5...MISS
+	PLAYER 1 Scout 10 ATTACKING PLAYER 2 Dreadnaught 5...MISS
+	PLAYER 1 Scout 11 ATTACKING PLAYER 2 Dreadnaught 5...MISS
+	PLAYER 1 Scout 12 ATTACKING PLAYER 2 Dreadnaught 5...MISS
+	PLAYER 1 Scout 13 ATTACKING PLAYER 2 Dreadnaught 5...MISS
+	PLAYER 1 Scout 14 ATTACKING PLAYER 2 Dreadnaught 5...MISS
+	PLAYER 1 Scout 15 ATTACKING PLAYER 2 Dreadnaught 5...MISS
+	PLAYER 1 Scout 16 ATTACKING PLAYER 2 Dreadnaught 5...MISS
+	PLAYER 1 Scout 17 ATTACKING PLAYER 2 Dreadnaught 5...MISS
+	PLAYER 1 Scout 18 ATTACKING PLAYER 2 Dreadnaught 5...MISS
+
+COMBAT AT (3, 3):
+
+	COMBAT ORDER:
+		PLAYER 2 Dreadnaught 1
+		PLAYER 2 Dreadnaught 2
+		PLAYER 2 Dreadnaught 3
+		PLAYER 2 Dreadnaught 4
+		PLAYER 2 Dreadnaught 5
+		PLAYER 1 Scout 1
+		PLAYER 1 Scout 2
+		PLAYER 1 Scout 3
+		PLAYER 1 Scout 4
+		PLAYER 1 Scout 5
+		PLAYER 1 Scout 6
+		PLAYER 1 Scout 7
+		PLAYER 1 Scout 8
+		PLAYER 1 Scout 9
+		PLAYER 1 Scout 10
+		PLAYER 1 Scout 11
+		PLAYER 1 Scout 12
+		PLAYER 1 Scout 13
+		PLAYER 1 Scout 14
+		PLAYER 1 Scout 15
+		PLAYER 1 Scout 16
+		PLAYER 1 Scout 17
+		PLAYER 1 Scout 18
+
+	BEGINNING COMBAT...
+
+	PLAYER 2 Dreadnaught 1 ATTACKING PLAYER 1 Scout 18...MISS
+	PLAYER 2 Dreadnaught 2 ATTACKING PLAYER 1 Scout 18...HIT!
+	PLAYER 1 Scout 18 WAS DESTROYED IN COMBAT
+	PLAYER 2 Dreadnaught 3 ATTACKING PLAYER 1 Scout 17...HIT!
+	PLAYER 1 Scout 17 WAS DESTROYED IN COMBAT
+	PLAYER 2 Dreadnaught 4 ATTACKING PLAYER 1 Scout 16...HIT!
+	PLAYER 1 Scout 16 WAS DESTROYED IN COMBAT
+	PLAYER 2 Dreadnaught 5 ATTACKING PLAYER 1 Scout 15...HIT!
+	PLAYER 1 Scout 15 WAS DESTROYED IN COMBAT
+	PLAYER 1 Scout 1 ATTACKING PLAYER 2 Dreadnaught 5...MISS
+	PLAYER 1 Scout 2 ATTACKING PLAYER 2 Dreadnaught 5...MISS
+	PLAYER 1 Scout 3 ATTACKING PLAYER 2 Dreadnaught 5...MISS
+	PLAYER 1 Scout 4 ATTACKING PLAYER 2 Dreadnaught 5...HIT!
+	PLAYER 2 Dreadnaught 5 WAS DESTROYED IN COMBAT
+	PLAYER 1 Scout 5 ATTACKING PLAYER 2 Dreadnaught 4...MISS
+	PLAYER 1 Scout 6 ATTACKING PLAYER 2 Dreadnaught 4...MISS
+	PLAYER 1 Scout 7 ATTACKING PLAYER 2 Dreadnaught 4...MISS
+	PLAYER 1 Scout 8 ATTACKING PLAYER 2 Dreadnaught 4...HIT!
+	PLAYER 1 Scout 9 ATTACKING PLAYER 2 Dreadnaught 4...MISS
+	PLAYER 1 Scout 10 ATTACKING PLAYER 2 Dreadnaught 4...MISS
+	PLAYER 1 Scout 11 ATTACKING PLAYER 2 Dreadnaught 4...MISS
+	PLAYER 1 Scout 12 ATTACKING PLAYER 2 Dreadnaught 4...MISS
+	PLAYER 1 Scout 13 ATTACKING PLAYER 2 Dreadnaught 4...MISS
+	PLAYER 1 Scout 14 ATTACKING PLAYER 2 Dreadnaught 4...MISS
+
+COMBAT AT (3, 3):
+
+	COMBAT ORDER:
+		PLAYER 2 Dreadnaught 1
+		PLAYER 2 Dreadnaught 2
+		PLAYER 2 Dreadnaught 3
+		PLAYER 2 Dreadnaught 4
+		PLAYER 1 Scout 1
+		PLAYER 1 Scout 2
+		PLAYER 1 Scout 3
+		PLAYER 1 Scout 4
+		PLAYER 1 Scout 5
+		PLAYER 1 Scout 6
+		PLAYER 1 Scout 7
+		PLAYER 1 Scout 8
+		PLAYER 1 Scout 9
+		PLAYER 1 Scout 10
+		PLAYER 1 Scout 11
+		PLAYER 1 Scout 12
+		PLAYER 1 Scout 13
+		PLAYER 1 Scout 14
+
+	BEGINNING COMBAT...
+
+	PLAYER 2 Dreadnaught 1 ATTACKING PLAYER 1 Scout 14...HIT!
+	PLAYER 1 Scout 14 WAS DESTROYED IN COMBAT
+	PLAYER 2 Dreadnaught 2 ATTACKING PLAYER 1 Scout 13...HIT!
+	PLAYER 1 Scout 13 WAS DESTROYED IN COMBAT
+	PLAYER 2 Dreadnaught 3 ATTACKING PLAYER 1 Scout 12...MISS
+	PLAYER 2 Dreadnaught 4 ATTACKING PLAYER 1 Scout 12...MISS
+	PLAYER 1 Scout 1 ATTACKING PLAYER 2 Dreadnaught 4...MISS
+	PLAYER 1 Scout 2 ATTACKING PLAYER 2 Dreadnaught 4...MISS
+	PLAYER 1 Scout 3 ATTACKING PLAYER 2 Dreadnaught 4...MISS
+	PLAYER 1 Scout 4 ATTACKING PLAYER 2 Dreadnaught 4...HIT!
+	PLAYER 1 Scout 5 ATTACKING PLAYER 2 Dreadnaught 4...MISS
+	PLAYER 1 Scout 6 ATTACKING PLAYER 2 Dreadnaught 4...MISS
+	PLAYER 1 Scout 7 ATTACKING PLAYER 2 Dreadnaught 4...MISS
+	PLAYER 1 Scout 8 ATTACKING PLAYER 2 Dreadnaught 4...MISS
+	PLAYER 1 Scout 9 ATTACKING PLAYER 2 Dreadnaught 4...MISS
+	PLAYER 1 Scout 10 ATTACKING PLAYER 2 Dreadnaught 4...MISS
+	PLAYER 1 Scout 11 ATTACKING PLAYER 2 Dreadnaught 4...MISS
+	PLAYER 1 Scout 12 ATTACKING PLAYER 2 Dreadnaught 4...MISS
+
+COMBAT AT (3, 3):
+
+	COMBAT ORDER:
+		PLAYER 2 Dreadnaught 1
+		PLAYER 2 Dreadnaught 2
+		PLAYER 2 Dreadnaught 3
+		PLAYER 2 Dreadnaught 4
+		PLAYER 1 Scout 1
+		PLAYER 1 Scout 2
+		PLAYER 1 Scout 3
+		PLAYER 1 Scout 4
+		PLAYER 1 Scout 5
+		PLAYER 1 Scout 6
+		PLAYER 1 Scout 7
+		PLAYER 1 Scout 8
+		PLAYER 1 Scout 9
+		PLAYER 1 Scout 10
+		PLAYER 1 Scout 11
+		PLAYER 1 Scout 12
+
+	BEGINNING COMBAT...
+
+	PLAYER 2 Dreadnaught 1 ATTACKING PLAYER 1 Scout 12...MISS
+	PLAYER 2 Dreadnaught 2 ATTACKING PLAYER 1 Scout 12...HIT!
+	PLAYER 1 Scout 12 WAS DESTROYED IN COMBAT
+	PLAYER 2 Dreadnaught 3 ATTACKING PLAYER 1 Scout 11...MISS
+	PLAYER 2 Dreadnaught 4 ATTACKING PLAYER 1 Scout 11...MISS
+	PLAYER 1 Scout 1 ATTACKING PLAYER 2 Dreadnaught 4...MISS
+	PLAYER 1 Scout 2 ATTACKING PLAYER 2 Dreadnaught 4...MISS
+	PLAYER 1 Scout 3 ATTACKING PLAYER 2 Dreadnaught 4...MISS
+	PLAYER 1 Scout 4 ATTACKING PLAYER 2 Dreadnaught 4...MISS
+	PLAYER 1 Scout 5 ATTACKING PLAYER 2 Dreadnaught 4...MISS
+	PLAYER 1 Scout 6 ATTACKING PLAYER 2 Dreadnaught 4...MISS
+	PLAYER 1 Scout 7 ATTACKING PLAYER 2 Dreadnaught 4...HIT!
+	PLAYER 2 Dreadnaught 4 WAS DESTROYED IN COMBAT
+	PLAYER 1 Scout 8 ATTACKING PLAYER 2 Dreadnaught 3...MISS
+	PLAYER 1 Scout 9 ATTACKING PLAYER 2 Dreadnaught 3...HIT!
+	PLAYER 1 Scout 10 ATTACKING PLAYER 2 Dreadnaught 3...HIT!
+	PLAYER 1 Scout 11 ATTACKING PLAYER 2 Dreadnaught 3...MISS
+
+COMBAT AT (3, 3):
+
+	COMBAT ORDER:
+		PLAYER 2 Dreadnaught 1
+		PLAYER 2 Dreadnaught 2
+		PLAYER 2 Dreadnaught 3
+		PLAYER 1 Scout 1
+		PLAYER 1 Scout 2
+		PLAYER 1 Scout 3
+		PLAYER 1 Scout 4
+		PLAYER 1 Scout 5
+		PLAYER 1 Scout 6
+		PLAYER 1 Scout 7
+		PLAYER 1 Scout 8
+		PLAYER 1 Scout 9
+		PLAYER 1 Scout 10
+		PLAYER 1 Scout 11
+
+	BEGINNING COMBAT...
+
+	PLAYER 2 Dreadnaught 1 ATTACKING PLAYER 1 Scout 11...HIT!
+	PLAYER 1 Scout 11 WAS DESTROYED IN COMBAT
+	PLAYER 2 Dreadnaught 2 ATTACKING PLAYER 1 Scout 10...HIT!
+	PLAYER 1 Scout 10 WAS DESTROYED IN COMBAT
+	PLAYER 2 Dreadnaught 3 ATTACKING PLAYER 1 Scout 9...HIT!
+	PLAYER 1 Scout 9 WAS DESTROYED IN COMBAT
+	PLAYER 1 Scout 1 ATTACKING PLAYER 2 Dreadnaught 3...MISS
+	PLAYER 1 Scout 2 ATTACKING PLAYER 2 Dreadnaught 3...MISS
+	PLAYER 1 Scout 3 ATTACKING PLAYER 2 Dreadnaught 3...MISS
+	PLAYER 1 Scout 4 ATTACKING PLAYER 2 Dreadnaught 3...MISS
+	PLAYER 1 Scout 5 ATTACKING PLAYER 2 Dreadnaught 3...MISS
+	PLAYER 1 Scout 6 ATTACKING PLAYER 2 Dreadnaught 3...MISS
+	PLAYER 1 Scout 7 ATTACKING PLAYER 2 Dreadnaught 3...MISS
+	PLAYER 1 Scout 8 ATTACKING PLAYER 2 Dreadnaught 3...MISS
+
+COMBAT AT (3, 3):
+
+	COMBAT ORDER:
+		PLAYER 2 Dreadnaught 1
+		PLAYER 2 Dreadnaught 2
+		PLAYER 2 Dreadnaught 3
+		PLAYER 1 Scout 1
+		PLAYER 1 Scout 2
+		PLAYER 1 Scout 3
+		PLAYER 1 Scout 4
+		PLAYER 1 Scout 5
+		PLAYER 1 Scout 6
+		PLAYER 1 Scout 7
+		PLAYER 1 Scout 8
+
+	BEGINNING COMBAT...
+
+	PLAYER 2 Dreadnaught 1 ATTACKING PLAYER 1 Scout 8...MISS
+	PLAYER 2 Dreadnaught 2 ATTACKING PLAYER 1 Scout 8...HIT!
+	PLAYER 1 Scout 8 WAS DESTROYED IN COMBAT
+	PLAYER 2 Dreadnaught 3 ATTACKING PLAYER 1 Scout 7...HIT!
+	PLAYER 1 Scout 7 WAS DESTROYED IN COMBAT
+	PLAYER 1 Scout 1 ATTACKING PLAYER 2 Dreadnaught 3...MISS
+	PLAYER 1 Scout 2 ATTACKING PLAYER 2 Dreadnaught 3...MISS
+	PLAYER 1 Scout 3 ATTACKING PLAYER 2 Dreadnaught 3...MISS
+	PLAYER 1 Scout 4 ATTACKING PLAYER 2 Dreadnaught 3...MISS
+	PLAYER 1 Scout 5 ATTACKING PLAYER 2 Dreadnaught 3...MISS
+	PLAYER 1 Scout 6 ATTACKING PLAYER 2 Dreadnaught 3...MISS
+
+COMBAT AT (3, 3):
+
+	COMBAT ORDER:
+		PLAYER 2 Dreadnaught 1
+		PLAYER 2 Dreadnaught 2
+		PLAYER 2 Dreadnaught 3
+		PLAYER 1 Scout 1
+		PLAYER 1 Scout 2
+		PLAYER 1 Scout 3
+		PLAYER 1 Scout 4
+		PLAYER 1 Scout 5
+		PLAYER 1 Scout 6
+
+	BEGINNING COMBAT...
+
+	PLAYER 2 Dreadnaught 1 ATTACKING PLAYER 1 Scout 6...HIT!
+	PLAYER 1 Scout 6 WAS DESTROYED IN COMBAT
+	PLAYER 2 Dreadnaught 2 ATTACKING PLAYER 1 Scout 5...HIT!
+	PLAYER 1 Scout 5 WAS DESTROYED IN COMBAT
+	PLAYER 2 Dreadnaught 3 ATTACKING PLAYER 1 Scout 4...MISS
+	PLAYER 1 Scout 1 ATTACKING PLAYER 2 Dreadnaught 3...MISS
+	PLAYER 1 Scout 2 ATTACKING PLAYER 2 Dreadnaught 3...MISS
+	PLAYER 1 Scout 3 ATTACKING PLAYER 2 Dreadnaught 3...MISS
+	PLAYER 1 Scout 4 ATTACKING PLAYER 2 Dreadnaught 3...MISS
+
+COMBAT AT (3, 3):
+
+	COMBAT ORDER:
+		PLAYER 2 Dreadnaught 1
+		PLAYER 2 Dreadnaught 2
+		PLAYER 2 Dreadnaught 3
+		PLAYER 1 Scout 1
+		PLAYER 1 Scout 2
+		PLAYER 1 Scout 3
+		PLAYER 1 Scout 4
+
+	BEGINNING COMBAT...
+
+	PLAYER 2 Dreadnaught 1 ATTACKING PLAYER 1 Scout 4...HIT!
+	PLAYER 1 Scout 4 WAS DESTROYED IN COMBAT
+	PLAYER 2 Dreadnaught 2 ATTACKING PLAYER 1 Scout 3...HIT!
+	PLAYER 1 Scout 3 WAS DESTROYED IN COMBAT
+	PLAYER 2 Dreadnaught 3 ATTACKING PLAYER 1 Scout 2...HIT!
+	PLAYER 1 Scout 2 WAS DESTROYED IN COMBAT
+	PLAYER 1 Scout 1 ATTACKING PLAYER 2 Dreadnaught 3...MISS
+
+COMBAT AT (3, 3):
+
+	COMBAT ORDER:
+		PLAYER 2 Dreadnaught 1
+		PLAYER 2 Dreadnaught 2
+		PLAYER 2 Dreadnaught 3
+		PLAYER 1 Scout 1
+
+	BEGINNING COMBAT...
+
+	PLAYER 2 Dreadnaught 1 ATTACKING PLAYER 1 Scout 1...HIT!
+	PLAYER 1 Scout 1 WAS DESTROYED IN COMBAT
+
+
 END TURN 3 COMBAT PHASE
 
 START TURN 4 MOVEMENT PHASE
 
-PLAYER 1 MOVING:
-	MOVING PLAYER 1 BattleCruiser 1: (3, 3) -> (3, 4)
-	MOVING PLAYER 1 BattleCruiser 2: (3, 3) -> (3, 4)
-	MOVING PLAYER 1 Dreadnaught 1: (3, 3) -> (3, 4)
-	MOVING PLAYER 1 Dreadnaught 2: (3, 3) -> (3, 4)
-	MOVING PLAYER 1 Dreadnaught 3: (3, 3) -> (3, 4)
-	MOVING PLAYER 1 Dreadnaught 4: (3, 3) -> (3, 4)
-	MOVING PLAYER 1 Dreadnaught 5: (3, 3) -> (3, 4)
-	MOVING PLAYER 1 Dreadnaught 6: (3, 3) -> (3, 4)
-	MOVING PLAYER 1 Dreadnaught 7: (3, 3) -> (3, 4)
+PLAYER 1 HAS NO SHIPS
 
 PLAYER 2 MOVING:
+	MOVING PLAYER 2 Scout 1: (4, 4) -> (4, 3)
+	MOVING PLAYER 2 Dreadnaught 1: (3, 3) -> (3, 2)
+	MOVING PLAYER 2 Dreadnaught 2: (3, 3) -> (3, 2)
+	MOVING PLAYER 2 Dreadnaught 3: (3, 3) -> (3, 2)
 
 END TURN 4 MOVEMENT PHASE
 
 START TURN 4 COMBAT PHASE
 
-COMBAT AT (3, 4):
-
-	COMBAT ORDER:
-		PLAYER 1 Dreadnaught 1
-		PLAYER 1 Dreadnaught 2
-		PLAYER 1 Dreadnaught 3
-		PLAYER 1 Dreadnaught 4
-		PLAYER 1 Dreadnaught 5
-		PLAYER 1 Dreadnaught 6
-		PLAYER 1 Dreadnaught 7
-		PLAYER 1 BattleCruiser 1
-		PLAYER 1 BattleCruiser 2
-		PLAYER 2 Scout 1
-		PLAYER 2 Scout 2
-		PLAYER 2 Scout 3
-		PLAYER 2 Scout 4
-		PLAYER 2 Scout 5
-		PLAYER 2 Scout 6
-		PLAYER 2 Scout 7
-		PLAYER 2 Scout 8
-		PLAYER 2 Scout 9
-		PLAYER 2 Scout 10
-		PLAYER 2 Scout 11
-		PLAYER 2 Scout 12
-		PLAYER 2 Scout 13
-		PLAYER 2 Scout 14
-		PLAYER 2 Scout 15
-		PLAYER 2 Scout 16
-		PLAYER 2 Scout 17
-		PLAYER 2 Scout 18
-		PLAYER 2 Scout 19
-		PLAYER 2 Scout 20
-		PLAYER 2 Scout 21
-		PLAYER 2 Scout 22
-		PLAYER 2 Scout 23
-		PLAYER 2 Scout 24
-		PLAYER 2 Scout 25
-		PLAYER 2 Scout 26
-		PLAYER 2 Scout 27
-		PLAYER 2 Scout 28
-		PLAYER 2 Scout 29
-		PLAYER 2 Scout 30
-		PLAYER 2 Scout 31
-		PLAYER 2 Scout 32
-		PLAYER 2 Scout 33
-
-	BEGINNING COMBAT...
-
-	PLAYER 1 Dreadnaught 1 ATTACKING PLAYER 2 Scout 33...MISS
-	PLAYER 1 Dreadnaught 2 ATTACKING PLAYER 2 Scout 33...HIT!
-	PLAYER 2 Scout 33 WAS DESTROYED IN COMBAT
-	PLAYER 1 Dreadnaught 3 ATTACKING PLAYER 2 Scout 32...MISS
-	PLAYER 1 Dreadnaught 4 ATTACKING PLAYER 2 Scout 32...MISS
-	PLAYER 1 Dreadnaught 5 ATTACKING PLAYER 2 Scout 32...HIT!
-	PLAYER 2 Scout 32 WAS DESTROYED IN COMBAT
-	PLAYER 1 Dreadnaught 6 ATTACKING PLAYER 2 Scout 31...MISS
-	PLAYER 1 Dreadnaught 7 ATTACKING PLAYER 2 Scout 31...MISS
-	PLAYER 1 BattleCruiser 1 ATTACKING PLAYER 2 Scout 31...MISS
-	PLAYER 1 BattleCruiser 2 ATTACKING PLAYER 2 Scout 31...MISS
-	PLAYER 2 Scout 1 ATTACKING PLAYER 1 BattleCruiser 2...MISS
-	PLAYER 2 Scout 2 ATTACKING PLAYER 1 BattleCruiser 2...HIT!
-	PLAYER 2 Scout 3 ATTACKING PLAYER 1 BattleCruiser 2...HIT!
-	PLAYER 1 BattleCruiser 2 WAS DESTROYED IN COMBAT
-	PLAYER 2 Scout 4 ATTACKING PLAYER 1 BattleCruiser 1...MISS
-	PLAYER 2 Scout 5 ATTACKING PLAYER 1 BattleCruiser 1...MISS
-	PLAYER 2 Scout 6 ATTACKING PLAYER 1 BattleCruiser 1...MISS
-	PLAYER 2 Scout 7 ATTACKING PLAYER 1 BattleCruiser 1...HIT!
-	PLAYER 2 Scout 8 ATTACKING PLAYER 1 BattleCruiser 1...HIT!
-	PLAYER 1 BattleCruiser 1 WAS DESTROYED IN COMBAT
-	PLAYER 2 Scout 9 ATTACKING PLAYER 1 Dreadnaught 7...MISS
-	PLAYER 2 Scout 10 ATTACKING PLAYER 1 Dreadnaught 7...MISS
-	PLAYER 2 Scout 11 ATTACKING PLAYER 1 Dreadnaught 7...MISS
-	PLAYER 2 Scout 12 ATTACKING PLAYER 1 Dreadnaught 7...MISS
-	PLAYER 2 Scout 13 ATTACKING PLAYER 1 Dreadnaught 7...MISS
-	PLAYER 2 Scout 14 ATTACKING PLAYER 1 Dreadnaught 7...MISS
-	PLAYER 2 Scout 15 ATTACKING PLAYER 1 Dreadnaught 7...MISS
-	PLAYER 2 Scout 16 ATTACKING PLAYER 1 Dreadnaught 7...HIT!
-	PLAYER 2 Scout 17 ATTACKING PLAYER 1 Dreadnaught 7...MISS
-	PLAYER 2 Scout 18 ATTACKING PLAYER 1 Dreadnaught 7...MISS
-	PLAYER 2 Scout 19 ATTACKING PLAYER 1 Dreadnaught 7...MISS
-	PLAYER 2 Scout 20 ATTACKING PLAYER 1 Dreadnaught 7...MISS
-	PLAYER 2 Scout 21 ATTACKING PLAYER 1 Dreadnaught 7...HIT!
-	PLAYER 2 Scout 22 ATTACKING PLAYER 1 Dreadnaught 7...MISS
-	PLAYER 2 Scout 23 ATTACKING PLAYER 1 Dreadnaught 7...HIT!
-	PLAYER 1 Dreadnaught 7 WAS DESTROYED IN COMBAT
-	PLAYER 2 Scout 24 ATTACKING PLAYER 1 Dreadnaught 6...MISS
-	PLAYER 2 Scout 25 ATTACKING PLAYER 1 Dreadnaught 6...MISS
-	PLAYER 2 Scout 26 ATTACKING PLAYER 1 Dreadnaught 6...MISS
-	PLAYER 2 Scout 27 ATTACKING PLAYER 1 Dreadnaught 6...MISS
-	PLAYER 2 Scout 28 ATTACKING PLAYER 1 Dreadnaught 6...MISS
-	PLAYER 2 Scout 29 ATTACKING PLAYER 1 Dreadnaught 6...MISS
-	PLAYER 2 Scout 30 ATTACKING PLAYER 1 Dreadnaught 6...MISS
-	PLAYER 2 Scout 31 ATTACKING PLAYER 1 Dreadnaught 6...MISS
-
-COMBAT AT (3, 4):
-
-	COMBAT ORDER:
-		PLAYER 1 Dreadnaught 1
-		PLAYER 1 Dreadnaught 2
-		PLAYER 1 Dreadnaught 3
-		PLAYER 1 Dreadnaught 4
-		PLAYER 1 Dreadnaught 5
-		PLAYER 1 Dreadnaught 6
-		PLAYER 2 Scout 1
-		PLAYER 2 Scout 2
-		PLAYER 2 Scout 3
-		PLAYER 2 Scout 4
-		PLAYER 2 Scout 5
-		PLAYER 2 Scout 6
-		PLAYER 2 Scout 7
-		PLAYER 2 Scout 8
-		PLAYER 2 Scout 9
-		PLAYER 2 Scout 10
-		PLAYER 2 Scout 11
-		PLAYER 2 Scout 12
-		PLAYER 2 Scout 13
-		PLAYER 2 Scout 14
-		PLAYER 2 Scout 15
-		PLAYER 2 Scout 16
-		PLAYER 2 Scout 17
-		PLAYER 2 Scout 18
-		PLAYER 2 Scout 19
-		PLAYER 2 Scout 20
-		PLAYER 2 Scout 21
-		PLAYER 2 Scout 22
-		PLAYER 2 Scout 23
-		PLAYER 2 Scout 24
-		PLAYER 2 Scout 25
-		PLAYER 2 Scout 26
-		PLAYER 2 Scout 27
-		PLAYER 2 Scout 28
-		PLAYER 2 Scout 29
-		PLAYER 2 Scout 30
-		PLAYER 2 Scout 31
-
-	BEGINNING COMBAT...
-
-	PLAYER 1 Dreadnaught 1 ATTACKING PLAYER 2 Scout 31...HIT!
-	PLAYER 2 Scout 31 WAS DESTROYED IN COMBAT
-	PLAYER 1 Dreadnaught 2 ATTACKING PLAYER 2 Scout 30...HIT!
-	PLAYER 2 Scout 30 WAS DESTROYED IN COMBAT
-	PLAYER 1 Dreadnaught 3 ATTACKING PLAYER 2 Scout 29...HIT!
-	PLAYER 2 Scout 29 WAS DESTROYED IN COMBAT
-	PLAYER 1 Dreadnaught 4 ATTACKING PLAYER 2 Scout 28...HIT!
-	PLAYER 2 Scout 28 WAS DESTROYED IN COMBAT
-	PLAYER 1 Dreadnaught 5 ATTACKING PLAYER 2 Scout 27...HIT!
-	PLAYER 2 Scout 27 WAS DESTROYED IN COMBAT
-	PLAYER 1 Dreadnaught 6 ATTACKING PLAYER 2 Scout 26...HIT!
-	PLAYER 2 Scout 26 WAS DESTROYED IN COMBAT
-	PLAYER 2 Scout 1 ATTACKING PLAYER 1 Dreadnaught 6...MISS
-	PLAYER 2 Scout 2 ATTACKING PLAYER 1 Dreadnaught 6...MISS
-	PLAYER 2 Scout 3 ATTACKING PLAYER 1 Dreadnaught 6...MISS
-	PLAYER 2 Scout 4 ATTACKING PLAYER 1 Dreadnaught 6...MISS
-	PLAYER 2 Scout 5 ATTACKING PLAYER 1 Dreadnaught 6...MISS
-	PLAYER 2 Scout 6 ATTACKING PLAYER 1 Dreadnaught 6...MISS
-	PLAYER 2 Scout 7 ATTACKING PLAYER 1 Dreadnaught 6...MISS
-	PLAYER 2 Scout 8 ATTACKING PLAYER 1 Dreadnaught 6...MISS
-	PLAYER 2 Scout 9 ATTACKING PLAYER 1 Dreadnaught 6...MISS
-	PLAYER 2 Scout 10 ATTACKING PLAYER 1 Dreadnaught 6...MISS
-	PLAYER 2 Scout 11 ATTACKING PLAYER 1 Dreadnaught 6...MISS
-	PLAYER 2 Scout 12 ATTACKING PLAYER 1 Dreadnaught 6...MISS
-	PLAYER 2 Scout 13 ATTACKING PLAYER 1 Dreadnaught 6...MISS
-	PLAYER 2 Scout 14 ATTACKING PLAYER 1 Dreadnaught 6...MISS
-	PLAYER 2 Scout 15 ATTACKING PLAYER 1 Dreadnaught 6...MISS
-	PLAYER 2 Scout 16 ATTACKING PLAYER 1 Dreadnaught 6...MISS
-	PLAYER 2 Scout 17 ATTACKING PLAYER 1 Dreadnaught 6...MISS
-	PLAYER 2 Scout 18 ATTACKING PLAYER 1 Dreadnaught 6...MISS
-	PLAYER 2 Scout 19 ATTACKING PLAYER 1 Dreadnaught 6...MISS
-	PLAYER 2 Scout 20 ATTACKING PLAYER 1 Dreadnaught 6...MISS
-	PLAYER 2 Scout 21 ATTACKING PLAYER 1 Dreadnaught 6...MISS
-	PLAYER 2 Scout 22 ATTACKING PLAYER 1 Dreadnaught 6...MISS
-	PLAYER 2 Scout 23 ATTACKING PLAYER 1 Dreadnaught 6...MISS
-	PLAYER 2 Scout 24 ATTACKING PLAYER 1 Dreadnaught 6...MISS
-	PLAYER 2 Scout 25 ATTACKING PLAYER 1 Dreadnaught 6...MISS
-
-COMBAT AT (3, 4):
-
-	COMBAT ORDER:
-		PLAYER 1 Dreadnaught 1
-		PLAYER 1 Dreadnaught 2
-		PLAYER 1 Dreadnaught 3
-		PLAYER 1 Dreadnaught 4
-		PLAYER 1 Dreadnaught 5
-		PLAYER 1 Dreadnaught 6
-		PLAYER 2 Scout 1
-		PLAYER 2 Scout 2
-		PLAYER 2 Scout 3
-		PLAYER 2 Scout 4
-		PLAYER 2 Scout 5
-		PLAYER 2 Scout 6
-		PLAYER 2 Scout 7
-		PLAYER 2 Scout 8
-		PLAYER 2 Scout 9
-		PLAYER 2 Scout 10
-		PLAYER 2 Scout 11
-		PLAYER 2 Scout 12
-		PLAYER 2 Scout 13
-		PLAYER 2 Scout 14
-		PLAYER 2 Scout 15
-		PLAYER 2 Scout 16
-		PLAYER 2 Scout 17
-		PLAYER 2 Scout 18
-		PLAYER 2 Scout 19
-		PLAYER 2 Scout 20
-		PLAYER 2 Scout 21
-		PLAYER 2 Scout 22
-		PLAYER 2 Scout 23
-		PLAYER 2 Scout 24
-		PLAYER 2 Scout 25
-
-	BEGINNING COMBAT...
-
-	PLAYER 1 Dreadnaught 1 ATTACKING PLAYER 2 Scout 25...MISS
-	PLAYER 1 Dreadnaught 2 ATTACKING PLAYER 2 Scout 25...HIT!
-	PLAYER 2 Scout 25 WAS DESTROYED IN COMBAT
-	PLAYER 1 Dreadnaught 3 ATTACKING PLAYER 2 Scout 24...MISS
-	PLAYER 1 Dreadnaught 4 ATTACKING PLAYER 2 Scout 24...HIT!
-	PLAYER 2 Scout 24 WAS DESTROYED IN COMBAT
-	PLAYER 1 Dreadnaught 5 ATTACKING PLAYER 2 Scout 23...HIT!
-	PLAYER 2 Scout 23 WAS DESTROYED IN COMBAT
-	PLAYER 1 Dreadnaught 6 ATTACKING PLAYER 2 Scout 22...MISS
-	PLAYER 2 Scout 1 ATTACKING PLAYER 1 Dreadnaught 6...MISS
-	PLAYER 2 Scout 2 ATTACKING PLAYER 1 Dreadnaught 6...HIT!
-	PLAYER 2 Scout 3 ATTACKING PLAYER 1 Dreadnaught 6...MISS
-	PLAYER 2 Scout 4 ATTACKING PLAYER 1 Dreadnaught 6...MISS
-	PLAYER 2 Scout 5 ATTACKING PLAYER 1 Dreadnaught 6...MISS
-	PLAYER 2 Scout 6 ATTACKING PLAYER 1 Dreadnaught 6...MISS
-	PLAYER 2 Scout 7 ATTACKING PLAYER 1 Dreadnaught 6...HIT!
-	PLAYER 2 Scout 8 ATTACKING PLAYER 1 Dreadnaught 6...MISS
-	PLAYER 2 Scout 9 ATTACKING PLAYER 1 Dreadnaught 6...MISS
-	PLAYER 2 Scout 10 ATTACKING PLAYER 1 Dreadnaught 6...MISS
-	PLAYER 2 Scout 11 ATTACKING PLAYER 1 Dreadnaught 6...MISS
-	PLAYER 2 Scout 12 ATTACKING PLAYER 1 Dreadnaught 6...MISS
-	PLAYER 2 Scout 13 ATTACKING PLAYER 1 Dreadnaught 6...MISS
-	PLAYER 2 Scout 14 ATTACKING PLAYER 1 Dreadnaught 6...MISS
-	PLAYER 2 Scout 15 ATTACKING PLAYER 1 Dreadnaught 6...MISS
-	PLAYER 2 Scout 16 ATTACKING PLAYER 1 Dreadnaught 6...MISS
-	PLAYER 2 Scout 17 ATTACKING PLAYER 1 Dreadnaught 6...MISS
-	PLAYER 2 Scout 18 ATTACKING PLAYER 1 Dreadnaught 6...MISS
-	PLAYER 2 Scout 19 ATTACKING PLAYER 1 Dreadnaught 6...MISS
-	PLAYER 2 Scout 20 ATTACKING PLAYER 1 Dreadnaught 6...MISS
-	PLAYER 2 Scout 21 ATTACKING PLAYER 1 Dreadnaught 6...HIT!
-	PLAYER 1 Dreadnaught 6 WAS DESTROYED IN COMBAT
-	PLAYER 2 Scout 22 ATTACKING PLAYER 1 Dreadnaught 5...HIT!
-
-COMBAT AT (3, 4):
-
-	COMBAT ORDER:
-		PLAYER 1 Dreadnaught 1
-		PLAYER 1 Dreadnaught 2
-		PLAYER 1 Dreadnaught 3
-		PLAYER 1 Dreadnaught 4
-		PLAYER 1 Dreadnaught 5
-		PLAYER 2 Scout 1
-		PLAYER 2 Scout 2
-		PLAYER 2 Scout 3
-		PLAYER 2 Scout 4
-		PLAYER 2 Scout 5
-		PLAYER 2 Scout 6
-		PLAYER 2 Scout 7
-		PLAYER 2 Scout 8
-		PLAYER 2 Scout 9
-		PLAYER 2 Scout 10
-		PLAYER 2 Scout 11
-		PLAYER 2 Scout 12
-		PLAYER 2 Scout 13
-		PLAYER 2 Scout 14
-		PLAYER 2 Scout 15
-		PLAYER 2 Scout 16
-		PLAYER 2 Scout 17
-		PLAYER 2 Scout 18
-		PLAYER 2 Scout 19
-		PLAYER 2 Scout 20
-		PLAYER 2 Scout 21
-		PLAYER 2 Scout 22
-
-	BEGINNING COMBAT...
-
-	PLAYER 1 Dreadnaught 1 ATTACKING PLAYER 2 Scout 22...HIT!
-	PLAYER 2 Scout 22 WAS DESTROYED IN COMBAT
-	PLAYER 1 Dreadnaught 2 ATTACKING PLAYER 2 Scout 21...HIT!
-	PLAYER 2 Scout 21 WAS DESTROYED IN COMBAT
-	PLAYER 1 Dreadnaught 3 ATTACKING PLAYER 2 Scout 20...HIT!
-	PLAYER 2 Scout 20 WAS DESTROYED IN COMBAT
-	PLAYER 1 Dreadnaught 4 ATTACKING PLAYER 2 Scout 19...HIT!
-	PLAYER 2 Scout 19 WAS DESTROYED IN COMBAT
-	PLAYER 1 Dreadnaught 5 ATTACKING PLAYER 2 Scout 18...MISS
-	PLAYER 2 Scout 1 ATTACKING PLAYER 1 Dreadnaught 5...MISS
-	PLAYER 2 Scout 2 ATTACKING PLAYER 1 Dreadnaught 5...MISS
-	PLAYER 2 Scout 3 ATTACKING PLAYER 1 Dreadnaught 5...MISS
-	PLAYER 2 Scout 4 ATTACKING PLAYER 1 Dreadnaught 5...MISS
-	PLAYER 2 Scout 5 ATTACKING PLAYER 1 Dreadnaught 5...MISS
-	PLAYER 2 Scout 6 ATTACKING PLAYER 1 Dreadnaught 5...HIT!
-	PLAYER 2 Scout 7 ATTACKING PLAYER 1 Dreadnaught 5...MISS
-	PLAYER 2 Scout 8 ATTACKING PLAYER 1 Dreadnaught 5...MISS
-	PLAYER 2 Scout 9 ATTACKING PLAYER 1 Dreadnaught 5...MISS
-	PLAYER 2 Scout 10 ATTACKING PLAYER 1 Dreadnaught 5...MISS
-	PLAYER 2 Scout 11 ATTACKING PLAYER 1 Dreadnaught 5...MISS
-	PLAYER 2 Scout 12 ATTACKING PLAYER 1 Dreadnaught 5...MISS
-	PLAYER 2 Scout 13 ATTACKING PLAYER 1 Dreadnaught 5...MISS
-	PLAYER 2 Scout 14 ATTACKING PLAYER 1 Dreadnaught 5...MISS
-	PLAYER 2 Scout 15 ATTACKING PLAYER 1 Dreadnaught 5...MISS
-	PLAYER 2 Scout 16 ATTACKING PLAYER 1 Dreadnaught 5...MISS
-	PLAYER 2 Scout 17 ATTACKING PLAYER 1 Dreadnaught 5...MISS
-	PLAYER 2 Scout 18 ATTACKING PLAYER 1 Dreadnaught 5...MISS
-
-COMBAT AT (3, 4):
-
-	COMBAT ORDER:
-		PLAYER 1 Dreadnaught 1
-		PLAYER 1 Dreadnaught 2
-		PLAYER 1 Dreadnaught 3
-		PLAYER 1 Dreadnaught 4
-		PLAYER 1 Dreadnaught 5
-		PLAYER 2 Scout 1
-		PLAYER 2 Scout 2
-		PLAYER 2 Scout 3
-		PLAYER 2 Scout 4
-		PLAYER 2 Scout 5
-		PLAYER 2 Scout 6
-		PLAYER 2 Scout 7
-		PLAYER 2 Scout 8
-		PLAYER 2 Scout 9
-		PLAYER 2 Scout 10
-		PLAYER 2 Scout 11
-		PLAYER 2 Scout 12
-		PLAYER 2 Scout 13
-		PLAYER 2 Scout 14
-		PLAYER 2 Scout 15
-		PLAYER 2 Scout 16
-		PLAYER 2 Scout 17
-		PLAYER 2 Scout 18
-
-	BEGINNING COMBAT...
-
-	PLAYER 1 Dreadnaught 1 ATTACKING PLAYER 2 Scout 18...MISS
-	PLAYER 1 Dreadnaught 2 ATTACKING PLAYER 2 Scout 18...MISS
-	PLAYER 1 Dreadnaught 3 ATTACKING PLAYER 2 Scout 18...MISS
-	PLAYER 1 Dreadnaught 4 ATTACKING PLAYER 2 Scout 18...MISS
-	PLAYER 1 Dreadnaught 5 ATTACKING PLAYER 2 Scout 18...HIT!
-	PLAYER 2 Scout 18 WAS DESTROYED IN COMBAT
-	PLAYER 2 Scout 1 ATTACKING PLAYER 1 Dreadnaught 5...MISS
-	PLAYER 2 Scout 2 ATTACKING PLAYER 1 Dreadnaught 5...MISS
-	PLAYER 2 Scout 3 ATTACKING PLAYER 1 Dreadnaught 5...MISS
-	PLAYER 2 Scout 4 ATTACKING PLAYER 1 Dreadnaught 5...MISS
-	PLAYER 2 Scout 5 ATTACKING PLAYER 1 Dreadnaught 5...HIT!
-	PLAYER 1 Dreadnaught 5 WAS DESTROYED IN COMBAT
-	PLAYER 2 Scout 6 ATTACKING PLAYER 1 Dreadnaught 4...MISS
-	PLAYER 2 Scout 7 ATTACKING PLAYER 1 Dreadnaught 4...MISS
-	PLAYER 2 Scout 8 ATTACKING PLAYER 1 Dreadnaught 4...HIT!
-	PLAYER 2 Scout 9 ATTACKING PLAYER 1 Dreadnaught 4...HIT!
-	PLAYER 2 Scout 10 ATTACKING PLAYER 1 Dreadnaught 4...MISS
-	PLAYER 2 Scout 11 ATTACKING PLAYER 1 Dreadnaught 4...MISS
-	PLAYER 2 Scout 12 ATTACKING PLAYER 1 Dreadnaught 4...MISS
-	PLAYER 2 Scout 13 ATTACKING PLAYER 1 Dreadnaught 4...MISS
-	PLAYER 2 Scout 14 ATTACKING PLAYER 1 Dreadnaught 4...MISS
-	PLAYER 2 Scout 15 ATTACKING PLAYER 1 Dreadnaught 4...MISS
-	PLAYER 2 Scout 16 ATTACKING PLAYER 1 Dreadnaught 4...MISS
-	PLAYER 2 Scout 17 ATTACKING PLAYER 1 Dreadnaught 4...HIT!
-	PLAYER 1 Dreadnaught 4 WAS DESTROYED IN COMBAT
-
-COMBAT AT (3, 4):
-
-	COMBAT ORDER:
-		PLAYER 1 Dreadnaught 1
-		PLAYER 1 Dreadnaught 2
-		PLAYER 1 Dreadnaught 3
-		PLAYER 2 Scout 1
-		PLAYER 2 Scout 2
-		PLAYER 2 Scout 3
-		PLAYER 2 Scout 4
-		PLAYER 2 Scout 5
-		PLAYER 2 Scout 6
-		PLAYER 2 Scout 7
-		PLAYER 2 Scout 8
-		PLAYER 2 Scout 9
-		PLAYER 2 Scout 10
-		PLAYER 2 Scout 11
-		PLAYER 2 Scout 12
-		PLAYER 2 Scout 13
-		PLAYER 2 Scout 14
-		PLAYER 2 Scout 15
-		PLAYER 2 Scout 16
-		PLAYER 2 Scout 17
-
-	BEGINNING COMBAT...
-
-	PLAYER 1 Dreadnaught 1 ATTACKING PLAYER 2 Scout 17...HIT!
-	PLAYER 2 Scout 17 WAS DESTROYED IN COMBAT
-	PLAYER 1 Dreadnaught 2 ATTACKING PLAYER 2 Scout 16...HIT!
-	PLAYER 2 Scout 16 WAS DESTROYED IN COMBAT
-	PLAYER 1 Dreadnaught 3 ATTACKING PLAYER 2 Scout 15...HIT!
-	PLAYER 2 Scout 15 WAS DESTROYED IN COMBAT
-	PLAYER 2 Scout 1 ATTACKING PLAYER 1 Dreadnaught 3...MISS
-	PLAYER 2 Scout 2 ATTACKING PLAYER 1 Dreadnaught 3...MISS
-	PLAYER 2 Scout 3 ATTACKING PLAYER 1 Dreadnaught 3...MISS
-	PLAYER 2 Scout 4 ATTACKING PLAYER 1 Dreadnaught 3...MISS
-	PLAYER 2 Scout 5 ATTACKING PLAYER 1 Dreadnaught 3...HIT!
-	PLAYER 2 Scout 6 ATTACKING PLAYER 1 Dreadnaught 3...MISS
-	PLAYER 2 Scout 7 ATTACKING PLAYER 1 Dreadnaught 3...MISS
-	PLAYER 2 Scout 8 ATTACKING PLAYER 1 Dreadnaught 3...MISS
-	PLAYER 2 Scout 9 ATTACKING PLAYER 1 Dreadnaught 3...MISS
-	PLAYER 2 Scout 10 ATTACKING PLAYER 1 Dreadnaught 3...MISS
-	PLAYER 2 Scout 11 ATTACKING PLAYER 1 Dreadnaught 3...MISS
-	PLAYER 2 Scout 12 ATTACKING PLAYER 1 Dreadnaught 3...MISS
-	PLAYER 2 Scout 13 ATTACKING PLAYER 1 Dreadnaught 3...MISS
-	PLAYER 2 Scout 14 ATTACKING PLAYER 1 Dreadnaught 3...HIT!
-
-COMBAT AT (3, 4):
-
-	COMBAT ORDER:
-		PLAYER 1 Dreadnaught 1
-		PLAYER 1 Dreadnaught 2
-		PLAYER 1 Dreadnaught 3
-		PLAYER 2 Scout 1
-		PLAYER 2 Scout 2
-		PLAYER 2 Scout 3
-		PLAYER 2 Scout 4
-		PLAYER 2 Scout 5
-		PLAYER 2 Scout 6
-		PLAYER 2 Scout 7
-		PLAYER 2 Scout 8
-		PLAYER 2 Scout 9
-		PLAYER 2 Scout 10
-		PLAYER 2 Scout 11
-		PLAYER 2 Scout 12
-		PLAYER 2 Scout 13
-		PLAYER 2 Scout 14
-
-	BEGINNING COMBAT...
-
-	PLAYER 1 Dreadnaught 1 ATTACKING PLAYER 2 Scout 14...MISS
-	PLAYER 1 Dreadnaught 2 ATTACKING PLAYER 2 Scout 14...HIT!
-	PLAYER 2 Scout 14 WAS DESTROYED IN COMBAT
-	PLAYER 1 Dreadnaught 3 ATTACKING PLAYER 2 Scout 13...HIT!
-	PLAYER 2 Scout 13 WAS DESTROYED IN COMBAT
-	PLAYER 2 Scout 1 ATTACKING PLAYER 1 Dreadnaught 3...MISS
-	PLAYER 2 Scout 2 ATTACKING PLAYER 1 Dreadnaught 3...MISS
-	PLAYER 2 Scout 3 ATTACKING PLAYER 1 Dreadnaught 3...MISS
-	PLAYER 2 Scout 4 ATTACKING PLAYER 1 Dreadnaught 3...MISS
-	PLAYER 2 Scout 5 ATTACKING PLAYER 1 Dreadnaught 3...MISS
-	PLAYER 2 Scout 6 ATTACKING PLAYER 1 Dreadnaught 3...MISS
-	PLAYER 2 Scout 7 ATTACKING PLAYER 1 Dreadnaught 3...MISS
-	PLAYER 2 Scout 8 ATTACKING PLAYER 1 Dreadnaught 3...MISS
-	PLAYER 2 Scout 9 ATTACKING PLAYER 1 Dreadnaught 3...MISS
-	PLAYER 2 Scout 10 ATTACKING PLAYER 1 Dreadnaught 3...MISS
-	PLAYER 2 Scout 11 ATTACKING PLAYER 1 Dreadnaught 3...HIT!
-	PLAYER 1 Dreadnaught 3 WAS DESTROYED IN COMBAT
-	PLAYER 2 Scout 12 ATTACKING PLAYER 1 Dreadnaught 2...MISS
-
-COMBAT AT (3, 4):
-
-	COMBAT ORDER:
-		PLAYER 1 Dreadnaught 1
-		PLAYER 1 Dreadnaught 2
-		PLAYER 2 Scout 1
-		PLAYER 2 Scout 2
-		PLAYER 2 Scout 3
-		PLAYER 2 Scout 4
-		PLAYER 2 Scout 5
-		PLAYER 2 Scout 6
-		PLAYER 2 Scout 7
-		PLAYER 2 Scout 8
-		PLAYER 2 Scout 9
-		PLAYER 2 Scout 10
-		PLAYER 2 Scout 11
-		PLAYER 2 Scout 12
-
-	BEGINNING COMBAT...
-
-	PLAYER 1 Dreadnaught 1 ATTACKING PLAYER 2 Scout 12...HIT!
-	PLAYER 2 Scout 12 WAS DESTROYED IN COMBAT
-	PLAYER 1 Dreadnaught 2 ATTACKING PLAYER 2 Scout 11...HIT!
-	PLAYER 2 Scout 11 WAS DESTROYED IN COMBAT
-	PLAYER 2 Scout 1 ATTACKING PLAYER 1 Dreadnaught 2...MISS
-	PLAYER 2 Scout 2 ATTACKING PLAYER 1 Dreadnaught 2...MISS
-	PLAYER 2 Scout 3 ATTACKING PLAYER 1 Dreadnaught 2...MISS
-	PLAYER 2 Scout 4 ATTACKING PLAYER 1 Dreadnaught 2...MISS
-	PLAYER 2 Scout 5 ATTACKING PLAYER 1 Dreadnaught 2...MISS
-	PLAYER 2 Scout 6 ATTACKING PLAYER 1 Dreadnaught 2...MISS
-	PLAYER 2 Scout 7 ATTACKING PLAYER 1 Dreadnaught 2...MISS
-	PLAYER 2 Scout 8 ATTACKING PLAYER 1 Dreadnaught 2...MISS
-	PLAYER 2 Scout 9 ATTACKING PLAYER 1 Dreadnaught 2...MISS
-	PLAYER 2 Scout 10 ATTACKING PLAYER 1 Dreadnaught 2...MISS
-
-COMBAT AT (3, 4):
-
-	COMBAT ORDER:
-		PLAYER 1 Dreadnaught 1
-		PLAYER 1 Dreadnaught 2
-		PLAYER 2 Scout 1
-		PLAYER 2 Scout 2
-		PLAYER 2 Scout 3
-		PLAYER 2 Scout 4
-		PLAYER 2 Scout 5
-		PLAYER 2 Scout 6
-		PLAYER 2 Scout 7
-		PLAYER 2 Scout 8
-		PLAYER 2 Scout 9
-		PLAYER 2 Scout 10
-
-	BEGINNING COMBAT...
-
-	PLAYER 1 Dreadnaught 1 ATTACKING PLAYER 2 Scout 10...MISS
-	PLAYER 1 Dreadnaught 2 ATTACKING PLAYER 2 Scout 10...HIT!
-	PLAYER 2 Scout 10 WAS DESTROYED IN COMBAT
-	PLAYER 2 Scout 1 ATTACKING PLAYER 1 Dreadnaught 2...MISS
-	PLAYER 2 Scout 2 ATTACKING PLAYER 1 Dreadnaught 2...MISS
-	PLAYER 2 Scout 3 ATTACKING PLAYER 1 Dreadnaught 2...MISS
-	PLAYER 2 Scout 4 ATTACKING PLAYER 1 Dreadnaught 2...MISS
-	PLAYER 2 Scout 5 ATTACKING PLAYER 1 Dreadnaught 2...MISS
-	PLAYER 2 Scout 6 ATTACKING PLAYER 1 Dreadnaught 2...HIT!
-	PLAYER 2 Scout 7 ATTACKING PLAYER 1 Dreadnaught 2...MISS
-	PLAYER 2 Scout 8 ATTACKING PLAYER 1 Dreadnaught 2...MISS
-	PLAYER 2 Scout 9 ATTACKING PLAYER 1 Dreadnaught 2...MISS
-
-COMBAT AT (3, 4):
-
-	COMBAT ORDER:
-		PLAYER 1 Dreadnaught 1
-		PLAYER 1 Dreadnaught 2
-		PLAYER 2 Scout 1
-		PLAYER 2 Scout 2
-		PLAYER 2 Scout 3
-		PLAYER 2 Scout 4
-		PLAYER 2 Scout 5
-		PLAYER 2 Scout 6
-		PLAYER 2 Scout 7
-		PLAYER 2 Scout 8
-		PLAYER 2 Scout 9
-
-	BEGINNING COMBAT...
-
-	PLAYER 1 Dreadnaught 1 ATTACKING PLAYER 2 Scout 9...HIT!
-	PLAYER 2 Scout 9 WAS DESTROYED IN COMBAT
-	PLAYER 1 Dreadnaught 2 ATTACKING PLAYER 2 Scout 8...HIT!
-	PLAYER 2 Scout 8 WAS DESTROYED IN COMBAT
-	PLAYER 2 Scout 1 ATTACKING PLAYER 1 Dreadnaught 2...MISS
-	PLAYER 2 Scout 2 ATTACKING PLAYER 1 Dreadnaught 2...MISS
-	PLAYER 2 Scout 3 ATTACKING PLAYER 1 Dreadnaught 2...MISS
-	PLAYER 2 Scout 4 ATTACKING PLAYER 1 Dreadnaught 2...MISS
-	PLAYER 2 Scout 5 ATTACKING PLAYER 1 Dreadnaught 2...MISS
-	PLAYER 2 Scout 6 ATTACKING PLAYER 1 Dreadnaught 2...MISS
-	PLAYER 2 Scout 7 ATTACKING PLAYER 1 Dreadnaught 2...MISS
-
-COMBAT AT (3, 4):
-
-	COMBAT ORDER:
-		PLAYER 1 Dreadnaught 1
-		PLAYER 1 Dreadnaught 2
-		PLAYER 2 Scout 1
-		PLAYER 2 Scout 2
-		PLAYER 2 Scout 3
-		PLAYER 2 Scout 4
-		PLAYER 2 Scout 5
-		PLAYER 2 Scout 6
-		PLAYER 2 Scout 7
-
-	BEGINNING COMBAT...
-
-	PLAYER 1 Dreadnaught 1 ATTACKING PLAYER 2 Scout 7...HIT!
-	PLAYER 2 Scout 7 WAS DESTROYED IN COMBAT
-	PLAYER 1 Dreadnaught 2 ATTACKING PLAYER 2 Scout 6...HIT!
-	PLAYER 2 Scout 6 WAS DESTROYED IN COMBAT
-	PLAYER 2 Scout 1 ATTACKING PLAYER 1 Dreadnaught 2...MISS
-	PLAYER 2 Scout 2 ATTACKING PLAYER 1 Dreadnaught 2...MISS
-	PLAYER 2 Scout 3 ATTACKING PLAYER 1 Dreadnaught 2...MISS
-	PLAYER 2 Scout 4 ATTACKING PLAYER 1 Dreadnaught 2...MISS
-	PLAYER 2 Scout 5 ATTACKING PLAYER 1 Dreadnaught 2...MISS
-
-COMBAT AT (3, 4):
-
-	COMBAT ORDER:
-		PLAYER 1 Dreadnaught 1
-		PLAYER 1 Dreadnaught 2
-		PLAYER 2 Scout 1
-		PLAYER 2 Scout 2
-		PLAYER 2 Scout 3
-		PLAYER 2 Scout 4
-		PLAYER 2 Scout 5
-
-	BEGINNING COMBAT...
-
-	PLAYER 1 Dreadnaught 1 ATTACKING PLAYER 2 Scout 5...HIT!
-	PLAYER 2 Scout 5 WAS DESTROYED IN COMBAT
-	PLAYER 1 Dreadnaught 2 ATTACKING PLAYER 2 Scout 4...HIT!
-	PLAYER 2 Scout 4 WAS DESTROYED IN COMBAT
-	PLAYER 2 Scout 1 ATTACKING PLAYER 1 Dreadnaught 2...HIT!
-	PLAYER 2 Scout 2 ATTACKING PLAYER 1 Dreadnaught 2...MISS
-	PLAYER 2 Scout 3 ATTACKING PLAYER 1 Dreadnaught 2...MISS
-
-COMBAT AT (3, 4):
-
-	COMBAT ORDER:
-		PLAYER 1 Dreadnaught 1
-		PLAYER 1 Dreadnaught 2
-		PLAYER 2 Scout 1
-		PLAYER 2 Scout 2
-		PLAYER 2 Scout 3
-
-	BEGINNING COMBAT...
-
-	PLAYER 1 Dreadnaught 1 ATTACKING PLAYER 2 Scout 3...HIT!
-	PLAYER 2 Scout 3 WAS DESTROYED IN COMBAT
-	PLAYER 1 Dreadnaught 2 ATTACKING PLAYER 2 Scout 2...HIT!
-	PLAYER 2 Scout 2 WAS DESTROYED IN COMBAT
-	PLAYER 2 Scout 1 ATTACKING PLAYER 1 Dreadnaught 2...MISS
-
-COMBAT AT (3, 4):
-
-	COMBAT ORDER:
-		PLAYER 1 Dreadnaught 1
-		PLAYER 1 Dreadnaught 2
-		PLAYER 2 Scout 1
-
-	BEGINNING COMBAT...
-
-	PLAYER 1 Dreadnaught 1 ATTACKING PLAYER 2 Scout 1...MISS
-	PLAYER 1 Dreadnaught 2 ATTACKING PLAYER 2 Scout 1...MISS
-	PLAYER 2 Scout 1 ATTACKING PLAYER 1 Dreadnaught 2...MISS
-
-COMBAT AT (3, 4):
-
-	COMBAT ORDER:
-		PLAYER 1 Dreadnaught 1
-		PLAYER 1 Dreadnaught 2
-		PLAYER 2 Scout 1
-
-	BEGINNING COMBAT...
-
-	PLAYER 1 Dreadnaught 1 ATTACKING PLAYER 2 Scout 1...MISS
-	PLAYER 1 Dreadnaught 2 ATTACKING PLAYER 2 Scout 1...HIT!
-	PLAYER 2 Scout 1 WAS DESTROYED IN COMBAT
-
-
 END TURN 4 COMBAT PHASE
 
 START TURN 5 MOVEMENT PHASE
 
-PLAYER 1 MOVING:
-	MOVING PLAYER 1 Dreadnaught 1: (3, 4) -> (3, 5)
-	MOVING PLAYER 1 Dreadnaught 2: (3, 4) -> (3, 5)
+PLAYER 1 HAS NO SHIPS
 
-PLAYER 2 HAS NO SHIPS
+PLAYER 2 MOVING:
+	MOVING PLAYER 2 Scout 1: (4, 3) -> (4, 2)
+	MOVING PLAYER 2 Dreadnaught 1: (3, 2) -> (3, 1)
+	MOVING PLAYER 2 Dreadnaught 2: (3, 2) -> (3, 1)
+	MOVING PLAYER 2 Dreadnaught 3: (3, 2) -> (3, 1)
 
 END TURN 5 MOVEMENT PHASE
 
@@ -837,11 +828,13 @@ END TURN 5 COMBAT PHASE
 
 START TURN 6 MOVEMENT PHASE
 
-PLAYER 1 MOVING:
-	MOVING PLAYER 1 Dreadnaught 1: (3, 5) -> (3, 6)
-	MOVING PLAYER 1 Dreadnaught 2: (3, 5) -> (3, 6)
+PLAYER 1 HAS NO SHIPS
 
-PLAYER 2 HAS NO SHIPS
+PLAYER 2 MOVING:
+	MOVING PLAYER 2 Scout 1: (4, 2) -> (4, 1)
+	MOVING PLAYER 2 Dreadnaught 1: (3, 1) -> (3, 0)
+	MOVING PLAYER 2 Dreadnaught 2: (3, 1) -> (3, 0)
+	MOVING PLAYER 2 Dreadnaught 3: (3, 1) -> (3, 0)
 
 END TURN 6 MOVEMENT PHASE
 
@@ -849,6 +842,6 @@ START TURN 6 COMBAT PHASE
 
 END TURN 6 COMBAT PHASE
 
-PLAYER 2 HAS BEEN REMOVED FROM THE GAME
+PLAYER 1 HAS BEEN REMOVED FROM THE GAME
 
-PLAYER 1 HAS WON
+PLAYER 2 HAS WON
