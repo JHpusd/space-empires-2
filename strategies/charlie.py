@@ -1,4 +1,6 @@
-import random, math
+import random, math, sys
+sys.path.append('')
+from ship_data import *
 
 class CharlieStrat:
     def __init__(self):
@@ -39,3 +41,31 @@ class CharlieStrat:
         for info in simplified_combat_order:
             if info['player_num'] != ship_info['player_num']:
                 return info
+            
+    def buy_ships(self, cp_budget):
+        
+        return {'Dreadnaught': 8, 'Scout': 1}
+        # return {'Scout': 3, 'BattleCruiser': 3}
+        
+        # all_ship_names = str(all_ship_infos_dict)[1:-1]
+
+        # player_wants_more_ships = True
+        # player_ships = {}
+        
+        # while player_wants_more_ships:
+            
+        #     ship_name = input(f'Ship options: {all_ship_names}, none\nWhat ship do you want? ')
+            
+        #     if ship_name == 'none':
+        #         player_wants_more_ships = False
+        #         break
+
+        #     if ship_name not in all_ship_names:
+        #         print('That is not a ship!')
+            
+        #     else:
+        #         player_ships[ship_name] = int(input('How many of that ship do you want? '))
+
+        # print(f'\n your ships: {player_ships}\n')
+
+        # return player_ships

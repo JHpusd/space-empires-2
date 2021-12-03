@@ -1,6 +1,6 @@
 import math, random, sys
 sys.path[0] = '/workspace/space-empires-2'
-from ship_info import *
+from ship_data import *
 
 class CompetitionStrat:
     def __init__(self):
@@ -10,7 +10,7 @@ class CompetitionStrat:
 
     def distance(self, coord_1, coord_2):
         return math.sqrt(sum([(coord_1[i]-coord_2[i])**2 for i in range(len(coord_1))]))
-    
+
     def min_distance_choice(self, choices, coord):
         best_choice = choices[0]
         min_distance = self.distance(best_choice, coord)
@@ -68,6 +68,11 @@ class CompetitionStrat:
             new_coord = self.coord_add(option, ship_coord)
             if self.enemy_in(new_coord) and self.num_total_ships(new_coord, 3-self.player_num) <= 3:
                 return new_coord
+        return None
+    
+    def enemy_diagonal(self, coord):
+        options = [(1,1), (-1,1), (-1,-1), (1,-1)]
+        # continue this
         return None
 
     def num_ships(self, coord, player_num, ship_type): # counts number of a certain type of ship belonging to corresponding player in a coord

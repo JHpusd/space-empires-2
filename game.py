@@ -1,5 +1,5 @@
 import math, random, sys
-from ship_info import *
+from ship_data import *
 from colony import *
 from ships import *
 sys.path.append('logs')
@@ -173,7 +173,7 @@ class Game:
                     continue
                 ship_info = self.get_info(ship)
                 choices = self.get_in_bounds_translations(ship_info['coords'])
-                move = player.choose_translation(ship_info, choices)
+                move = player.choose_translation(ship_info, list(choices))
                 if move not in choices:
                     self.logs.write('INVALID CHOICE\n')
                     print('invalid move')
@@ -255,7 +255,7 @@ class Game:
                     enemies = self.get_enemies(ship, by_cls)
                     if len(enemies)==0:
                         continue
-                    target_info = player.choose_target(self.get_info(ship), combat_order)
+                    target_info = player.choose_target(self.get_info(ship), list(combat_order))
                     target = self.obj_from_info(target_info)
                     if target not in enemies:
                         self.logs.write('TARGET NOT VALID - COMBAT ATTEMPT STOPPED\n')

@@ -13,9 +13,9 @@ from william import *
 from charlie import *
 from dummy_strat import *
 
-'''
+
 winners = {1:0, 2:0, 'Tie':0}
-players = [Player(CompetitionStrat()), Player(MaiaComp())]
+players = [Player(CaydenStrat()), Player(MaiaStrat())]
 for _ in range(50):
     game = Game(players, log_name='comp_first_half.txt')
     game.run_to_completion()
@@ -23,31 +23,10 @@ for _ in range(50):
 print(winners)
 
 winners = {1:0, 2:0, 'Tie':0}
-players = [Player(MaiaComp()), Player(CompetitionStrat())]
+players = [Player(MaiaStrat()), Player(CaydenStrat())]
 for _ in range(50):
     game = Game(players, log_name='comp_second_half.txt')
     game.run_to_completion()
     winners[game.winner] += 1
 print(winners)
 
-# justin vs william: 76:24
-# justin vs charlie: 64:36
-# maia vs cayden: 22:78
-# maia vs anton: 43:57
-# maia vs william: 49:51
-# maia vs charlie: 50:50
-# cayden vs anton: 58:42
-# cayden vs william: 70:30
-# cayden vs charlie: 71:29
-# anton vs william: 63:37
-# anton vs charlie: 56:44
-# william vs charlie: 57:43
-'''
-
-players = [Player(DummyStrat()), Player(CompetitionStrat())]
-winners = {1: 0, 2: 0, 'Tie': 0}
-for _ in range(100):
-    game = Game(players)
-    game.run_to_completion()
-    winners[game.winner] += 1
-print(winners)

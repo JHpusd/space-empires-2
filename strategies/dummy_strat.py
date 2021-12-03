@@ -1,6 +1,6 @@
 import math, random, sys
 sys.path[0] = '/workspace/space-empires-2'
-from ship_info import *
+from ship_data import *
 
 class DummyStrat:
     def __init__(self):
