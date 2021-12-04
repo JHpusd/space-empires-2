@@ -146,8 +146,8 @@ class Game:
     def enemy_in_coord(self, obj):
         coord = obj.coords
         for item in self.board[coord]:
-            if item.player_num != obj.player_num:
-                if coord not in self.combat_coords and isinstance(obj, Ship) and isinstance(item, Ship):
+            if item.player_num != obj.player_num and isinstance(item, Ship):
+                if coord not in self.combat_coords:
                     self.combat_coords.append(coord)
                 return True
         return False

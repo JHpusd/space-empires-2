@@ -15,7 +15,7 @@ from dummy_strat import *
 
 
 winners = {1:0, 2:0, 'Tie':0}
-players = [Player(CaydenStrat()), Player(MaiaStrat())]
+players = [Player(CompetitionStrat()), Player(MaiaStrat())]
 for _ in range(50):
     game = Game(players, log_name='comp_first_half.txt')
     game.run_to_completion()
@@ -23,7 +23,7 @@ for _ in range(50):
 print(winners)
 
 winners = {1:0, 2:0, 'Tie':0}
-players = [Player(MaiaStrat()), Player(CaydenStrat())]
+players = [Player(MaiaStrat()), Player(CompetitionStrat())]
 for _ in range(50):
     game = Game(players, log_name='comp_second_half.txt')
     game.run_to_completion()
