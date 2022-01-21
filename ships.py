@@ -14,6 +14,7 @@ class Scout(Ship):
         self.ship_num = ship_num
         self.obj_type = "Ship"
         self.cp_cost = 6
+        self.maint_cost = 1
 
 class BattleCruiser(Ship):
     def __init__(self, player_num, init_coords, ship_num):
@@ -27,6 +28,7 @@ class BattleCruiser(Ship):
         self.ship_num = ship_num
         self.obj_type = "Ship"
         self.cp_cost = 15
+        self.maint_cost = 2
 
 class Battleship(Ship):
     def __init__(self, player_num, init_coords, ship_num):
@@ -40,6 +42,7 @@ class Battleship(Ship):
         self.ship_num = ship_num
         self.obj_type = "Ship"
         self.cp_cost = 20
+        self.maint_cost = 3
 
 class Cruiser(Ship):
     def __init__(self, player_num, init_coords, ship_num):
@@ -53,6 +56,7 @@ class Cruiser(Ship):
         self.ship_num = ship_num
         self.obj_type = "Ship"
         self.cp_cost = 12
+        self.maint_cost = 2
 
 class Destroyer(Ship):
     def __init__(self, player_num, init_coords, ship_num):
@@ -66,6 +70,7 @@ class Destroyer(Ship):
         self.ship_num = ship_num
         self.obj_type = "Ship"
         self.cp_cost = 9
+        self.maint_cost = 1
 
 class Dreadnaught(Ship):
     def __init__(self, player_num, init_coords, ship_num):
@@ -79,3 +84,4 @@ class Dreadnaught(Ship):
         self.ship_num = ship_num
         self.obj_type = "Ship"
         self.cp_cost = 24
+        self.maint_cost = 3

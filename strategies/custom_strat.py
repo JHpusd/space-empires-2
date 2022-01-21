@@ -7,6 +7,7 @@ class CompetitionStrat:
         self.simple_board = {}
         self.player_num = None
         self.col_coord = None
+        self.turn = 0
 
     def distance(self, coord_1, coord_2):
         return math.sqrt(sum([(coord_1[i]-coord_2[i])**2 for i in range(len(coord_1))]))
@@ -216,6 +217,19 @@ class CompetitionStrat:
                 if item['obj_type']=='Colony' and item['is_home_colony']==True and item['player_num']==self.player_num:
                     self.col_coord = item['coords']
     
-    def buy_ships(self, cp_budget): # make an actual strategy
+    def get_maint_cost(self):
+        if self.player_num == None:
+            return None
+        maint_cost = 0
+        for key in self.simple_board:
+            for obj in self.simple_board[key]:
+                if obj['obj_type']=='Ship' and obj['player_num']:
+                    maint_cost += obj['maint_cost']
+        return maint_cost
+    
+    def buy_ships(self, cp_budget):
         self.flanker = 'Scout'
-        return {'Scout':1, 'Dreadnaught':8}
+        if self.turn == 0:
+            return {'Scout':1, 'Dreadnaught':4}
+        if self.turn % 5 == 0:
+            return {'Dreadnaught':1}

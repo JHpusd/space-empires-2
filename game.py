@@ -72,7 +72,7 @@ class Game:
         for obj in objs:
             coord = obj.coords
             if coord not in list(self.board.keys()):
-                print("removing from invalid coord")
+                print("REMOVING FROM INVALID COORD")
                 return
             if obj in self.board[coord]:
                 self.board[coord].remove(obj)
@@ -80,15 +80,15 @@ class Game:
                 del self.board[coord]
     
     def ship_obj_from_name(self, name, player_num, coord, ship_num):
-        for info in all_ship_infos:
-            if info['name'] == name:
-                return info['obj'](player_num, coord, ship_num)
-        print('invalid ship name')
+        if name not in [info['name'] for info in all_ships]:
+            print('INVALID SHIP NAME')
+            return
+        return ship_objects[name](player_num, coord, ship_num)
     
     def cost(self, ship_dict):
         total = 0
         for name in ship_dict:
-            for ship_info in all_ship_infos:
+            for ship_info in all_ships:
                 if ship_info['name'] == name:
                     total += ship_dict[name] * ship_info['cp_cost']
         return total
@@ -98,7 +98,7 @@ class Game:
 
     def set_up_game(self):
         if len(self.players) > 4:
-            print("cannot have more than 4 players")
+            print("CANNOT HAVE MORE THAN 4 PLAYERS")
             self.logs.write('SETUP STOPPED')
             return
         starts = [(mid_x-1, 0), (mid_x-1, board_y-1), (0, mid_y-1), (board_x-1, mid_y-1)]
@@ -106,26 +106,40 @@ class Game:
         self.logs.write('SETTING UP GAME...\n')
         for i in range(len(self.players)):
             player = self.players[i]
-            player.cp = 200
+            player.cp = 150
             player_num = self.players[i].player_num
             coord = starts[i]
             self.logs.write(f'PLAYER {player_num} STARTING AT {coord}\n')
             player.set_home_col(coord)
             self.add(player.home_col)
 
-            player_ships = player.buy_ships(player.cp)
-            if self.cost(player_ships) > player.cp:
-                print(f'Player {player_num} went over budget')
+            self.buy_ships(player)
+    
+    def buy_ships(self, player):
+        player_num = player.player_num
+        player_ships = player.buy_ships(player.cp)
+        start_coord = player.home_col.coords
+        if player_ships == None or len(list(player_ships.keys())) == 0:
+            return
+        if self.cost(player_ships) > player.cp:
+            print(f'PLAYER {player_num} WENT OVER BUDGET')
+            return
+        player.cp -= self.cost(player_ships)
+        self.logs.write(f'PLAYER {player_num} BOUGHT:\n')
+        for key in player_ships:
+            if player_ships[key] == 1:
+                self.logs.write(f'\t{player_ships[key]} {key}\n')
                 continue
-            player.cp -= self.cost(player_ships)
-            for name in player_ships:
-                for i in range(player_ships[name]):
-                    ship = self.ship_obj_from_name(name, player_num, coord, i+1)
-                    if ship == None:
-                        continue
-                    self.add(ship)
-                    player.add_ships(ship)
+            self.logs.write(f'\t{player_ships[key]} {key}s\n')
         self.logs.write('\n')
+        for name in player_ships:
+            for _ in range(player_ships[name]):
+                player.ship_counter[name] += 1
+                ship = self.ship_obj_from_name(name, player_num, start_coord, player.ship_counter[name])
+                if ship == None:
+                    continue
+                self.add(ship)
+                player.add_ships(ship) 
     
     def get_info(self, obj):
         return obj.__dict__
@@ -134,6 +148,7 @@ class Game:
         simple_board = {key:[self.get_info(obj) for obj in self.board[key]] for key in self.board}
         for player in self.players:
             player.strategy.simple_board = simple_board
+            player.strategy.turn = int(self.turn)
 
     def translate(self, x,y):
         x1, x2 = x
@@ -282,6 +297,31 @@ class Game:
         self.players.remove(player)
         self.delete(player.home_col)
     
+    def pay_maint_costs(self, player):
+        pay_order = sorted(player.ships, key=lambda x: x.maint_cost, reverse=True)
+        total = 0
+        for ship in pay_order:
+            if player.cp < ship.maint_cost:
+                self.logs.write(f'PLAYER {player.player_num} {ship.name} {ship.ship_num} NOT MAINTAINED, TERMINATED\n\n')
+                self.remove_ship(ship)
+                continue
+            player.cp -= ship.maint_cost
+            total += ship.maint_cost
+        self.logs.write(f'PLAYER {player.player_num} PAYED {total} CP FOR MAINTENCE\n\n')
+    
+    def complete_econ_phase(self):
+        self.logs.write(f'START TURN {self.turn} ECONOMIC PHASE\n\n')
+        for player in self.players:
+            # income
+            player.cp += 10
+
+            # maintenence
+            self.pay_maint_costs(player)
+
+            # purchase
+            self.buy_ships(player)
+        self.logs.write(f'END TURN {self.turn} ECONOMIC PHASE\n\n')
+    
     def check_for_winner(self):
         for player in self.players:
             if self.enemy_in_coord(player.home_col):
@@ -300,6 +340,7 @@ class Game:
                 return
             self.complete_move_phase()
             self.complete_combat_phase()
+            self.complete_econ_phase()
             self.check_for_winner()
         if self.winner == None:
             self.winner = "Tie"

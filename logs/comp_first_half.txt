@@ -213,25 +213,25 @@ COMBAT AT (3, 6):
 
 	BEGINNING COMBAT...
 
-	PLAYER 2 Dreadnaught 1 ATTACKING PLAYER 1 Dreadnaught 1...MISS
+	PLAYER 2 Dreadnaught 1 ATTACKING PLAYER 1 Dreadnaught 1...HIT!
 	PLAYER 2 Dreadnaught 2 ATTACKING PLAYER 1 Dreadnaught 1...MISS
-	PLAYER 2 Dreadnaught 3 ATTACKING PLAYER 1 Dreadnaught 1...HIT!
+	PLAYER 2 Dreadnaught 3 ATTACKING PLAYER 1 Dreadnaught 1...MISS
 	PLAYER 2 Dreadnaught 4 ATTACKING PLAYER 1 Dreadnaught 1...MISS
 	PLAYER 2 Dreadnaught 5 ATTACKING PLAYER 1 Dreadnaught 1...HIT!
 	PLAYER 2 Dreadnaught 6 ATTACKING PLAYER 1 Dreadnaught 1...HIT!
 	PLAYER 1 Dreadnaught 1 WAS DESTROYED IN COMBAT
-	PLAYER 2 Dreadnaught 7 ATTACKING PLAYER 1 Dreadnaught 2...MISS
+	PLAYER 2 Dreadnaught 7 ATTACKING PLAYER 1 Dreadnaught 2...HIT!
 	PLAYER 1 Dreadnaught 2 ATTACKING PLAYER 2 Scout 5...HIT!
 	PLAYER 2 Scout 5 WAS DESTROYED IN COMBAT
 	PLAYER 1 Dreadnaught 3 ATTACKING PLAYER 2 Scout 4...MISS
-	PLAYER 1 Dreadnaught 4 ATTACKING PLAYER 2 Scout 4...MISS
-	PLAYER 1 Dreadnaught 5 ATTACKING PLAYER 2 Scout 4...MISS
-	PLAYER 1 Dreadnaught 6 ATTACKING PLAYER 2 Scout 4...HIT!
+	PLAYER 1 Dreadnaught 4 ATTACKING PLAYER 2 Scout 4...HIT!
 	PLAYER 2 Scout 4 WAS DESTROYED IN COMBAT
-	PLAYER 1 Dreadnaught 7 ATTACKING PLAYER 2 Scout 3...HIT!
+	PLAYER 1 Dreadnaught 5 ATTACKING PLAYER 2 Scout 3...MISS
+	PLAYER 1 Dreadnaught 6 ATTACKING PLAYER 2 Scout 3...HIT!
 	PLAYER 2 Scout 3 WAS DESTROYED IN COMBAT
-	PLAYER 1 Dreadnaught 8 ATTACKING PLAYER 2 Scout 2...MISS
-	PLAYER 2 Scout 2 ATTACKING PLAYER 1 Dreadnaught 2...MISS
+	PLAYER 1 Dreadnaught 7 ATTACKING PLAYER 2 Scout 2...HIT!
+	PLAYER 2 Scout 2 WAS DESTROYED IN COMBAT
+	PLAYER 1 Dreadnaught 8 ATTACKING PLAYER 2 Dreadnaught 7...MISS
 
 COMBAT AT (3, 6):
 
@@ -250,59 +250,24 @@ COMBAT AT (3, 6):
 		PLAYER 1 Dreadnaught 6
 		PLAYER 1 Dreadnaught 7
 		PLAYER 1 Dreadnaught 8
-		PLAYER 2 Scout 2
 
 	BEGINNING COMBAT...
 
 	PLAYER 2 Dreadnaught 1 ATTACKING PLAYER 1 Dreadnaught 2...MISS
 	PLAYER 2 Dreadnaught 2 ATTACKING PLAYER 1 Dreadnaught 2...HIT!
 	PLAYER 2 Dreadnaught 3 ATTACKING PLAYER 1 Dreadnaught 2...HIT!
-	PLAYER 2 Dreadnaught 4 ATTACKING PLAYER 1 Dreadnaught 2...HIT!
 	PLAYER 1 Dreadnaught 2 WAS DESTROYED IN COMBAT
+	PLAYER 2 Dreadnaught 4 ATTACKING PLAYER 1 Dreadnaught 3...HIT!
 	PLAYER 2 Dreadnaught 5 ATTACKING PLAYER 1 Dreadnaught 3...MISS
 	PLAYER 2 Dreadnaught 6 ATTACKING PLAYER 1 Dreadnaught 3...MISS
-	PLAYER 2 Dreadnaught 7 ATTACKING PLAYER 1 Dreadnaught 3...MISS
-	PLAYER 1 Dreadnaught 3 ATTACKING PLAYER 2 Scout 2...HIT!
-	PLAYER 2 Scout 2 WAS DESTROYED IN COMBAT
-	PLAYER 1 Dreadnaught 4 ATTACKING PLAYER 2 Dreadnaught 7...MISS
-	PLAYER 1 Dreadnaught 5 ATTACKING PLAYER 2 Dreadnaught 7...MISS
-	PLAYER 1 Dreadnaught 6 ATTACKING PLAYER 2 Dreadnaught 7...HIT!
-	PLAYER 1 Dreadnaught 7 ATTACKING PLAYER 2 Dreadnaught 7...MISS
-	PLAYER 1 Dreadnaught 8 ATTACKING PLAYER 2 Dreadnaught 7...MISS
-
-COMBAT AT (3, 6):
-
-	COMBAT ORDER:
-		PLAYER 2 Dreadnaught 1
-		PLAYER 2 Dreadnaught 2
-		PLAYER 2 Dreadnaught 3
-		PLAYER 2 Dreadnaught 4
-		PLAYER 2 Dreadnaught 5
-		PLAYER 2 Dreadnaught 6
-		PLAYER 2 Dreadnaught 7
-		PLAYER 1 Dreadnaught 3
-		PLAYER 1 Dreadnaught 4
-		PLAYER 1 Dreadnaught 5
-		PLAYER 1 Dreadnaught 6
-		PLAYER 1 Dreadnaught 7
-		PLAYER 1 Dreadnaught 8
-
-	BEGINNING COMBAT...
-
-	PLAYER 2 Dreadnaught 1 ATTACKING PLAYER 1 Dreadnaught 3...MISS
-	PLAYER 2 Dreadnaught 2 ATTACKING PLAYER 1 Dreadnaught 3...HIT!
-	PLAYER 2 Dreadnaught 3 ATTACKING PLAYER 1 Dreadnaught 3...MISS
-	PLAYER 2 Dreadnaught 4 ATTACKING PLAYER 1 Dreadnaught 3...MISS
-	PLAYER 2 Dreadnaught 5 ATTACKING PLAYER 1 Dreadnaught 3...HIT!
-	PLAYER 2 Dreadnaught 6 ATTACKING PLAYER 1 Dreadnaught 3...MISS
-	PLAYER 2 Dreadnaught 7 ATTACKING PLAYER 1 Dreadnaught 3...MISS
+	PLAYER 2 Dreadnaught 7 ATTACKING PLAYER 1 Dreadnaught 3...HIT!
 	PLAYER 1 Dreadnaught 3 ATTACKING PLAYER 2 Dreadnaught 7...MISS
-	PLAYER 1 Dreadnaught 4 ATTACKING PLAYER 2 Dreadnaught 7...MISS
-	PLAYER 1 Dreadnaught 5 ATTACKING PLAYER 2 Dreadnaught 7...MISS
+	PLAYER 1 Dreadnaught 4 ATTACKING PLAYER 2 Dreadnaught 7...HIT!
+	PLAYER 1 Dreadnaught 5 ATTACKING PLAYER 2 Dreadnaught 7...HIT!
 	PLAYER 1 Dreadnaught 6 ATTACKING PLAYER 2 Dreadnaught 7...MISS
 	PLAYER 1 Dreadnaught 7 ATTACKING PLAYER 2 Dreadnaught 7...HIT!
-	PLAYER 1 Dreadnaught 8 ATTACKING PLAYER 2 Dreadnaught 7...HIT!
 	PLAYER 2 Dreadnaught 7 WAS DESTROYED IN COMBAT
+	PLAYER 1 Dreadnaught 8 ATTACKING PLAYER 2 Dreadnaught 6...MISS
 
 COMBAT AT (3, 6):
 
@@ -323,17 +288,17 @@ COMBAT AT (3, 6):
 	BEGINNING COMBAT...
 
 	PLAYER 2 Dreadnaught 1 ATTACKING PLAYER 1 Dreadnaught 3...MISS
-	PLAYER 2 Dreadnaught 2 ATTACKING PLAYER 1 Dreadnaught 3...HIT!
+	PLAYER 2 Dreadnaught 2 ATTACKING PLAYER 1 Dreadnaught 3...MISS
+	PLAYER 2 Dreadnaught 3 ATTACKING PLAYER 1 Dreadnaught 3...MISS
+	PLAYER 2 Dreadnaught 4 ATTACKING PLAYER 1 Dreadnaught 3...HIT!
 	PLAYER 1 Dreadnaught 3 WAS DESTROYED IN COMBAT
-	PLAYER 2 Dreadnaught 3 ATTACKING PLAYER 1 Dreadnaught 4...HIT!
-	PLAYER 2 Dreadnaught 4 ATTACKING PLAYER 1 Dreadnaught 4...MISS
 	PLAYER 2 Dreadnaught 5 ATTACKING PLAYER 1 Dreadnaught 4...MISS
-	PLAYER 2 Dreadnaught 6 ATTACKING PLAYER 1 Dreadnaught 4...MISS
+	PLAYER 2 Dreadnaught 6 ATTACKING PLAYER 1 Dreadnaught 4...HIT!
 	PLAYER 1 Dreadnaught 4 ATTACKING PLAYER 2 Dreadnaught 6...MISS
 	PLAYER 1 Dreadnaught 5 ATTACKING PLAYER 2 Dreadnaught 6...MISS
 	PLAYER 1 Dreadnaught 6 ATTACKING PLAYER 2 Dreadnaught 6...HIT!
 	PLAYER 1 Dreadnaught 7 ATTACKING PLAYER 2 Dreadnaught 6...MISS
-	PLAYER 1 Dreadnaught 8 ATTACKING PLAYER 2 Dreadnaught 6...HIT!
+	PLAYER 1 Dreadnaught 8 ATTACKING PLAYER 2 Dreadnaught 6...MISS
 
 COMBAT AT (3, 6):
 
@@ -352,18 +317,17 @@ COMBAT AT (3, 6):
 
 	BEGINNING COMBAT...
 
-	PLAYER 2 Dreadnaught 1 ATTACKING PLAYER 1 Dreadnaught 4...MISS
+	PLAYER 2 Dreadnaught 1 ATTACKING PLAYER 1 Dreadnaught 4...HIT!
 	PLAYER 2 Dreadnaught 2 ATTACKING PLAYER 1 Dreadnaught 4...HIT!
-	PLAYER 2 Dreadnaught 3 ATTACKING PLAYER 1 Dreadnaught 4...MISS
-	PLAYER 2 Dreadnaught 4 ATTACKING PLAYER 1 Dreadnaught 4...HIT!
 	PLAYER 1 Dreadnaught 4 WAS DESTROYED IN COMBAT
-	PLAYER 2 Dreadnaught 5 ATTACKING PLAYER 1 Dreadnaught 5...HIT!
-	PLAYER 2 Dreadnaught 6 ATTACKING PLAYER 1 Dreadnaught 5...HIT!
+	PLAYER 2 Dreadnaught 3 ATTACKING PLAYER 1 Dreadnaught 5...MISS
+	PLAYER 2 Dreadnaught 4 ATTACKING PLAYER 1 Dreadnaught 5...MISS
+	PLAYER 2 Dreadnaught 5 ATTACKING PLAYER 1 Dreadnaught 5...MISS
+	PLAYER 2 Dreadnaught 6 ATTACKING PLAYER 1 Dreadnaught 5...MISS
 	PLAYER 1 Dreadnaught 5 ATTACKING PLAYER 2 Dreadnaught 6...MISS
-	PLAYER 1 Dreadnaught 6 ATTACKING PLAYER 2 Dreadnaught 6...HIT!
-	PLAYER 2 Dreadnaught 6 WAS DESTROYED IN COMBAT
-	PLAYER 1 Dreadnaught 7 ATTACKING PLAYER 2 Dreadnaught 5...MISS
-	PLAYER 1 Dreadnaught 8 ATTACKING PLAYER 2 Dreadnaught 5...MISS
+	PLAYER 1 Dreadnaught 6 ATTACKING PLAYER 2 Dreadnaught 6...MISS
+	PLAYER 1 Dreadnaught 7 ATTACKING PLAYER 2 Dreadnaught 6...MISS
+	PLAYER 1 Dreadnaught 8 ATTACKING PLAYER 2 Dreadnaught 6...MISS
 
 COMBAT AT (3, 6):
 
@@ -373,6 +337,7 @@ COMBAT AT (3, 6):
 		PLAYER 2 Dreadnaught 3
 		PLAYER 2 Dreadnaught 4
 		PLAYER 2 Dreadnaught 5
+		PLAYER 2 Dreadnaught 6
 		PLAYER 1 Dreadnaught 5
 		PLAYER 1 Dreadnaught 6
 		PLAYER 1 Dreadnaught 7
@@ -380,15 +345,44 @@ COMBAT AT (3, 6):
 
 	BEGINNING COMBAT...
 
-	PLAYER 2 Dreadnaught 1 ATTACKING PLAYER 1 Dreadnaught 5...HIT!
+	PLAYER 2 Dreadnaught 1 ATTACKING PLAYER 1 Dreadnaught 5...MISS
+	PLAYER 2 Dreadnaught 2 ATTACKING PLAYER 1 Dreadnaught 5...HIT!
+	PLAYER 2 Dreadnaught 3 ATTACKING PLAYER 1 Dreadnaught 5...HIT!
+	PLAYER 2 Dreadnaught 4 ATTACKING PLAYER 1 Dreadnaught 5...MISS
+	PLAYER 2 Dreadnaught 5 ATTACKING PLAYER 1 Dreadnaught 5...MISS
+	PLAYER 2 Dreadnaught 6 ATTACKING PLAYER 1 Dreadnaught 5...MISS
+	PLAYER 1 Dreadnaught 5 ATTACKING PLAYER 2 Dreadnaught 6...MISS
+	PLAYER 1 Dreadnaught 6 ATTACKING PLAYER 2 Dreadnaught 6...MISS
+	PLAYER 1 Dreadnaught 7 ATTACKING PLAYER 2 Dreadnaught 6...HIT!
+	PLAYER 1 Dreadnaught 8 ATTACKING PLAYER 2 Dreadnaught 6...MISS
+
+COMBAT AT (3, 6):
+
+	COMBAT ORDER:
+		PLAYER 2 Dreadnaught 1
+		PLAYER 2 Dreadnaught 2
+		PLAYER 2 Dreadnaught 3
+		PLAYER 2 Dreadnaught 4
+		PLAYER 2 Dreadnaught 5
+		PLAYER 2 Dreadnaught 6
+		PLAYER 1 Dreadnaught 5
+		PLAYER 1 Dreadnaught 6
+		PLAYER 1 Dreadnaught 7
+		PLAYER 1 Dreadnaught 8
+
+	BEGINNING COMBAT...
+
+	PLAYER 2 Dreadnaught 1 ATTACKING PLAYER 1 Dreadnaught 5...MISS
+	PLAYER 2 Dreadnaught 2 ATTACKING PLAYER 1 Dreadnaught 5...MISS
+	PLAYER 2 Dreadnaught 3 ATTACKING PLAYER 1 Dreadnaught 5...HIT!
 	PLAYER 1 Dreadnaught 5 WAS DESTROYED IN COMBAT
-	PLAYER 2 Dreadnaught 2 ATTACKING PLAYER 1 Dreadnaught 6...MISS
-	PLAYER 2 Dreadnaught 3 ATTACKING PLAYER 1 Dreadnaught 6...MISS
 	PLAYER 2 Dreadnaught 4 ATTACKING PLAYER 1 Dreadnaught 6...MISS
 	PLAYER 2 Dreadnaught 5 ATTACKING PLAYER 1 Dreadnaught 6...MISS
-	PLAYER 1 Dreadnaught 6 ATTACKING PLAYER 2 Dreadnaught 5...MISS
+	PLAYER 2 Dreadnaught 6 ATTACKING PLAYER 1 Dreadnaught 6...HIT!
+	PLAYER 1 Dreadnaught 6 ATTACKING PLAYER 2 Dreadnaught 6...HIT!
+	PLAYER 2 Dreadnaught 6 WAS DESTROYED IN COMBAT
 	PLAYER 1 Dreadnaught 7 ATTACKING PLAYER 2 Dreadnaught 5...MISS
-	PLAYER 1 Dreadnaught 8 ATTACKING PLAYER 2 Dreadnaught 5...MISS
+	PLAYER 1 Dreadnaught 8 ATTACKING PLAYER 2 Dreadnaught 5...HIT!
 
 COMBAT AT (3, 6):
 
@@ -409,9 +403,10 @@ COMBAT AT (3, 6):
 	PLAYER 2 Dreadnaught 3 ATTACKING PLAYER 1 Dreadnaught 6...MISS
 	PLAYER 2 Dreadnaught 4 ATTACKING PLAYER 1 Dreadnaught 6...MISS
 	PLAYER 2 Dreadnaught 5 ATTACKING PLAYER 1 Dreadnaught 6...MISS
-	PLAYER 1 Dreadnaught 6 ATTACKING PLAYER 2 Dreadnaught 5...MISS
+	PLAYER 1 Dreadnaught 6 ATTACKING PLAYER 2 Dreadnaught 5...HIT!
 	PLAYER 1 Dreadnaught 7 ATTACKING PLAYER 2 Dreadnaught 5...HIT!
-	PLAYER 1 Dreadnaught 8 ATTACKING PLAYER 2 Dreadnaught 5...MISS
+	PLAYER 2 Dreadnaught 5 WAS DESTROYED IN COMBAT
+	PLAYER 1 Dreadnaught 8 ATTACKING PLAYER 2 Dreadnaught 4...MISS
 
 COMBAT AT (3, 6):
 
@@ -420,21 +415,19 @@ COMBAT AT (3, 6):
 		PLAYER 2 Dreadnaught 2
 		PLAYER 2 Dreadnaught 3
 		PLAYER 2 Dreadnaught 4
-		PLAYER 2 Dreadnaught 5
 		PLAYER 1 Dreadnaught 6
 		PLAYER 1 Dreadnaught 7
 		PLAYER 1 Dreadnaught 8
 
 	BEGINNING COMBAT...
 
-	PLAYER 2 Dreadnaught 1 ATTACKING PLAYER 1 Dreadnaught 6...HIT!
+	PLAYER 2 Dreadnaught 1 ATTACKING PLAYER 1 Dreadnaught 6...MISS
 	PLAYER 2 Dreadnaught 2 ATTACKING PLAYER 1 Dreadnaught 6...HIT!
 	PLAYER 1 Dreadnaught 6 WAS DESTROYED IN COMBAT
 	PLAYER 2 Dreadnaught 3 ATTACKING PLAYER 1 Dreadnaught 7...MISS
-	PLAYER 2 Dreadnaught 4 ATTACKING PLAYER 1 Dreadnaught 7...HIT!
-	PLAYER 2 Dreadnaught 5 ATTACKING PLAYER 1 Dreadnaught 7...HIT!
-	PLAYER 1 Dreadnaught 7 ATTACKING PLAYER 2 Dreadnaught 5...MISS
-	PLAYER 1 Dreadnaught 8 ATTACKING PLAYER 2 Dreadnaught 5...MISS
+	PLAYER 2 Dreadnaught 4 ATTACKING PLAYER 1 Dreadnaught 7...MISS
+	PLAYER 1 Dreadnaught 7 ATTACKING PLAYER 2 Dreadnaught 4...MISS
+	PLAYER 1 Dreadnaught 8 ATTACKING PLAYER 2 Dreadnaught 4...HIT!
 
 COMBAT AT (3, 6):
 
@@ -443,7 +436,6 @@ COMBAT AT (3, 6):
 		PLAYER 2 Dreadnaught 2
 		PLAYER 2 Dreadnaught 3
 		PLAYER 2 Dreadnaught 4
-		PLAYER 2 Dreadnaught 5
 		PLAYER 1 Dreadnaught 7
 		PLAYER 1 Dreadnaught 8
 
@@ -453,9 +445,8 @@ COMBAT AT (3, 6):
 	PLAYER 2 Dreadnaught 2 ATTACKING PLAYER 1 Dreadnaught 7...MISS
 	PLAYER 2 Dreadnaught 3 ATTACKING PLAYER 1 Dreadnaught 7...MISS
 	PLAYER 2 Dreadnaught 4 ATTACKING PLAYER 1 Dreadnaught 7...MISS
-	PLAYER 2 Dreadnaught 5 ATTACKING PLAYER 1 Dreadnaught 7...MISS
-	PLAYER 1 Dreadnaught 7 ATTACKING PLAYER 2 Dreadnaught 5...HIT!
-	PLAYER 1 Dreadnaught 8 ATTACKING PLAYER 2 Dreadnaught 5...MISS
+	PLAYER 1 Dreadnaught 7 ATTACKING PLAYER 2 Dreadnaught 4...MISS
+	PLAYER 1 Dreadnaught 8 ATTACKING PLAYER 2 Dreadnaught 4...MISS
 
 COMBAT AT (3, 6):
 
@@ -464,18 +455,100 @@ COMBAT AT (3, 6):
 		PLAYER 2 Dreadnaught 2
 		PLAYER 2 Dreadnaught 3
 		PLAYER 2 Dreadnaught 4
-		PLAYER 2 Dreadnaught 5
+		PLAYER 1 Dreadnaught 7
+		PLAYER 1 Dreadnaught 8
+
+	BEGINNING COMBAT...
+
+	PLAYER 2 Dreadnaught 1 ATTACKING PLAYER 1 Dreadnaught 7...HIT!
+	PLAYER 2 Dreadnaught 2 ATTACKING PLAYER 1 Dreadnaught 7...MISS
+	PLAYER 2 Dreadnaught 3 ATTACKING PLAYER 1 Dreadnaught 7...HIT!
+	PLAYER 2 Dreadnaught 4 ATTACKING PLAYER 1 Dreadnaught 7...MISS
+	PLAYER 1 Dreadnaught 7 ATTACKING PLAYER 2 Dreadnaught 4...MISS
+	PLAYER 1 Dreadnaught 8 ATTACKING PLAYER 2 Dreadnaught 4...MISS
+
+COMBAT AT (3, 6):
+
+	COMBAT ORDER:
+		PLAYER 2 Dreadnaught 1
+		PLAYER 2 Dreadnaught 2
+		PLAYER 2 Dreadnaught 3
+		PLAYER 2 Dreadnaught 4
 		PLAYER 1 Dreadnaught 7
 		PLAYER 1 Dreadnaught 8
 
 	BEGINNING COMBAT...
 
 	PLAYER 2 Dreadnaught 1 ATTACKING PLAYER 1 Dreadnaught 7...MISS
-	PLAYER 2 Dreadnaught 2 ATTACKING PLAYER 1 Dreadnaught 7...HIT!
+	PLAYER 2 Dreadnaught 2 ATTACKING PLAYER 1 Dreadnaught 7...MISS
+	PLAYER 2 Dreadnaught 3 ATTACKING PLAYER 1 Dreadnaught 7...HIT!
 	PLAYER 1 Dreadnaught 7 WAS DESTROYED IN COMBAT
-	PLAYER 2 Dreadnaught 3 ATTACKING PLAYER 1 Dreadnaught 8...HIT!
+	PLAYER 2 Dreadnaught 4 ATTACKING PLAYER 1 Dreadnaught 8...MISS
+	PLAYER 1 Dreadnaught 8 ATTACKING PLAYER 2 Dreadnaught 4...HIT!
+
+COMBAT AT (3, 6):
+
+	COMBAT ORDER:
+		PLAYER 2 Dreadnaught 1
+		PLAYER 2 Dreadnaught 2
+		PLAYER 2 Dreadnaught 3
+		PLAYER 2 Dreadnaught 4
+		PLAYER 1 Dreadnaught 8
+
+	BEGINNING COMBAT...
+
+	PLAYER 2 Dreadnaught 1 ATTACKING PLAYER 1 Dreadnaught 8...MISS
+	PLAYER 2 Dreadnaught 2 ATTACKING PLAYER 1 Dreadnaught 8...HIT!
+	PLAYER 2 Dreadnaught 3 ATTACKING PLAYER 1 Dreadnaught 8...MISS
+	PLAYER 2 Dreadnaught 4 ATTACKING PLAYER 1 Dreadnaught 8...MISS
+	PLAYER 1 Dreadnaught 8 ATTACKING PLAYER 2 Dreadnaught 4...MISS
+
+COMBAT AT (3, 6):
+
+	COMBAT ORDER:
+		PLAYER 2 Dreadnaught 1
+		PLAYER 2 Dreadnaught 2
+		PLAYER 2 Dreadnaught 3
+		PLAYER 2 Dreadnaught 4
+		PLAYER 1 Dreadnaught 8
+
+	BEGINNING COMBAT...
+
+	PLAYER 2 Dreadnaught 1 ATTACKING PLAYER 1 Dreadnaught 8...MISS
+	PLAYER 2 Dreadnaught 2 ATTACKING PLAYER 1 Dreadnaught 8...MISS
+	PLAYER 2 Dreadnaught 3 ATTACKING PLAYER 1 Dreadnaught 8...MISS
+	PLAYER 2 Dreadnaught 4 ATTACKING PLAYER 1 Dreadnaught 8...MISS
+	PLAYER 1 Dreadnaught 8 ATTACKING PLAYER 2 Dreadnaught 4...MISS
+
+COMBAT AT (3, 6):
+
+	COMBAT ORDER:
+		PLAYER 2 Dreadnaught 1
+		PLAYER 2 Dreadnaught 2
+		PLAYER 2 Dreadnaught 3
+		PLAYER 2 Dreadnaught 4
+		PLAYER 1 Dreadnaught 8
+
+	BEGINNING COMBAT...
+
+	PLAYER 2 Dreadnaught 1 ATTACKING PLAYER 1 Dreadnaught 8...MISS
+	PLAYER 2 Dreadnaught 2 ATTACKING PLAYER 1 Dreadnaught 8...MISS
+	PLAYER 2 Dreadnaught 3 ATTACKING PLAYER 1 Dreadnaught 8...MISS
 	PLAYER 2 Dreadnaught 4 ATTACKING PLAYER 1 Dreadnaught 8...HIT!
-	PLAYER 2 Dreadnaught 5 ATTACKING PLAYER 1 Dreadnaught 8...HIT!
+	PLAYER 1 Dreadnaught 8 ATTACKING PLAYER 2 Dreadnaught 4...MISS
+
+COMBAT AT (3, 6):
+
+	COMBAT ORDER:
+		PLAYER 2 Dreadnaught 1
+		PLAYER 2 Dreadnaught 2
+		PLAYER 2 Dreadnaught 3
+		PLAYER 2 Dreadnaught 4
+		PLAYER 1 Dreadnaught 8
+
+	BEGINNING COMBAT...
+
+	PLAYER 2 Dreadnaught 1 ATTACKING PLAYER 1 Dreadnaught 8...HIT!
 	PLAYER 1 Dreadnaught 8 WAS DESTROYED IN COMBAT
 
 
@@ -492,7 +565,6 @@ PLAYER 2 MOVING:
 	MOVING PLAYER 2 Dreadnaught 2: (3, 6) -> (3, 6)
 	MOVING PLAYER 2 Dreadnaught 3: (3, 6) -> (3, 6)
 	MOVING PLAYER 2 Dreadnaught 4: (3, 6) -> (3, 6)
-	MOVING PLAYER 2 Dreadnaught 5: (3, 6) -> (3, 6)
 
 END TURN 7 MOVEMENT PHASE
 
@@ -511,7 +583,6 @@ PLAYER 2 MOVING:
 	MOVING PLAYER 2 Dreadnaught 2: (3, 6) -> (3, 6)
 	MOVING PLAYER 2 Dreadnaught 3: (3, 6) -> (3, 6)
 	MOVING PLAYER 2 Dreadnaught 4: (3, 6) -> (3, 6)
-	MOVING PLAYER 2 Dreadnaught 5: (3, 6) -> (3, 6)
 
 END TURN 8 MOVEMENT PHASE
 

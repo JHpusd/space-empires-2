@@ -1,6 +1,7 @@
 import math, sys, random
 from colony import *
 from ships import *
+from ship_data import *
 
 def calc_distance(start, end):
     dx = end[0] - start[0]
@@ -15,6 +16,7 @@ class Player():
         self.colonies = []
         self.strategy = strategy_cls
         self.cp = 0
+        self.ship_counter = {key:0 for key in list(ship_objects.keys())}
     
     def add_ships(self, ship_list):
         assert self.player_num != None, "player number needs to be set"
