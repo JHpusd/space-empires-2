@@ -23,11 +23,14 @@ class Game:
         mid_y = (board_y + 1) // 2
         self.board = {}
 
-        self.turn = 1
+        self.turn = 0
+        self.update_simple_boards()
+
         self.winner = None
         self.combat_coords = []
 
         self.set_up_game()
+        self.turn = 1
         self.update_simple_boards()
     
     def set_player_numbers(self):
@@ -122,7 +125,7 @@ class Game:
         if player_ships == None or len(list(player_ships.keys())) == 0:
             return
         if self.cost(player_ships) > player.cp:
-            print(f'PLAYER {player_num} WENT OVER BUDGET')
+            self.logs.write(f'PLAYER {player_num} WENT OVER BUDGET WHILE BUYING\n\n')
             return
         player.cp -= self.cost(player_ships)
         self.logs.write(f'PLAYER {player_num} BOUGHT:\n')
@@ -287,7 +290,6 @@ class Game:
             self.logs.write('\n')
         self.combat_coords = []
         self.logs.write('END TURN '+str(self.turn)+' COMBAT PHASE\n\n')
-        self.turn += 1
     
     def remove_player(self, player):
         for ship in player.ships:
@@ -320,6 +322,7 @@ class Game:
 
             # purchase
             self.buy_ships(player)
+        self.turn += 1
         self.logs.write(f'END TURN {self.turn} ECONOMIC PHASE\n\n')
     
     def check_for_winner(self):

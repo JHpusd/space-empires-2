@@ -49,6 +49,8 @@ class Player():
         self.ships = []
         self.home_col = None
         self.colonies = []
+        self.cp = 0
+        self.ship_counter = {key:0 for key in list(ship_objects.keys())}
     
     def buy_ships(self, cp_budget):
         return self.strategy.buy_ships(cp_budget)

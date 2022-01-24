@@ -128,7 +128,7 @@ class CompetitionStrat:
 
         move = self.min_distance_translation(choices, coords, target_coord)
         new_coord = self.coord_add(coords, move)
-        more_enemy_dreadnaughts = self.num_ships(new_coord,3-self.player_num,'Dreadnaught') >= 8
+        more_enemy_dreadnaughts = self.num_ships(new_coord,3-self.player_num,'Dreadnaught') >= 4
 
         if more_enemy_dreadnaughts and self.enemy_adjacent(coords, deleted_options=[move]):
             if self.get_flanker_coord(coords) != None:
@@ -231,5 +231,5 @@ class CompetitionStrat:
         self.flanker = 'Scout'
         if self.turn == 0:
             return {'Scout':1, 'Dreadnaught':4}
-        if self.turn % 5 == 0:
+        if cp_budget > 50:
             return {'Dreadnaught':1}
